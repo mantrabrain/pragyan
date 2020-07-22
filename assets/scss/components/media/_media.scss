@@ -1,0 +1,297 @@
+img {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+video {
+	height: auto;
+	max-width: 100%;
+	display: block;
+	margin: 0 auto;
+}
+
+.page-content {
+	.wp-smiley {
+		border: none;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 0;
+	}
+}
+
+.entry-content {
+	.wp-smiley {
+		border: none;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 0;
+	}
+}
+
+.comment-content {
+	.wp-smiley {
+		border: none;
+		margin-bottom: 0;
+		margin-top: 0;
+		padding: 0;
+	}
+}
+
+embed {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+iframe {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+object {
+	margin-bottom: 1.5em;
+	max-width: 100%;
+}
+
+p {
+	> embed {
+		&:only-child {
+			margin-bottom: 0;
+		}
+	}
+
+	> iframe {
+		&:only-child {
+			margin-bottom: 0;
+		}
+	}
+
+	> object {
+		&:only-child {
+			margin-bottom: 0;
+		}
+	}
+}
+
+
+.site-content {
+	.wp-playlist-light {
+		border-color: #e0e0e0;
+		color: #333;
+
+		.wp-playlist-current-item {
+			.wp-playlist-item-album {
+				color: #333;
+			}
+
+			.wp-playlist-item-artist {
+				color: $alternative_color;
+			}
+		}
+
+		.wp-playlist-item {
+			border-bottom: 1px dotted #e0e0e0;
+			-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+			transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+
+			&:hover {
+				border-bottom-color: rgba(0, 0, 0, 0);
+				background-color: $alternative_color;
+				color: #fff;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+
+				a {
+					color: #fff;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+				}
+			}
+
+			&:focus {
+				border-bottom-color: rgba(0, 0, 0, 0);
+				background-color: $alternative_color;
+				color: #fff;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+
+				a {
+					color: #fff;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+				}
+			}
+		}
+
+		a.wp-playlist-caption {
+			&:hover {
+				color: #fff;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+		}
+	}
+
+	.wp-playlist-dark {
+		background: #333;
+		border-color: #333;
+
+		.mejs-container {
+			.mejs-controls {
+				background-color: #333;
+			}
+		}
+
+		.wp-playlist-caption {
+			color: #fff;
+		}
+
+		.wp-playlist-current-item {
+			.wp-playlist-item-album {
+				color: #e0e0e0;
+			}
+
+			.wp-playlist-item-artist {
+				color: #aaa;
+			}
+		}
+
+		.wp-playlist-playing {
+			background-color: #333;
+		}
+
+		.wp-playlist-item {
+			border-bottom: 1px dotted #555;
+			-webkit-transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+			transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out, color 0.3s ease-in-out;
+
+			&:hover {
+				border-bottom-color: rgba(0, 0, 0, 0);
+				background-color: #aaa;
+				color: #333;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+
+				a {
+					color: #333;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+				}
+			}
+
+			&:focus {
+				border-bottom-color: rgba(0, 0, 0, 0);
+				background-color: #aaa;
+				color: #333;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+
+				a {
+					color: #333;
+					-webkit-transition: all 0.5s ease;
+					-moz-transition: all 0.5s ease;
+					-o-transition: all 0.5s ease;
+					transition: all 0.5s ease;
+				}
+			}
+		}
+
+		a.wp-playlist-caption {
+			&:hover {
+				color: #333;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+		}
+	}
+
+	.wp-playlist {
+		padding: 0.625em 0.625em 0.3125em;
+	}
+
+	.wp-playlist-current-item {
+		.wp-playlist-item-title {
+			font-weight: 700;
+		}
+
+		.wp-playlist-item-album {
+			font-style: normal;
+		}
+
+		.wp-playlist-item-artist {
+			font-size: 10px;
+			font-size: 0.625rem;
+			font-weight: 800;
+			text-transform: uppercase;
+		}
+	}
+
+	.wp-playlist-item {
+		padding: 0 0.3125em;
+		cursor: pointer;
+
+		&:last-of-type {
+			border-bottom: none;
+		}
+
+		a {
+			padding: 0.3125em 0;
+			border-bottom: none;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+			-webkit-box-shadow: none;
+			box-shadow: none;
+			background: transparent;
+			-webkit-transition: all 0.5s ease;
+			-moz-transition: all 0.5s ease;
+			-o-transition: all 0.5s ease;
+			transition: all 0.5s ease;
+
+			&:focus {
+				-webkit-box-shadow: none;
+				box-shadow: none;
+				background: transparent;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+
+			&:hover {
+				-webkit-box-shadow: none;
+				box-shadow: none;
+				background: transparent;
+				-webkit-transition: all 0.5s ease;
+				-moz-transition: all 0.5s ease;
+				-o-transition: all 0.5s ease;
+				transition: all 0.5s ease;
+			}
+		}
+	}
+
+	.wp-playlist-item-length {
+		top: 5px;
+	}
+}
+

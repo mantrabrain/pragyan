@@ -1,0 +1,185 @@
+li.customize-control.customize-control-hidden {
+	border-bottom: 2px solid #c8c8c8;
+	margin-bottom: 12px;
+}
+
+/* ==========================================================================
+   Standard Selection
+   ========================================================================== */
+.wp-customizer .-container--default .selection .select2-selection--multiple {
+	border: none;
+	background: #fcfcff;
+	border-radius: 0;
+	height: auto;
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__rendered {
+	width: 95%;
+}
+
+.wp-customizer .select2-container--default .select2-selection--multiple .select2-selection__clear {
+	position: absolute;
+	right: 0;
+}
+
+.wp-customizer .select2-container .select2-dropdown {
+	z-index: 900000;
+}
+
+.customize-control select:active, .customize-control select:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* ==========================================================================
+   Standard Input
+   ========================================================================== */
+input[type="text"]:active, input[type="text"]:focus, input[type="number"]:active, input[type="number"]:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+/* ==========================================================================
+   Simple Notice
+   ========================================================================== */
+.simple-notice-custom-control .customize-control-description {
+	line-height: 1.6
+}
+
+.simple-notice-custom-control code {
+	font-size: 90%;
+	padding: 2px 4px;
+}
+
+/* ==========================================================================
+   Textarea/TinyMCE
+   ========================================================================== */
+.tinymce-control textarea {
+	width: 100%;
+	padding: 10px;
+}
+
+/* ==========================================================================
+   Text Radio Buttons
+   ========================================================================== */
+.text_radio_button_control:after {
+	content: " ";
+	display: block;
+	clear: both;
+}
+
+.text_radio_button_control .radio-buttons {
+	display: inline-block;
+	border: 1px solid #f9f9fe;
+}
+
+.text_radio_button_control .radio-button-label {
+	cursor: pointer;
+	float: left;
+}
+
+.text_radio_button_control .radio-button-label > input {
+	display: none;
+}
+
+.text_radio_button_control .radio-button-label span {
+	cursor: pointer;
+	font-weight: 500;
+	border: 2px solid #f9f9fe;
+	margin: 0;
+	background-color: #eee;
+	padding: 5px 15px;
+	display: inline-block;
+}
+
+.text_radio_button_control .radio-button-label span:hover {
+	background-color: rgba(255, 255, 255, .2);
+	color: #2885bb;
+}
+
+.text_radio_button_control .radio-button-label > input:checked + span {
+	background-color: #2084bd;
+	color: #fff;
+}
+
+.text_radio_button_control .radio-button-label > input:checked + span:hover {
+	color: #fff;
+}
+
+/* ==========================================================================
+   Image Checkboxes
+   ========================================================================== */
+.image_checkbox_control .checkbox-label > input {
+	display: none;
+}
+
+.image_checkbox_control .checkbox-label > img {
+	cursor: pointer;
+	border: 3px solid #ddd;
+}
+
+.image_checkbox_control .checkbox-label > input:checked + img {
+	border: 3px solid #2885bb;
+}
+/* ==========================================================================
+   Sortable Repeater
+   ========================================================================== */
+.sortable {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.sortable input[type="text"] {
+	margin: 5px 5px 5px 0;
+	width: 80%;
+}
+
+.sortable div {
+	cursor: move;
+}
+
+.customize-control-sortable-repeater-delete {
+	color: #d4d4d4;
+}
+
+.customize-control-sortable-repeater-delete:hover {
+	color: #f00;
+}
+
+.customize-control-sortable-repeater-delete .dashicons-no-alt {
+	text-decoration: none;
+	margin: 8px 0 0 0;
+	font-weight: 600;
+}
+
+.customize-control-sortable-repeater-delete:active, .customize-control-sortable-repeater-delete:focus {
+	outline: none;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+}
+
+.repeater .dashicons-sort {
+	margin: 8px 5px 0 5px;
+	color: #d4d4d4;
+}
+
+.repeater .dashicons-sort:hover {
+	color: #a7a7a7;
+}
+
+/* ==========================================================================
+   Google Fonts Select
+   ========================================================================== */
+.google_fonts_select_control .google-fonts, .google_fonts_select_control .weight-style {
+	margin-bottom: 10px;
+}
+
+select.google-fonts-italicweight-style.pragyan-google-fonts-italicweight-style {
+	background-image: none;
+}

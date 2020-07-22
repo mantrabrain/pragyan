@@ -1,0 +1,118 @@
+button {
+	font-size: 15px;
+	line-height: 17px;
+	font-weight: 600;
+	padding: 1em 2em;
+	text-transform: capitalize;
+	font-family: 'Montserrat', sans-serif;
+	color: #505050;
+	transition: all 0.5s ease;
+	-webkit-transition: all 0.5s ease;
+	-moz-transition: all 0.5s ease;
+	-o-transition: all 0.5s ease;
+}
+input {
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	font-style: normal;
+	padding: 7px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+select {
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	font-style: normal;
+	padding: 7px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+textarea {
+	color: #505050;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 25px;
+	font-style: normal;
+	padding: 7px 0;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+p {
+	margin: 0 0 1.5em;
+	padding: 0;
+}
+dfn {
+	font-style: italic;
+}
+cite {
+	font-style: italic;
+}
+em {
+	font-style: italic;
+}
+i {
+	font-style: italic;
+}
+blockquote {
+	quotes: "" "";
+	margin: 0;
+	box-shadow: inset 0 0 0 0 #e2e4e7;
+	border-left: 4px solid #000;
+	padding-left: 1em;
+	&:before {
+		content: "";
+	}
+	&:after {
+		content: "";
+	}
+}
+address {
+	margin: 0 0 1.5em;
+}
+code {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+kbd {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+tt {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+var {
+	font-family: Monaco, Consolas, "Andale Mono", "DejaVu Sans Mono", monospace;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+abbr {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+acronym {
+	border-bottom: 1px dotted #666;
+	cursor: help;
+}
+mark {
+	text-decoration: none;
+}
+ins {
+	text-decoration: none;
+}
+big {
+	font-size: 125%;
+}
+q {
+	quotes: "“" "”" "‘" "’";
+}

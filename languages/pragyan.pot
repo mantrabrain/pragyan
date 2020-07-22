@@ -1,0 +1,901 @@
+# <!=Copyright (C) 2020 mantrabrain
+# This file is distributed under the GNU General Public License v3 or later.=!>
+msgid ""
+msgstr ""
+"Project-Id-Version: Pragyan 0.0.1\n"
+"Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
+"POT-Creation-Date: 2020-07-22 09:41:35+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2020-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: core/functions.php:54
+msgid "12"
+msgstr ""
+
+#: comments.php:42
+msgid "Reply"
+msgstr ""
+
+#: comments.php:48
+msgid "Previous"
+msgstr ""
+
+#: comments.php:49
+msgid "Next"
+msgstr ""
+
+#: comments.php:57
+msgid "Comments are closed."
+msgstr ""
+
+#: core/class-pragyan-core.php:60
+msgid "Primary Menu"
+msgstr ""
+
+#: core/class-pragyan-core.php:61 template-parts/footer/bottom-footer.php:22
+msgid "Footer Menu"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:18
+msgid "Left Sidebar"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:20
+msgid ""
+"Add widgets here to appear in your left sidebar on blog posts and archive "
+"pages."
+msgstr ""
+
+#: core/class-pragyan-widgets.php:27
+msgid "Right Sidebar"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:29
+msgid ""
+"Add widgets here to appear in your right sidebar on blog posts and archive "
+"pages."
+msgstr ""
+
+#: core/class-pragyan-widgets.php:36
+#: core/customizer/sections/base/sidebar.php:27
+msgid "Before Home Page Main Content Area"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:38 core/class-pragyan-widgets.php:47
+#: core/class-pragyan-widgets.php:56 core/class-pragyan-widgets.php:65
+msgid "Add widgets here to appear in your home page full width."
+msgstr ""
+
+#: core/class-pragyan-widgets.php:45
+#: core/customizer/sections/base/sidebar.php:66
+msgid "Home Page Main Content Area"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:54
+msgid "Home Page Sidebar"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:63
+#: core/customizer/sections/base/sidebar.php:104
+msgid "After Home Page Main Content Area"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:73
+msgid "Footer 1"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:75 core/class-pragyan-widgets.php:85
+#: core/class-pragyan-widgets.php:94 core/class-pragyan-widgets.php:104
+msgid "Add widgets here to appear in your footer."
+msgstr ""
+
+#: core/class-pragyan-widgets.php:83
+msgid "Footer 2"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:92
+msgid "Footer 3"
+msgstr ""
+
+#: core/class-pragyan-widgets.php:102
+msgid "Footer 4"
+msgstr ""
+
+#: core/customizer/controls/class-pragyan-customizer-control-switch.php:18
+msgid "on"
+msgstr ""
+
+#: core/customizer/controls/class-pragyan-customizer-control-switch.php:19
+msgid "off"
+msgstr ""
+
+#: core/customizer/panels/theme-panel.php:5
+msgid "Theme Options"
+msgstr ""
+
+#: core/customizer/sections/base/404.php:6
+msgid "404 Page"
+msgstr ""
+
+#: core/customizer/sections/base/404.php:21
+msgid "404 Title"
+msgstr ""
+
+#: core/customizer/sections/base/404.php:35
+msgid "404 Text"
+msgstr ""
+
+#: core/customizer/sections/base/404.php:51
+msgid "Go Home Text"
+msgstr ""
+
+#: core/customizer/sections/base/back-top-top.php:7
+#: core/customizer/sections/base/back-top-top.php:22
+msgid "Back to Top"
+msgstr ""
+
+#: core/customizer/sections/base/background.php:7
+msgid "Background Image"
+msgstr ""
+
+#: core/customizer/sections/base/breadcrumb.php:6
+#: core/customizer/sections/base/breadcrumb.php:21
+msgid "Breadcrumb"
+msgstr ""
+
+#: core/customizer/sections/base/colors.php:6
+msgid "Colors"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:6
+msgid "Layouts"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:22
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:78
+msgid "Sidebar Layout"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:40
+msgid "Layout Style"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:43
+msgid "Boxed"
+msgstr ""
+
+#: core/customizer/sections/base/layouts.php:44
+msgid "Full Width "
+msgstr ""
+
+#: core/customizer/sections/base/logo.php:6
+#: core/info/about/class-pragyan-about.php:410
+msgid "Logo & Site Identity"
+msgstr ""
+
+#: core/customizer/sections/base/preloader.php:7
+#: core/customizer/sections/base/preloader.php:22
+msgid "Preloader"
+msgstr ""
+
+#: core/customizer/sections/base/sidebar.php:6
+#: core/info/about/class-pragyan-about.php:470
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:107
+msgid "Sidebar"
+msgstr ""
+
+#: core/customizer/sections/base/sidebar.php:44
+#: core/customizer/sections/base/sidebar.php:83
+#: core/customizer/sections/base/sidebar.php:121
+#: core/customizer/sections/slider-and-services/services.php:96
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:169
+msgid "Background Color"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/blog-page.php:6
+#: core/customizer/sections/single-post/main.php:6
+msgid "Content & Metas"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/blog-page.php:21
+#: core/customizer/sections/single-post/main.php:21
+msgid "Show/Hide Author"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/blog-page.php:35
+#: core/customizer/sections/single-post/main.php:35
+msgid "Show/Hide Post Date"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/blog-page.php:49
+#: core/customizer/sections/single-post/main.php:49
+msgid "Show/Hide Category"
+msgstr ""
+
+#: core/customizer/sections/blog-archive/blog-page.php:63
+#: core/customizer/sections/single-post/main.php:63
+msgid "Show/Hide Comment"
+msgstr ""
+
+#: core/customizer/sections/footer/copyright.php:6
+#: core/customizer/sections/footer/copyright.php:21
+msgid "Copyright"
+msgstr ""
+
+#: core/customizer/sections/footer/widget-area.php:6
+msgid "Widget Area"
+msgstr ""
+
+#: core/customizer/sections/footer/widget-area.php:21
+msgid "Footer Widget Column"
+msgstr ""
+
+#: core/customizer/sections/header/main.php:5
+#: core/info/about/class-pragyan-about.php:445
+msgid "Main Header"
+msgstr ""
+
+#: core/customizer/sections/header/main.php:21
+msgid "Enable/Disable Sticky Header"
+msgstr ""
+
+#: core/customizer/sections/header/main.php:35
+msgid "Enable/Disable Search"
+msgstr ""
+
+#: core/customizer/sections/header/page.php:5
+#: core/info/about/class-pragyan-about.php:450
+msgid "Page Header"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:7
+#: core/info/about/class-pragyan-about.php:440
+msgid "Top Header"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:24
+msgid "Show/Hide Top Header"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:38
+msgid "Email"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:53
+msgid "Phone"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:73
+#: core/customizer/sections/header/top.php:90
+msgid "Login/Register"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:106
+msgid "Login Link"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:121
+msgid "Login Text"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:135
+msgid "Logout Text"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:149
+msgid "Register Link"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:164
+msgid "Register Text"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:184
+#: core/customizer/sections/header/top.php:200
+msgid "Profile"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:213
+msgid "Profile Page Link"
+msgstr ""
+
+#: core/customizer/sections/header/top.php:227
+msgid "Profile Page Text"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/services.php:6
+msgid "Services"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/services.php:21
+msgid "Show/Hide Services"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/services.php:39
+msgid "Margin Top"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/services.php:64
+msgid "Service"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/services.php:79
+#: core/customizer/sections/slider-and-services/slider.php:55
+msgid "Select Page"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/services.php:111
+msgid "Service ICON (font awesome icon)"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/slider.php:6
+#: core/customizer/sections/slider-and-services/slider.php:40
+msgid "Slider"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/slider.php:21
+msgid "Show/Hide Slider"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/slider.php:70
+msgid "Apply Button Text"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/slider.php:84
+msgid "Apply Button Link"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/slider.php:98
+msgid "Learn More Button Text"
+msgstr ""
+
+#: core/customizer/sections/slider-and-services/slider.php:112
+msgid "Learn More Button Link"
+msgstr ""
+
+#: core/customizer/sections/theme-base-options.php:7
+msgid "Base (Global)"
+msgstr ""
+
+#: core/customizer/sections/theme-blog-archive-options.php:6
+#: core/info/about/class-pragyan-about.php:455
+msgid "Blog/Archive"
+msgstr ""
+
+#: core/customizer/sections/theme-footer-options.php:5
+#: core/info/about/class-pragyan-about.php:475
+msgid "Footer"
+msgstr ""
+
+#: core/customizer/sections/theme-header-options.php:6
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:55
+msgid "Header"
+msgstr ""
+
+#: core/customizer/sections/theme-home-page-options.php:17
+msgid "Theme Style Homepage"
+msgstr ""
+
+#: core/customizer/sections/theme-single-page-options.php:6
+#: core/info/about/class-pragyan-about.php:465
+msgid "Single Page"
+msgstr ""
+
+#: core/customizer/sections/theme-single-post-options.php:6
+#: core/info/about/class-pragyan-about.php:460
+msgid "Single Post"
+msgstr ""
+
+#: core/customizer/sections/theme-slider-and-services-options.php:6
+#: core/info/about/class-pragyan-about.php:425
+msgid "Slider & Services"
+msgstr ""
+
+#: core/functions.php:58
+msgid "6-6"
+msgstr ""
+
+#: core/functions.php:62
+msgid "4-4-4"
+msgstr ""
+
+#: core/functions.php:66
+msgid "3-3-3-3"
+msgstr ""
+
+#: core/functions.php:70
+msgid "3-6-3"
+msgstr ""
+
+#: core/functions.php:74
+msgid "4-3-2-3"
+msgstr ""
+
+#: core/functions.php:90
+msgid "RIGHT SIDEBAR"
+msgstr ""
+
+#: core/functions.php:95
+msgid "LEFT SIDEBAR"
+msgstr ""
+
+#: core/functions.php:100
+msgid "NO SIDEBAR"
+msgstr ""
+
+#: core/functions.php:105
+msgid "FULL WIDTH"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:32
+msgid "Pragyan Options"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:205
+msgid ""
+"Thanks for installing %s. To fully take advantage of the best our theme can "
+"offer, click on get started "
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:220
+msgid " plugins"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:220
+msgid " plugin"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:226
+msgid "Clicking on get started will install & activate %s."
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:229
+msgid "Get started with %s"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:242
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:50
+msgid "General"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:243
+#: core/info/about/class-pragyan-about.php:376
+msgid "Changelog"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:261
+msgid "Learn more about Pragyan theme &#187;"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:293
+msgid "Processing..."
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Pragyan"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:415
+msgid "Global Layouts"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:420
+msgid "Theme Style Home"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:430
+msgid "Breadcrumbs"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:435
+msgid "Global Colors"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:486
+msgid "Links to Customizer Settings"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:515
+msgid "Join Mantra Brain Community!"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:517
+msgid ""
+"Join our facebook community group so that you can post question and help "
+"each other."
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:519
+msgid "Join our facebook community group"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:532
+#: core/info/about/class-pragyan-about.php:536
+msgid "Pragyan Documentation"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:534
+msgid "Pragyan theme documentations and tutorial."
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:553
+msgid "Demo Import"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:556
+msgid ""
+"<strong>Mantra Brain Starter Sites</strong> is free WordPress plugin from "
+"which you can import ready made site within few clicks."
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:583
+msgid "View Site Library / Install Demo"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:593
+msgid "Go to Pragyan Options"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:603
+msgid "Install Importer Plugin"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:628
+msgid "Active Now"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:645
+msgid "Details"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:697
+msgid "Advanced Typography Customization"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:698
+msgid "Gives you creative control on typography for whole website."
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:706
+msgid "Pragyan Pro"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:712
+msgid "Upgrade Now &rarr;"
+msgstr ""
+
+#: core/info/about/class-pragyan-about.php:717
+msgid "Thank you for using Pragyan Pro"
+msgstr ""
+
+#: core/info/class-pragyan-theme-information.php:9
+msgid "Mantra Brain Starter Sites"
+msgstr ""
+
+#: core/info/customizer/section-pro.php:27
+msgid "Get More Features in Pragyan Pro"
+msgstr ""
+
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:112
+msgid "Default"
+msgstr ""
+
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:139
+msgid "Logo"
+msgstr ""
+
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:152
+msgid "Upload Logo"
+msgstr ""
+
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:156
+msgid "Remove Logo"
+msgstr ""
+
+#: core/meta-boxes/class-pragyan-meta-box.php:42
+msgid "Pragyan Page Settings"
+msgstr ""
+
+#: core/template-functions.php:36
+msgid "No Comments"
+msgstr ""
+
+#: core/template-functions.php:38
+msgid " Comments"
+msgstr ""
+
+#: core/template-functions.php:40
+msgid "1 Comment"
+msgstr ""
+
+#: core/template-functions.php:63
+msgid "Theme by %s"
+msgstr ""
+
+#: core/template-functions.php:64
+msgid "Mantrabrain"
+msgstr ""
+
+#: core/template-tags.php:58
+#. translators: %s: post date
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr ""
+
+#: core/template-tags.php:73
+#. translators: used between list items, there is a space after the comma
+msgid ", "
+msgstr ""
+
+#: core/template-tags.php:88
+msgid "Post Tags"
+msgstr ""
+
+#: core/template-tags.php:118
+#. translators: %s: Name of current post
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:197
+msgid "Browse:"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:199
+msgid "Home"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:200
+msgid "404 Not Found"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:201
+msgid "Archives"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:203
+#. Translators: %s is the search query.
+msgid "Search results for: %s"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:205
+#. Translators: %s is the page number.
+msgid "Page %s"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:207
+#. Translators: %s is the page number.
+msgid "Comment Page %s"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:209
+#. Translators: Minute archive title. %s is the minute time format.
+msgid "Minute %s"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:211
+#. Translators: Weekly archive title. %s is the week date format.
+msgid "Week %s"
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:13
+msgid "Displays posts from selected categories in carousel layouts."
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:15
+msgid "Pragyan::Blog Post"
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:27
+#: core/widgets/class-pragyan-cta.php:28
+msgid "Title"
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:29
+msgid "Blog Post"
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:34
+msgid "Category"
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:40
+msgid "Number of Posts"
+msgstr ""
+
+#: core/widgets/class-pragyan-blog-post.php:106
+#: core/widgets/class-pragyan-tabbed.php:93 template-parts/post/content.php:20
+msgid "Read More"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:14
+msgid "Call to action widget"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:16
+msgid "Pragyan::CTA"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:36
+msgid "CTA Heading"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:43
+msgid "CTA Background"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:49
+msgid "Make parallax?"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:56
+msgid "Description Text"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:63
+msgid "Button URL"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:70
+msgid "Button Text"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:77
+msgid "Open in new tab"
+msgstr ""
+
+#: core/widgets/class-pragyan-cta.php:84
+msgid "Minimum Height"
+msgstr ""
+
+#: core/widgets/class-pragyan-tabbed.php:14
+msgid "A widget shows recent posts and comment in tabbed layout."
+msgstr ""
+
+#: core/widgets/class-pragyan-tabbed.php:16
+msgid "Pragyan::Tabbed"
+msgstr ""
+
+#: core/widgets/class-pragyan-tabbed.php:27
+msgid "Posts"
+msgstr ""
+
+#: core/widgets/class-pragyan-tabbed.php:29
+#: core/widgets/class-pragyan-tabbed.php:36
+msgid "Latest Posts"
+msgstr ""
+
+#: core/widgets/class-pragyan-tabbed.php:34
+msgid "Comments"
+msgstr ""
+
+#: core/widgets/class-pragyan-tabbed.php:120
+msgid "&nbsp;commented on"
+msgstr ""
+
+#: core/widgets/class-pragyan-widget-base.php:237
+msgid "All Categories"
+msgstr ""
+
+#: core/widgets/class-pragyan-widget-base.php:257
+#. translators: 1: taxonomy
+msgid "Taxonomy (%s) not found"
+msgstr ""
+
+#: core/widgets/class-pragyan-widget-base.php:286
+msgid "Choose an image"
+msgstr ""
+
+#: core/widgets/class-pragyan-widget-base.php:287
+msgid "Use image"
+msgstr ""
+
+#: core/widgets/class-pragyan-widget-base.php:288
+msgid "Select an Image"
+msgstr ""
+
+#: template-parts/header/main-header.php:71
+msgid "Search Here.."
+msgstr ""
+
+#: template-parts/header/page.php:30
+msgid "Search Results for: %s"
+msgstr ""
+
+#: template-parts/page/content-page.php:13 template-parts/post/single.php:26
+msgid "Pages:"
+msgstr ""
+
+#: template-parts/post/content-none.php:6
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/post/content-none.php:10
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: template-parts/post/single.php:21
+#. translators: %s: Name of current post
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Pragyan is Clean, Elegant, SEO Friendly, Regularly Updated modern Education "
+"WordPress Theme."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "mantrabrain"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://mantrabrain.com"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:198
+msgctxt "breadcrumbs aria label"
+msgid "Breadcrumbs"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:671
+msgctxt "minute and hour archives time format"
+msgid "g:i a"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:688
+msgctxt "minute archives time format"
+msgid "i"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:705
+msgctxt "hour archives time format"
+msgid "g a"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:721
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:750
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:777
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:804
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1144
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:722
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:778
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1148
+msgctxt "monthly archives date format"
+msgid "F"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:723
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1152
+msgctxt "daily archives date format"
+msgid "j"
+msgstr ""
+
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:751
+msgctxt "weekly archives date format"
+msgid "W"
+msgstr ""
+
+#: searchform.php:12
+msgctxt "label"
+msgid "Search for:"
+msgstr ""
+
+#: searchform.php:13
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr ""
+
+#: searchform.php:17
+msgctxt "submit button"
+msgid "Search"
+msgstr ""

@@ -1,0 +1,53 @@
+.nav-subtitle {
+	background: transparent;
+	color: $alternative_color;
+	display: block;
+	font-size: 11px;
+	font-size: 0.6875rem;
+	margin-bottom: 1em;
+	text-transform: uppercase;
+}
+.nav-title {
+	color: #333;
+	font-size: 15px;
+	font-size: 0.9375rem;
+}
+.nav-links {
+	.nav-previous {
+		.nav-title {
+			.nav-title-icon-wrapper {
+				margin-right: 0.5em;
+			}
+		}
+	}
+	.nav-next {
+		.nav-title {
+			.nav-title-icon-wrapper {
+				margin-left: 0.5em;
+			}
+		}
+	}
+	span.nav-title {
+		line-height: 22px;
+	}
+}
+.page-links {
+	clear: both;
+	margin: 0;
+	padding-top: 25px;
+	padding-bottom: 0;
+}
+.nav-links {
+	&:before {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+	&:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+		clear: both;
+	}
+}
+

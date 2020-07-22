@@ -1,0 +1,88 @@
+#pragyan-page-setting .inside {
+    margin: 0;
+    padding: 0;
+}
+
+#pragyan-page-setting #page-settings-tabs-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#pragyan-page-setting .pragyan-ui-nav {
+    width: 180px;
+    list-style-type: none;
+    background-color: #fafafa;
+    border-right: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+}
+
+#pragyan-page-setting .pragyan-ui-nav li {
+    margin: 0;
+    outline: none;
+}
+
+#pragyan-page-setting .pragyan-ui-nav li a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    border-bottom: 1px solid #eee;
+    color: #252525;
+}
+
+#pragyan-page-setting .pragyan-ui-nav li.ui-tabs-active a {
+    background: #fff;
+    margin-right: -1px;
+}
+
+#pragyan-page-setting .pragyan-ui-content {
+    padding: 0 20px;
+    width: calc(100% - 180px);
+}
+
+#pragyan-page-setting .pragyan-ui-content .options-group {
+    padding: 15px 0;
+    border-bottom: 1px solid #eee;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+#pragyan-page-setting .pragyan-ui-content .pragyan-ui-desc,
+#pragyan-page-setting .pragyan-ui-content .pragyan-ui-field {
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+
+}
+
+#pragyan-page-setting .pragyan-ui-content .pragyan-ui-desc > label {
+    display: block;
+}
+
+#pragyan-page-setting .pragyan-ui-content .mnp-label img {
+    width: 120px;
+}
+
+#pragyan-page-setting .pragyan-ui-content .mnp-label input[type="radio"] {
+    display: none;
+}
+
+#pragyan-page-setting .mnp-label input:checked + img {
+    box-shadow: 0 0 3px 1px rgba(0, 0, 0, 0.25);
+    border: 2px solid #13a1dc!important;
+}
+
+#pragyan-page-setting .mnp-layout-template {
+    display: flex;
+}
+
+#pragyan-page-setting .mnp-layout-template label.mnp-label {
+    display: block;
+    padding: 5px;
+}
+
+#pragyan-page-setting .mnp-layout-template label.mnp-label img {
+    border: 2px solid #aaa;
+}

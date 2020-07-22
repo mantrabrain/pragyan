@@ -1,0 +1,187 @@
+
+button {
+	background-color: $secondary_color;
+	border: 0;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding: 1em 2em;
+	text-shadow: none;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+	border-radius: 3px;
+
+	&:hover {
+		background: $primary_color;
+		color: $secondary_color;
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+}
+
+input[type="button"] {
+	background-color: $secondary_color;
+	border: 0;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding: 1em 2em;
+	text-shadow: none;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: $primary_color;
+		color: $secondary_color;
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+	&:focus {
+		background: $primary_color;
+		color: $secondary_color;
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+}
+
+input[type="submit"] {
+	background-color: $secondary_color;
+	border: 0;
+	border-radius: 3px;
+	-webkit-box-shadow: none;
+	box-shadow: none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	text-transform: capitalize;
+	font-weight: 600;
+	padding: 1em 2em;
+	text-shadow: none;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: $primary_color;
+		color: $secondary_color;
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+
+	&:focus {
+		background: $primary_color;
+		color: $secondary_color;
+		-webkit-transition: all 0.5s ease;
+		transition: all 0.5s ease;
+	}
+}
+
+button.secondary {
+	background-color: $primary_color;
+	color: #333;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: #bbb;
+	}
+
+	&:focus {
+		background: #bbb;
+	}
+}
+
+input[type="reset"] {
+	background-color: $primary_color;
+	color: #333;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: #bbb;
+	}
+
+	&:focus {
+		background: #bbb;
+	}
+}
+
+input[type="button"].secondary {
+	background-color: $primary_color;
+	color: #333;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: #bbb;
+	}
+
+	&:focus {
+		background: #bbb;
+	}
+}
+
+input[type="reset"].secondary {
+	background-color: $primary_color;
+	color: #333;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: #bbb;
+	}
+
+	&:focus {
+		background: #bbb;
+	}
+}
+
+input[type="submit"].secondary {
+	background-color: $primary_color;
+	color: #333;
+	-webkit-transition: all 0.5s ease;
+	transition: all 0.5s ease;
+
+	&:hover {
+		background: #bbb;
+	}
+
+	&:focus {
+		background: #bbb;
+	}
+}
+
+.blog-btn.pragyan-main-btn {
+	margin-top: 15px;
+}
+
+form.search-form {
+	button {
+		font-size: 15px;
+		height: 44px;
+		width: 55px;
+		position: absolute;
+		top: 0;
+		right: 0;
+		padding: 0;
+	}
+}
+
+.search-form {
+	.fa-search {
+		margin-right: 0;
+	}
+}

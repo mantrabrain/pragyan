@@ -1,0 +1,13 @@
+.clear {
+	&:before {
+		content: "";
+		display: table;
+		table-layout: fixed;
+	}
+	&:after {
+		content: "";
+		display: table;
+		table-layout: fixed;
+		clear: both;
+	}
+}

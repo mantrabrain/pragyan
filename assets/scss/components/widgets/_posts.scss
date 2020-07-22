@@ -1,0 +1,104 @@
+.pragyan-blog-post-wrap {
+	ul.pragyan-blog-post {
+		margin: 0 -15px 0 -15px;
+		border: none;
+		padding: 0;
+
+		> li.item {
+			padding-left: 15px;
+			padding-right: 15px;
+
+		}
+
+		li {
+			border: none;
+		}
+	}
+
+	.pragyan-blog-post-content-wrap {
+		height: 100%;
+		display: block;
+		background: #fff;
+	}
+}
+
+html {
+	overflow-x: hidden;
+}
+
+.pragyan-full-width {
+	position: relative;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		left: 50%;
+		transform: translateX(-50%);
+		height: 100%;
+		width: 100vw;
+		background: #f9f9f9;
+		background-size: cover;
+	}
+
+}
+
+.pragyan-cta-content {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.pragyan-tabbed-widget-wrap {
+	ul.widget-tabs {
+		display: block;
+		background: #f9f9f9;
+		padding: 0 10px;
+		border: none;
+
+		li {
+			margin: 0;
+			display: inline-block;
+			border: none;
+			padding: 10px!important;
+			cursor: pointer;
+
+			&:hover {
+				background: #fff;
+				border-bottom: 2px solid $primary_color;
+			}
+
+
+			&.active {
+
+				background: #fff;
+				border-bottom: 2px solid $primary_color;
+
+
+			}
+		}
+
+		&:after {
+			content: '';
+			clear: both;
+			display: block;
+			width: 100%;
+		}
+
+	}
+
+	.pragyan_latest_posts_tab_content,
+	.pragyan_latest_posts_tab_content {
+		display: none;
+
+		&.active {
+			display: block;
+		}
+	}
+
+	.entry-meta {
+		li {
+			border: none;
+		}
+	}
+}

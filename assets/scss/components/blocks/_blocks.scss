@@ -1,0 +1,17 @@
+.wp-block-embed-soundcloud.wp-block-embed {
+	height: 170px;
+
+	.wp-block-embed__wrapper {
+		height: 170px;
+	}
+}
+
+.wp-embed-responsive {
+	.wp-block-embed-soundcloud.wp-block-embed.wp-embed-aspect-4-3 {
+		.wp-block-embed__wrapper {
+			&:before {
+				padding-top: 0;
+			}
+		}
+	}
+}

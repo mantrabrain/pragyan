@@ -1,0 +1,9 @@
+{
+	"version": 3,
+	"file": "sikshya.css",
+	"sources": [
+		"../scss/sikshya.scss"
+	],
+	"names": [],
+	"mappings": "AAAA,AAAA,+BAA+B,CAAC;EAC/B,OAAO,EAAE,aAAa,GAStB;EAVD,AAGC,+BAH8B,CAG9B,gBAAgB,CAAC;IAChB,OAAO,EAAE,CAAC,GAKV;IATF,AAME,+BAN6B,CAG9B,gBAAgB,CAGf,0BAA0B,CAAC,oBAAoB,CAAC;MAC/C,aAAa,EAAE,IAAI,GACnB"
+}
