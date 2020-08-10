@@ -41,6 +41,7 @@ final class Pragyan_Core
 		load_theme_textdomain('pragyan', get_template_directory() . '/languages');
 		// Add default posts and comments RSS feed links to head.
 		add_theme_support('automatic-feed-links');
+		add_theme_support('woocommerce');
 
 		//Let WordPress manage the document title.
 		add_theme_support('title-tag');

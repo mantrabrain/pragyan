@@ -95,7 +95,7 @@ class Pragyan_Meta_Box_Page_Settings
 										   value="<?php echo esc_attr($layout_key); ?>" <?php checked
 									($layout, $layout_key); ?> />
 									<img src="<?php echo esc_url($layout_config['image']); ?>"
-										 title="<?php echo esc_attr($layout_config['title']); ?>"/>
+										 title="<?php echo esc_attr($layout_config['name']); ?>"/>
 								</label>
 							<?php } ?>
 						</div>
@@ -208,7 +208,7 @@ class Pragyan_Meta_Box_Page_Settings
 
 		$layout = isset($_POST['pragyan_base_sidebar_layout']) ? sanitize_text_field($_POST['pragyan_base_sidebar_layout']) : ''; // WPCS: CSRF ok.
 		$sidebar = isset($_POST['pragyan_single_sidebar']) ? sanitize_text_field($_POST['pragyan_single_sidebar']) : 'default'; // WPCS: CSRF ok.
-		$pragyan_bottom_header_background_color = isset($_POST['pragyan_bottom_header_background_color']) ? sanitize_hex_color(wp_unslash($_POST['pragyan_bottom_header_background_color'])) : $pragyan_bottom_header_background_color; // WPCS: CSRF ok.
+		$pragyan_bottom_header_background_color = isset($_POST['pragyan_bottom_header_background_color']) ? sanitize_hex_color(wp_unslash($_POST['pragyan_bottom_header_background_color'])) : '#ffffff'; // WPCS: CSRF ok.
 
 		$logo = (isset($_POST['pragyan_single_logo'])) ? intval($_POST['pragyan_single_logo']) : ''; // WPCS: CSRF ok.
 
