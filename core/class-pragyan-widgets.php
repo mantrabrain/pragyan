@@ -114,7 +114,6 @@ class Pragyan_Widgets
 	{
 
 		register_widget('Pragyan_Blog_Post_Widget');
-		register_widget('Pragyan_CTA_Widget');
 		register_widget('Pragyan_Tabbed_Widget');
 
 
@@ -126,7 +125,6 @@ class Pragyan_Widgets
 		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-widget-base.php';
 		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-widget-validation.php';
 		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-blog-post.php';
-		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-cta.php';
 		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-tabbed.php';
 
 

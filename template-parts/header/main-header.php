@@ -35,7 +35,7 @@ if ($sticky_header_enable) {
 					</div><!-- .navigation-section -->
 				<?php endif; ?>
 				<?php if (count($right_icons) > 0) : ?>
-					<div class="pragyan-right-header">
+					<div class="pragyan-right-header" id="pragyan-right-header">
 
 						<ul>
 							<?php foreach ($right_icons as $icon) {
@@ -62,7 +62,7 @@ if ($sticky_header_enable) {
 			</div>
 		</div>
 
-		<div class="pragyan-search-box">
+		<div class="pragyan-search-box" id="pragyan-search-box">
 			<div class="pragyan-search-form">
 				<button class="pragyan-close-button">
 					<span></span>

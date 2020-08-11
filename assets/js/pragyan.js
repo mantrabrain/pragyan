@@ -4,6 +4,7 @@
 	var pragyanTheme = {
 		init: function () {
 			this.initPreloader();
+			this.initEvents();
 			this.initScrollToTop();
 			this.initSearchBox();
 			this.initNavigationMenu();
@@ -80,11 +81,18 @@
 
 		},
 		initSearchBox: function () {
-			$('#search').on('click', function () {
+			$('#search').on('click, focus', function () {
 				$('.pragyan-search-box').fadeIn(600);
+				var id = 'pragyan-search-box';
+				$('#' + id).addClass('pragyan-searchbox-open');
+				$(document).trigger('pragyan_focus_inside_element', [id, '#popup-search', 'pragyan-searchbox-open']);
+
 			});
 			$('.pragyan-close-button').on('click', function () {
 				$('.pragyan-search-box').fadeOut(600);
+				var id = '#pragyan-search-box';
+				$(id).removeClass('pragyan-searchbox-open');
+
 			});
 		},
 		initNavigationMenu: function () {
@@ -107,7 +115,7 @@
 				var nav = $(this).closest('.pragyan-mobile-navigation-menu');
 				nav.removeClass('opened-nav');
 			});
-			$('body').on('click', '.pragyan-mobile-navigation-menu-icon>a', function () {
+			$('body').on('click focus', '.pragyan-mobile-navigation-menu-icon>a', function () {
 				var linked_panel = '.pragyan-mobile-navigation-menu';
 				if ($(this).hasClass('open')) {
 					$(this).removeClass('open');
@@ -116,6 +124,8 @@
 				} else {
 					$(this).addClass('open');
 					$(linked_panel).addClass('opened-nav');
+					$(document).trigger('pragyan_focus_inside_element', ['pragyan-mobile-navigation-menu', '.pragyan-mobile-navigation-close', 'opened-nav']);
+
 
 				}
 			});
@@ -171,6 +181,48 @@
 					inside_wrap.find('.' + data_id).addClass('active');
 
 				}
+			});
+		},
+		trapFocus: function (element, open_class) {
+			var focusableEls = element.querySelectorAll('a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input[type="text"]:not([disabled]), input[type="radio"]:not([disabled]), input[type="checkbox"]:not([disabled]), select:not([disabled])'),
+				firstFocusableEl = focusableEls[0];
+			lastFocusableEl = focusableEls[focusableEls.length - 1];
+			KEYCODE_TAB = 9;
+
+			element.addEventListener('keydown', function (e) {
+				var isTabPressed = (e.key === 'Tab' || e.keyCode === KEYCODE_TAB);
+
+				if (!isTabPressed) {
+					return;
+				}
+				if (!element.classList.contains(open_class)) {
+					element.removeEventListener('keydown', this);
+					return;
+
+				}
+
+				if (e.shiftKey) /* shift + tab */ {
+					if (document.activeElement === firstFocusableEl) {
+						lastFocusableEl.focus();
+						e.preventDefault();
+					}
+				} else /* tab */ {
+					if (document.activeElement === lastFocusableEl) {
+						firstFocusableEl.focus();
+						e.preventDefault();
+					}
+				}
+
+			});
+		},
+
+		initEvents: function () {
+			var _this = this;
+			$(document).on('pragyan_focus_inside_element', function (event, parent_id, focusable_el, trap_class) {
+				$('#' + parent_id).find(focusable_el).focus();
+				var el = document.getElementById(parent_id);
+				_this.trapFocus(el, trap_class);
+
 			});
 		}
 	};

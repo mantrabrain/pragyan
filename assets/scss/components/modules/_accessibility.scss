@@ -46,3 +46,10 @@ input[type="submit"]:focus {
 	outline: auto !important;
 
 }
+
+.pragyan-main-btn a:focus {
+	background: #fff !important;
+	border: 1px solid $secondary_color;
+	color: $secondary_color;
+}
+

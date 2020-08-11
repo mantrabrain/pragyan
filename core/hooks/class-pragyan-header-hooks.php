@@ -81,7 +81,7 @@ class Pragyan_Header_Hooks
 			'wrap_class' => 'pragyan-mobile-navigation-menu-icon',
 			'icon' => 'fa fa-bars',
 			'link' => '#',
-			'id' => '#',
+			'id' => 'pragyan-mobile-navigation-menu-icon',
 			'content' => '',
 		));
 
