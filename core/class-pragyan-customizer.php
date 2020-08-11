@@ -83,6 +83,7 @@ class Pragyan_Customizer
 	{
 
 		$wp_customize->get_section('static_front_page')->priority = 10;
+		$wp_customize->get_setting('custom_logo')->transport = 'refresh';
 
 
 	}

@@ -1,4 +1,4 @@
-var file_frame;
+var pragyan_file_frame;
 ;(function ($) {
 
 	var PragyanAdmin = {
@@ -60,7 +60,7 @@ var file_frame;
 			});
 
 			// Create the media frame.
-			file_frame = wp.media.frames.file_frame = wp.media({
+			pragyan_file_frame = wp.media.frames.pragyan_file_frame = wp.media({
 				button: {
 					text: jQuery(this).data('uploader_button_text')
 				},
@@ -72,10 +72,10 @@ var file_frame;
 			});
 
 			// When an image is selected, run a callback.
-			file_frame.on('select', function () {
+			pragyan_file_frame.on('select', function () {
 
 				// Get the attachment from the modal frame.
-				var attachment = file_frame.state().get('selection').first().toJSON();
+				var attachment = pragyan_file_frame.state().get('selection').first().toJSON();
 				// Initialize input and preview change.
 				file_target_input.val(attachment.url).trigger('change');
 				file_target_preview.css({display: 'none'});
@@ -85,7 +85,7 @@ var file_frame;
 			});
 
 			// Finally, open the modal
-			file_frame.open();
+			pragyan_file_frame.open();
 
 		},
 		initColorPicker: function (widget) {

@@ -136,7 +136,11 @@ final class Pragyan_Core
 
 	function pragyan_excerpt_length($length)
 	{
+		if (is_admin()) {
+			return $length;
+		}
 		$excerpt = get_theme_mod('exc_lenght', '45');
+
 		return $excerpt;
 	}
 

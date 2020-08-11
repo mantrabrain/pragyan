@@ -22,23 +22,27 @@ class Pragyan_Assets
 
 	public function admin_styles($hook)
 	{
-		wp_enqueue_style('pragyan-customizer', get_template_directory_uri() . '/core/customizer/assets/css/customizer.css', '', PRAGYA_THEME_VERSION);
+		if (is_customize_preview()) {
 
-		wp_enqueue_media();
 
+			wp_enqueue_style('pragyan-customizer', get_template_directory_uri() . '/core/customizer/assets/css/customizer.css', '', PRAGYA_THEME_VERSION);
+
+			wp_enqueue_media();
+
+		}
 		if (is_admin()) {
 			wp_enqueue_style('wp-color-picker');
 			wp_enqueue_script('wp-color-picker');
 		}
 		if ('widgets.php' === $hook) {
 
+			wp_enqueue_media();
+
 			wp_enqueue_script('underscore');
 
 			wp_enqueue_style('pragyan-admin', get_template_directory_uri() . '/assets/admin/css/admin.css', array(), PRAGYA_THEME_VERSION);
 
 			wp_enqueue_style('pragyan-admin-font-awesome', get_template_directory_uri() . '/assets/vendor/font-awesome/css/font-awesome.css', array(), PRAGYA_THEME_VERSION);
-
-			wp_enqueue_media();
 
 			wp_enqueue_script('pragyan-admin', get_template_directory_uri() . '/assets/admin/js/admin.js', array('jquery'), PRAGYA_THEME_VERSION);
 

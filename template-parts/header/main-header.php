@@ -45,7 +45,8 @@ if ($sticky_header_enable) {
 								$content = !isset($icon['content']) ? '' : $icon['content'];
 								$wrap_class = !isset($icon['wrap_class']) ? '' : $icon['wrap_class'];
 								?>
-								<li class="<?php echo esc_attr($wrap_class); ?>"><a
+								<li class="<?php echo esc_attr($wrap_class); ?>">
+									<a
 										href="<?php echo esc_attr($pragyan_link) ?>"
 										id="<?php echo esc_attr($id_attribute); ?>">
 										<i class="<?php echo esc_attr($icon_class) ?>"></i>
@@ -63,15 +64,15 @@ if ($sticky_header_enable) {
 
 		<div class="pragyan-search-box">
 			<div class="pragyan-search-form">
-				<div class="pragyan-closebtn">
+				<button class="pragyan-close-button">
 					<span></span>
 					<span></span>
-				</div>
+				</button>
 				<form action="<?php echo esc_html(home_url('/')); ?>" method="get">
 					<input placeholder="<?php esc_attr_e('Search Here..', 'pragyan') ?>" type="text" name="s"
 						   id="popup-search"
 						   value="<?php the_search_query(); ?>"/>
-					<button><i class="fa fa-search"></i></button>
+					<button class="search-icon"><i class="fa fa-search"></i></button>
 				</form>
 			</div>
 		</div>

@@ -14,12 +14,12 @@ if (!function_exists('pragyan_get_color_css')) {
 
 
 		if ('' != $header_background_color && '#ffffff' != $header_background_color) {
-			$css .= '.main-header{background-color:' . $header_background_color . '} ';
+			$css .= '.main-header{background-color:' . esc_attr($header_background_color) . '} ';
 		}
 		$services_margin_top = pragyan_get_option('services_margin_top');
 
 		if ($services_margin_top != '-180') {
-			$css .= '.pragyan-service-container{margin-top:' . $services_margin_top . 'px} ';
+			$css .= '.pragyan-service-container{margin-top:' . esc_attr($services_margin_top) . 'px} ';
 		}
 		$pragyan_service_section_background_1 = (pragyan_get_option('service_section_background_1'));
 		$pragyan_service_section_background_2 = (pragyan_get_option('service_section_background_2'));
@@ -46,13 +46,13 @@ if (!function_exists('pragyan_get_color_css')) {
 			$home_page_main_content_area_background_color = pragyan_get_option('home_page_main_content_area_background_color');
 			$after_home_page_main_content_area_background_color = pragyan_get_option('after_home_page_main_content_area_background_color');
 			if ('' != $before_home_page_main_content_area_background_color) {
-				$css .= '.pragyan-before-home-page-main-content-area{background-color:' . $before_home_page_main_content_area_background_color . '} ';
+				$css .= '.pragyan-before-home-page-main-content-area{background-color:' . esc_attr($before_home_page_main_content_area_background_color) . '} ';
 			}
 			if ('' != $home_page_main_content_area_background_color) {
-				$css .= '.pragyan-home-page-main-content-area{background-color:' . $home_page_main_content_area_background_color . '} ';
+				$css .= '.pragyan-home-page-main-content-area{background-color:' . esc_attr($home_page_main_content_area_background_color) . '} ';
 			}
 			if ('' != $after_home_page_main_content_area_background_color) {
-				$css .= '.pragyan-after-home-page-main-content-area{background-color:' . $after_home_page_main_content_area_background_color . '} ';
+				$css .= '.pragyan-after-home-page-main-content-area{background-color:' . esc_attr($after_home_page_main_content_area_background_color) . '} ';
 
 			}
 

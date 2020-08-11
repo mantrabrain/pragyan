@@ -33,7 +33,7 @@
 								<i class="<?php echo esc_attr($icon); ?>"></i>
 							<?php }
 
-							echo '' != $info_lnink ? '<a href="' . esc_attr($info_lnink) . '">' : '<span>';
+							echo '' != $info_lnink ? '<a href="' . esc_url($info_lnink) . '">' : '<span>';
 
 							echo esc_html($content);
 

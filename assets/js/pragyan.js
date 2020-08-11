@@ -83,7 +83,7 @@
 			$('#search').on('click', function () {
 				$('.pragyan-search-box').fadeIn(600);
 			});
-			$('.pragyan-closebtn').on('click', function () {
+			$('.pragyan-close-button').on('click', function () {
 				$('.pragyan-search-box').fadeOut(600);
 			});
 		},

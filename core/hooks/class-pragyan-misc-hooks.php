@@ -33,7 +33,7 @@ class Pragyan_Miscellaneous_Hooks
 		if ('blank' === get_header_textcolor()) {
 			$classes[] = 'title-tagline-hidden';
 		}
-		$classes[] = pragyan_get_option('content_layout');
+		$classes[] = esc_attr(pragyan_get_option('content_layout'));
 
 
 		return $classes;

@@ -28,14 +28,14 @@
 									class="slider-content"><?php echo esc_html(get_the_excerpt($pragyan_slider_page_id)) ?></div>
 								<div class="button-wrap">
 									<?php if ($apply_button_text != '') { ?>
-										<div class="button-left"><a href="<?php echo esc_attr($apply_button_link) ?>"
+										<div class="button-left"><a href="<?php echo esc_url($apply_button_link) ?>"
 																	target="_blank"
 																	class="pragyan-slider-button"><?php echo esc_html($apply_button_text); ?></a>
 										</div>
 									<?php } ?>
 									<?php if ($learn_more_button_text != '') { ?>
 										<div class="button-right"><a target="_blank"
-																	 href="<?php echo esc_attr($learn_more_button_link) ?>"
+																	 href="<?php echo esc_url($learn_more_button_link) ?>"
 																	 class="pragyan-slider-button"><?php
 												echo esc_html($learn_more_button_text);
 												?></a>

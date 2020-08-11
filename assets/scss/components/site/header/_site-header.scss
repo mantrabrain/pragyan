@@ -233,7 +233,7 @@
 			border-radius: 50px;
 		}
 
-		button {
+		button.search-icon {
 			position: absolute;
 			top: 50%;
 			left: 72%;
@@ -249,13 +249,22 @@
 	}
 }
 
-.pragyan-closebtn {
+.pragyan-close-button {
 	position: absolute;
-	top: 20px;
+	top: 11px;
 	right: 15px;
 	cursor: pointer;
 	width: 30px;
 	height: 25px;
+	background: transparent;
+	margin: 0;
+	padding: 0;
+
+	&:hover {
+		background: transparent;
+		margin: 0;
+		padding: 0;
+	}
 
 	span {
 		width: 30px;

@@ -61,7 +61,7 @@ function pragyan_author_link()
 {
 	return sprintf(
 		esc_html__('Theme by %s', 'pragyan'),
-		'<a href="' . esc_url('https://mantrabrain.com') . '" target="_blank" title="' . esc_attr__('Mantrabrain', 'pragyan') . '" >' . esc_html__('Mantrabrain', 'pragyan') . '</a>'
+		'<a href="https://mantrabrain.com" target="_blank" title="' . esc_attr__('Mantrabrain', 'pragyan') . '" >' . esc_html__('Mantrabrain', 'pragyan') . '</a>'
 	);
 }
 
@@ -85,24 +85,11 @@ if (!function_exists('pragyan_custom_logo')) {
 
 	function pragyan_custom_logo()
 	{
-		global $post;
-
-		$post_id = isset($post->ID) ? $post->ID : 0;
-
-		$logo = get_post_meta($post_id, 'pragyan_single_logo', true);
 
 
-		if (absint($logo) > 0) {
+		the_custom_logo();
 
-			$img_src = wp_get_attachment_image_src($logo, 'full');
 
-			echo '<a href="' . home_url() . '" class="custom-logo-link" rel="home"><img src="' . $img_src[0] . '" class="custom-logo" alt="' . bloginfo() . '"></a>';
-
-		} else {
-
-			the_custom_logo();
-
-		}
 	}
 
 }
@@ -110,25 +97,14 @@ if (!function_exists('pragyan_has_custom_logo')) {
 
 	function pragyan_has_custom_logo()
 	{
-		global $post;
-
-		$post_id = isset($post->ID) ? $post->ID : 0;
-
-		$logo = get_post_meta($post_id, 'pragyan_single_logo', true);
 
 
-		if (absint($logo) > 0) {
+		if (has_custom_logo()) {
 
 			return true;
 
-		} else {
-
-			if (has_custom_logo()) {
-
-				return true;
-
-			}
 		}
+
 
 		return false;
 	}

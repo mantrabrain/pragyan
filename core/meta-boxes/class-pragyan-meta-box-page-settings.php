@@ -36,11 +36,6 @@ class Pragyan_Meta_Box_Page_Settings
 		// Get WordPress' media upload URL.
 		$upload_link = get_upload_iframe_src('image', $post->ID);
 
-		$logo = get_post_meta($post->ID, 'pragyan_single_logo', true);
-
-		$img_src = wp_get_attachment_image_src($logo, 'full');
-
-		$has_img = is_array($img_src);
 		?>
 		<div id="page-settings-tabs-wrapper">
 			<ul class="pragyan-ui-nav">
@@ -133,35 +128,6 @@ class Pragyan_Meta_Box_Page_Settings
 
 				<!-- HEADER -->
 				<div id="page-settings-header">
-					<!-- LOGO -->
-					<div class="options-group">
-						<div class="pragyan-ui-desc">
-							<label for="mnp-logo"><?php esc_html_e('Logo', 'pragyan'); ?></label>
-						</div>
-						<div class="pragyan-ui-field" id="mnp-logo-wrapper">
-
-							<div class="mnp-upload-img">
-								<?php if ($has_img) : ?>
-									<img src="<?php echo esc_url($img_src[0]); ?>" style="max-width:100%;"/>
-								<?php endif; ?>
-							</div>
-
-							<p class="hide-if-no-js">
-								<a class="upload-custom-img <?php echo ($has_img) ? 'hidden' : ''; ?>"
-								   href="<?php echo esc_url($upload_link); ?>">
-									<?php esc_html_e('Upload Logo', 'pragyan'); ?>
-								</a>
-								<a class="delete-custom-img <?php echo (!$has_img) ? 'hidden' : ''; ?>"
-								   href="#">
-									<?php esc_html_e('Remove Logo', 'pragyan'); ?>
-								</a>
-							</p>
-
-							<input id="mnp-logo" name="pragyan_single_logo" class="mnp-upload-input" type="hidden"
-								   value="<?php
-								   echo esc_attr($logo); ?>"/>
-						</div>
-					</div>
 
 					<div class="options-group show-default">
 						<div class="pragyan-ui-desc">
@@ -210,8 +176,6 @@ class Pragyan_Meta_Box_Page_Settings
 		$sidebar = isset($_POST['pragyan_single_sidebar']) ? sanitize_text_field($_POST['pragyan_single_sidebar']) : 'default'; // WPCS: CSRF ok.
 		$pragyan_bottom_header_background_color = isset($_POST['pragyan_bottom_header_background_color']) ? sanitize_hex_color(wp_unslash($_POST['pragyan_bottom_header_background_color'])) : '#ffffff'; // WPCS: CSRF ok.
 
-		$logo = (isset($_POST['pragyan_single_logo'])) ? intval($_POST['pragyan_single_logo']) : ''; // WPCS: CSRF ok.
-
 		// LAYOUT.
 		$sidebar_content_layouts = array_keys(pragyan_global_sidebar_layouts());
 		if (in_array($layout, $sidebar_content_layouts)) {
@@ -236,9 +200,6 @@ class Pragyan_Meta_Box_Page_Settings
 		// MENU ITEM COLOR.
 
 		update_post_meta($post_id, 'pragyan_bottom_header_background_color', $pragyan_bottom_header_background_color);
-
-		// LOGO.
-		update_post_meta($post_id, 'pragyan_single_logo', $logo);
 
 		/**
 		 * Hook for page settings data save.

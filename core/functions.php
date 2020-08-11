@@ -50,27 +50,27 @@ function pragyan_footer_widget_area_layouts()
 {
 	return array(
 		'layout_1' => array(
-			'image' => trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-1.png',
+			'image' => esc_url(trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-1.png'),
 			'name' => esc_html__('12', 'pragyan')
 		),
 		'layout_2' => array(
-			'image' => trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-2.png',
+			'image' => esc_url(trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-2.png'),
 			'name' => esc_html__('6-6', 'pragyan')
 		),
 		'layout_3' => array(
-			'image' => trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-3.png',
+			'image' => esc_url(trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-3.png'),
 			'name' => esc_html__('4-4-4', 'pragyan')
 		),
 		'layout_4' => array(
-			'image' => trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-4.png',
+			'image' => esc_url(trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-4.png'),
 			'name' => esc_html__('3-3-3-3', 'pragyan')
 		),
 		'layout_5' => array(
-			'image' => trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-5.png',
+			'image' => esc_url(trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-5.png'),
 			'name' => esc_html__('3-6-3', 'pragyan')
 		),
 		'layout_6' => array(
-			'image' => trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-6.png',
+			'image' => esc_url(trailingslashit(get_template_directory_uri()) . 'core/customizer/assets/images/footer-6.png'),
 			'name' => esc_html__('4-3-2-3', 'pragyan')
 		),
 	);
@@ -88,22 +88,22 @@ if (!function_exists('pragyan_global_sidebar_layouts')) :
 			'pragyan_right_sidebar' =>
 				array(
 					'name' => esc_html__('RIGHT SIDEBAR', 'pragyan'),
-					'image' => $url . 'right-sidebar.png'
+					'image' => esc_url($url . 'right-sidebar.png')
 				),
 			'pragyan_left_sidebar' =>
 				array(
 					'name' => esc_html__('LEFT SIDEBAR', 'pragyan'),
-					'image' => $url . 'left-sidebar.png'
+					'image' => esc_url($url . 'left-sidebar.png')
 				),
 			'no_sidebar' =>
 				array(
 					'name' => esc_html__('NO SIDEBAR', 'pragyan'),
-					'image' => $url . 'no-sidebar.png'
+					'image' => esc_url($url . 'no-sidebar.png')
 				),
 			'full_width' =>
 				array(
 					'name' => esc_html__('FULL WIDTH', 'pragyan'),
-					'image' => $url . 'full-width.png'
+					'image' => esc_url($url . 'full-width.png')
 				)
 		);
 

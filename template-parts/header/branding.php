@@ -10,7 +10,7 @@
 			<?php if (!pragyan_has_custom_logo()): ?>
 				<h1 class="site-title">
 					<a href="<?php echo esc_url(home_url('/')); ?>"
-										  rel="home"><?php bloginfo('name'); ?></a></h1>
+					   rel="home"><?php bloginfo('name'); ?></a></h1>
 
 				<?php $description = get_bloginfo('description', 'display');
 				if ($description || is_customize_preview()) :
@@ -19,16 +19,22 @@
 				<?php endif; ?>
 			<?php endif; ?>
 		<?php else : ?>
-			<?php if (!pragyan_has_custom_logo()): ?>
-				<h1 class="site-title"><a href="<?php echo esc_url(home_url('/')); ?>"
-										  rel="home"><?php bloginfo('name'); ?></a></h1>
+			<?php if (!pragyan_has_custom_logo()):
+				echo '<h1>NO LOGO</h1>'; ?>
+				<h1 class="site-title">
+					<a href="<?php echo esc_url(home_url('/')); ?>"
+					   rel="home">
+						<?php bloginfo('name'); ?>
+					</a>
+				</h1>
 				<?php
 
 				$description = get_bloginfo('description', 'display');
 				if ($description || is_customize_preview()) :
 					?>
 					<p class="site-description"><?php echo wp_kses_data($description); ?></p>
-				<?php endif; endif; ?>
+				<?php endif;
+			endif; ?>
 
 		<?php endif; ?>
 
