@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Pragyan 0.0.1\n"
+"Project-Id-Version: Pragyan 0.0.2\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-07-22 10:15:12+00:00\n"
+"POT-Creation-Date: 2020-08-13 04:50:27+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -33,11 +33,11 @@ msgstr ""
 msgid "Comments are closed."
 msgstr ""
 
-#: core/class-pragyan-core.php:60
+#: core/class-pragyan-core.php:61
 msgid "Primary Menu"
 msgstr ""
 
-#: core/class-pragyan-core.php:61 template-parts/footer/bottom-footer.php:22
+#: core/class-pragyan-core.php:62 template-parts/footer/bottom-footer.php:22
 msgid "Footer Menu"
 msgstr ""
 
@@ -157,7 +157,7 @@ msgid "Layouts"
 msgstr ""
 
 #: core/customizer/sections/base/layouts.php:22
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:78
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:73
 msgid "Sidebar Layout"
 msgstr ""
 
@@ -185,7 +185,7 @@ msgstr ""
 
 #: core/customizer/sections/base/sidebar.php:6
 #: core/info/about/class-pragyan-about.php:470
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:107
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:102
 msgid "Sidebar"
 msgstr ""
 
@@ -193,7 +193,7 @@ msgstr ""
 #: core/customizer/sections/base/sidebar.php:83
 #: core/customizer/sections/base/sidebar.php:121
 #: core/customizer/sections/slider-and-services/services.php:96
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:169
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:135
 msgid "Background Color"
 msgstr ""
 
@@ -373,7 +373,7 @@ msgid "Footer"
 msgstr ""
 
 #: core/customizer/sections/theme-header-options.php:6
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:55
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:50
 msgid "Header"
 msgstr ""
 
@@ -459,7 +459,7 @@ msgid "Get started with %s"
 msgstr ""
 
 #: core/info/about/class-pragyan-about.php:242
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:50
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:45
 msgid "General"
 msgstr ""
 
@@ -581,20 +581,8 @@ msgstr ""
 msgid "Get More Features in Pragyan Pro"
 msgstr ""
 
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:112
+#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:107
 msgid "Default"
-msgstr ""
-
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:139
-msgid "Logo"
-msgstr ""
-
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:152
-msgid "Upload Logo"
-msgstr ""
-
-#: core/meta-boxes/class-pragyan-meta-box-page-settings.php:156
-msgid "Remove Logo"
 msgstr ""
 
 #: core/meta-boxes/class-pragyan-meta-box.php:42
@@ -690,7 +678,6 @@ msgid "Pragyan::Blog Post"
 msgstr ""
 
 #: core/widgets/class-pragyan-blog-post.php:27
-#: core/widgets/class-pragyan-cta.php:28
 msgid "Title"
 msgstr ""
 
@@ -709,46 +696,6 @@ msgstr ""
 #: core/widgets/class-pragyan-blog-post.php:106
 #: core/widgets/class-pragyan-tabbed.php:93 template-parts/post/content.php:20
 msgid "Read More"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:14
-msgid "Call to action widget"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:16
-msgid "Pragyan::CTA"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:36
-msgid "CTA Heading"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:43
-msgid "CTA Background"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:49
-msgid "Make parallax?"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:56
-msgid "Description Text"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:63
-msgid "Button URL"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:70
-msgid "Button Text"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:77
-msgid "Open in new tab"
-msgstr ""
-
-#: core/widgets/class-pragyan-cta.php:84
-msgid "Minimum Height"
 msgstr ""
 
 #: core/widgets/class-pragyan-tabbed.php:14
@@ -797,7 +744,11 @@ msgstr ""
 msgid "Select an Image"
 msgstr ""
 
-#: template-parts/header/main-header.php:71
+#: header.php:25
+msgid "Skip to content"
+msgstr ""
+
+#: template-parts/header/main-header.php:72
 msgid "Search Here.."
 msgstr ""
 

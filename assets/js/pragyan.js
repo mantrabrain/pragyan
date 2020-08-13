@@ -1,5 +1,5 @@
 (function ($) {
-
+	var pragyanLastFocusableEl;
 
 	var pragyanTheme = {
 		init: function () {
@@ -186,8 +186,8 @@
 		trapFocus: function (element, open_class) {
 			var focusableEls = element.querySelectorAll('a[href]:not([disabled]), button:not([disabled]), textarea:not([disabled]), input[type="text"]:not([disabled]), input[type="radio"]:not([disabled]), input[type="checkbox"]:not([disabled]), select:not([disabled])'),
 				firstFocusableEl = focusableEls[0];
-			lastFocusableEl = focusableEls[focusableEls.length - 1];
-			KEYCODE_TAB = 9;
+			pragyanLastFocusableEl = focusableEls[focusableEls.length - 1];
+			var KEYCODE_TAB = 9;
 
 			element.addEventListener('keydown', function (e) {
 				var isTabPressed = (e.key === 'Tab' || e.keyCode === KEYCODE_TAB);
@@ -203,11 +203,11 @@
 
 				if (e.shiftKey) /* shift + tab */ {
 					if (document.activeElement === firstFocusableEl) {
-						lastFocusableEl.focus();
+						pragyanLastFocusableEl.focus();
 						e.preventDefault();
 					}
 				} else /* tab */ {
-					if (document.activeElement === lastFocusableEl) {
+					if (document.activeElement === pragyanLastFocusableEl) {
 						firstFocusableEl.focus();
 						e.preventDefault();
 					}
