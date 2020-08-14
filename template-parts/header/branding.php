@@ -20,7 +20,7 @@
 			<?php endif; ?>
 		<?php else : ?>
 			<?php if (!pragyan_has_custom_logo()):
-				echo '<h1>NO LOGO</h1>'; ?>
+				 ?>
 				<h1 class="site-title">
 					<a href="<?php echo esc_url(home_url('/')); ?>"
 					   rel="home">
