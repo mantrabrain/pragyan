@@ -33,7 +33,7 @@ class Pragyan_Tabbed_Widget extends Pragyan_Widget_Base
 				'name' => 'recent_comment_tab_title',
 				'title' => esc_html__('Comments', 'pragyan'),
 				'type' => 'text',
-				'default' => esc_html__('Latest Posts', 'pragyan'),
+				'default' => esc_html__('Comments', 'pragyan'),
 
 			),
 		);

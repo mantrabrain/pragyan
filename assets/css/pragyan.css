@@ -3956,10 +3956,10 @@ html {
     width: 100%; }
 
 .pragyan-tabbed-widget-wrap .pragyan_latest_posts_tab_content,
-.pragyan-tabbed-widget-wrap .pragyan_latest_posts_tab_content {
+.pragyan-tabbed-widget-wrap .pragyan_recent_comments_tab_content {
   display: none; }
   .pragyan-tabbed-widget-wrap .pragyan_latest_posts_tab_content.active,
-  .pragyan-tabbed-widget-wrap .pragyan_latest_posts_tab_content.active {
+  .pragyan-tabbed-widget-wrap .pragyan_recent_comments_tab_content.active {
     display: block; }
 
 .pragyan-tabbed-widget-wrap .entry-meta li {
