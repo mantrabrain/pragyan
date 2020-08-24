@@ -53,7 +53,7 @@
 		margin-bottom: 35px;
 		line-height: 36px;
 		position: relative;
-		text-transform: uppercase;
+		text-transform: capitalize;
 
 		a {
 			color: inherit;
@@ -516,5 +516,77 @@ table#wp-calendar {
 
 	select {
 		color: #6f6f6f;
+	}
+}
+
+
+.gallery.gallery-columns-1 figure {
+	max-width: 100%;
+	-ms-flex-preferred-size: 100%;
+	flex-basis: 100%;
+}
+
+.gallery.gallery-columns-2 figure {
+	max-width: 50%;
+	-ms-flex-preferred-size: 50%;
+	flex-basis: 50%;
+}
+
+.gallery.gallery-columns-3 figure {
+	max-width: 33.33%;
+	-ms-flex-preferred-size: 33.33%;
+	flex-basis: 33.33%;
+}
+
+.gallery.gallery-columns-4 figure {
+	max-width: 25%;
+	-ms-flex-preferred-size: 25%;
+	flex-basis: 25%;
+}
+
+.gallery.gallery-columns-5 figure {
+	max-width: 20%;
+	-ms-flex-preferred-size: 20%;
+	flex-basis: 20%;
+}
+
+.gallery.gallery-columns-6 figure {
+	max-width: 16.66%;
+	-ms-flex-preferred-size: 16.66%;
+	flex-basis: 16.66%;
+}
+
+.gallery.gallery-columns-7 figure {
+	max-width: 14.285%;
+	-ms-flex-preferred-size: 14.285%;
+	flex-basis: 14.285%;
+}
+
+.gallery.gallery-columns-8 figure {
+	max-width: 12.5%;
+	-ms-flex-preferred-size: 12.5%;
+	flex-basis: 12.5%;
+}
+
+.gallery.gallery-columns-9 figure {
+	max-width: 11.11%;
+	-ms-flex-preferred-size: 11.11%;
+	flex-basis: 11.11%;
+}
+
+.widget_media_gallery {
+	.gallery {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 100%;
+
+		figure {
+			margin: 0;
+
+			.gallery-icon {
+				padding: 3px;
+			}
+		}
 	}
 }
