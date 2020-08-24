@@ -12,6 +12,35 @@ class Pragyan_Assets
 
 	}
 
+	public function fonts_url()
+	{
+
+		$fonts_url = '';
+		$fonts = array();
+		$subsets = 'latin,latin-ext';
+
+		/* translators: If there are characters in your language that are not supported by Roboto, translate this to 'off'. Do not translate into your own language. */
+		if ('off' !== _x('on', 'Roboto font: on or off', 'education-mind')) {
+			$fonts[] = 'Roboto:400italic,700italic,300,400,500,600,700';
+		}
+
+		/* translators: If there are characters in your language that are not supported by Signika, translate this to 'off'. Do not translate into your own language. */
+		if ('off' !== _x('on', 'Signika font: on or off', 'education-mind')) {
+			$fonts[] = 'Signika:400italic,700italic,300,400,500,600,700';
+		}
+
+		if ($fonts) {
+			$fonts_url = add_query_arg(array(
+				'family' => urlencode(implode('|', $fonts)),
+				'subset' => urlencode($subsets),
+			), 'https://fonts.googleapis.com/css');
+		}
+
+		return $fonts_url;
+
+	}
+
+
 	public function block_editor_styles()
 	{
 
@@ -54,6 +83,10 @@ class Pragyan_Assets
 	{
 
 
+		$fonts_url = $this->fonts_url();
+		if (!empty($fonts_url)) {
+			wp_enqueue_style('pragyan-google-fonts', $fonts_url, array(), PRAGYA_THEME_VERSION);
+		}
 		// Theme stylesheet.
 		wp_enqueue_style('pragyan-style', get_stylesheet_uri());
 		// Theme block stylesheet.
@@ -62,6 +95,7 @@ class Pragyan_Assets
 			wp_enqueue_style('bootstrap-rtl', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap-rtl.min.css');
 		}
 		wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.css', array(), '4.0.0');
+
 		wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/vendor/font-awesome/css/font-awesome.min.css', '4.7.0');
 
 

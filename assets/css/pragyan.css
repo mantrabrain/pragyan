@@ -343,7 +343,7 @@ dd {
 
 /* Typography */
 h1 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 700;
   color: #1b52a9;
   margin-bottom: 15px;
@@ -351,35 +351,35 @@ h1 {
   font-weight: 700; }
 
 h2 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 700;
   color: #1b52a9;
   margin-bottom: 15px;
   font-size: 36px; }
 
 h3 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 700;
   color: #1b52a9;
   margin-bottom: 15px;
   font-size: 28px; }
 
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 700;
   color: #1b52a9;
   margin-bottom: 15px;
   font-size: 22px; }
 
 h5 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 700;
   color: #1b52a9;
   margin-bottom: 15px;
   font-size: 18px; }
 
 h6 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-weight: 700;
   color: #1b52a9;
   margin-bottom: 15px;
@@ -391,7 +391,7 @@ button {
   font-weight: 600;
   padding: 1em 2em;
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   color: #505050;
   transition: all 0.5s ease;
   -webkit-transition: all 0.5s ease;
@@ -400,7 +400,7 @@ button {
 
 input {
   color: #505050;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -411,7 +411,7 @@ input {
 
 select {
   color: #505050;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -422,7 +422,7 @@ select {
 
 textarea {
   color: #505050;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 16px;
   font-weight: 500;
   line-height: 25px;
@@ -986,24 +986,24 @@ input[type="checkbox"] + label {
 
 ::-webkit-input-placeholder {
   color: #ccc;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Signika', sans-serif; }
 
 :-moz-placeholder {
   color: #ccc;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Signika', sans-serif; }
 
 ::-moz-placeholder {
   color: #ccc;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   opacity: 1; }
 
 :-ms-input-placeholder {
   color: #ccc;
-  font-family: 'Montserrat', sans-serif; }
+  font-family: 'Signika', sans-serif; }
 
 .pragyan-main-btn {
   text-transform: capitalize;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   background-color: #1b52a9;
   border: 0;
   border-radius: 3px;
@@ -1023,7 +1023,7 @@ input[type="checkbox"] + label {
     font-weight: 600;
     padding: 1em 2em;
     text-transform: capitalize;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Signika', sans-serif;
     color: #fff;
     display: block;
     -webkit-transition: .3s;
@@ -3576,7 +3576,7 @@ a.comment-reply-link:hover {
 
 .widget .widget-title {
   color: #1b52a9;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Signika', sans-serif;
   font-size: 24px;
   font-weight: 700;
   margin-bottom: 35px;
