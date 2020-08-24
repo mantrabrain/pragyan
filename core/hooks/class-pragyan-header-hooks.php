@@ -83,6 +83,7 @@ class Pragyan_Header_Hooks
 			'link' => '#',
 			'id' => 'pragyan-mobile-navigation-menu-icon',
 			'content' => '',
+			'type' => 'button'
 		));
 
 

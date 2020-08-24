@@ -112,16 +112,18 @@
 
 			});
 			$('body').on('click', '.pragyan-mobile-navigation-close', function () {
-				var nav = $(this).closest('.pragyan-mobile-navigation-menu');
-				nav.removeClass('opened-nav');
+				$('#pragyan-mobile-navigation-menu-icon').trigger('click').focus();
 			});
-			$('body').on('click focus', '.pragyan-mobile-navigation-menu-icon>a', function () {
+			$('body').on('click', '.pragyan-mobile-navigation-menu-icon>#pragyan-mobile-navigation-menu-icon', function (e) {
+				e.preventDefault();
 				var linked_panel = '.pragyan-mobile-navigation-menu';
 				if ($(this).hasClass('open')) {
+					console.log('remove open class');
 					$(this).removeClass('open');
 					$(linked_panel).removeClass('opened-nav');
 
 				} else {
+					console.log('add open class');
 					$(this).addClass('open');
 					$(linked_panel).addClass('opened-nav');
 					$(document).trigger('pragyan_focus_inside_element', ['pragyan-mobile-navigation-menu', '.pragyan-mobile-navigation-close', 'opened-nav']);

@@ -5,10 +5,8 @@
 		</div>
 		<div class="entry-content">
 			<header class="entry-header">
-				<div class="entry-contain">
 					<?php pragyan_entry_meta(); ?>
 					<?php the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
-				</div>
 			</header>
 			<!-- .entry-header -->
 			<div class="entry-summary">
