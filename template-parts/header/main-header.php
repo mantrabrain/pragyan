@@ -44,17 +44,17 @@ if ($sticky_header_enable) {
 								$icon_class = !isset($icon['icon']) ? 'fa fa-search' : $icon['icon'];
 								$content = !isset($icon['content']) ? '' : $icon['content'];
 								$wrap_class = !isset($icon['wrap_class']) ? '' : $icon['wrap_class'];
-								$type = !isset($icon['type']) ? 'a' : esc_attr($icon['type']);
+								$pragya_type = !isset($icon['type']) ? 'a' : esc_attr($icon['type']);
 								?>
 								<li class="<?php echo esc_attr($wrap_class); ?>">
-									<<?php echo $type ?>
-									<?php if($type=='a'){ ?>	href="<?php echo esc_attr($pragyan_link) ?>" <?php } ?>
+									<<?php echo $pragya_type ?>
+									<?php if($pragya_type=='a'){ ?>	href="<?php echo esc_attr($pragyan_link) ?>" <?php } ?>
 										id="<?php echo esc_attr($id_attribute); ?>">
 										<i class="<?php echo esc_attr($icon_class) ?>"></i>
 										<?php if ('' != $content) {
 											echo '<span>' . esc_html($content) . '</span>';
 										} ?>
-									</<?php echo $type; ?>>
+									</<?php echo $pragya_type; ?>>
 								</li>
 							<?php } ?>
 						</ul>
