@@ -20,12 +20,12 @@ class Pragyan_Assets
 		$subsets = 'latin,latin-ext';
 
 		/* translators: If there are characters in your language that are not supported by Roboto, translate this to 'off'. Do not translate into your own language. */
-		if ('off' !== _x('on', 'Roboto font: on or off', 'education-mind')) {
+		if ('off' !== _x('on', 'Roboto font: on or off', 'pragyan')) {
 			$fonts[] = 'Roboto:400italic,700italic,300,400,500,600,700';
 		}
 
 		/* translators: If there are characters in your language that are not supported by Signika, translate this to 'off'. Do not translate into your own language. */
-		if ('off' !== _x('on', 'Signika font: on or off', 'education-mind')) {
+		if ('off' !== _x('on', 'Signika font: on or off', 'pragyan')) {
 			$fonts[] = 'Signika:400italic,700italic,300,400,500,600,700';
 		}
 
