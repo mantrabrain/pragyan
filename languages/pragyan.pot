@@ -2,9 +2,9 @@
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Pragyan 0.0.2\n"
+"Project-Id-Version: Pragyan 0.0.3\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-08-13 04:50:27+00:00\n"
+"POT-Creation-Date: 2020-08-25 09:14:04+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -693,8 +693,8 @@ msgstr ""
 msgid "Number of Posts"
 msgstr ""
 
-#: core/widgets/class-pragyan-blog-post.php:106
-#: core/widgets/class-pragyan-tabbed.php:93 template-parts/post/content.php:20
+#: core/widgets/class-pragyan-blog-post.php:104
+#: core/widgets/class-pragyan-tabbed.php:92 template-parts/post/content.php:18
 msgid "Read More"
 msgstr ""
 
@@ -711,15 +711,15 @@ msgid "Posts"
 msgstr ""
 
 #: core/widgets/class-pragyan-tabbed.php:29
-#: core/widgets/class-pragyan-tabbed.php:36
 msgid "Latest Posts"
 msgstr ""
 
 #: core/widgets/class-pragyan-tabbed.php:34
+#: core/widgets/class-pragyan-tabbed.php:36
 msgid "Comments"
 msgstr ""
 
-#: core/widgets/class-pragyan-tabbed.php:120
+#: core/widgets/class-pragyan-tabbed.php:119
 msgid "&nbsp;commented on"
 msgstr ""
 
@@ -748,7 +748,7 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: template-parts/header/main-header.php:72
+#: template-parts/header/main-header.php:73
 msgid "Search Here.."
 msgstr ""
 
@@ -787,6 +787,21 @@ msgstr ""
 
 #. Author URI of the plugin/theme
 msgid "https://mantrabrain.com"
+msgstr ""
+
+#: core/class-pragyan-assets.php:23
+#. translators: If there are characters in your language that are not supported
+#. by Roboto, translate this to 'off'. Do not translate into your own language.
+msgctxt "Roboto font: on or off"
+msgid "on"
+msgstr ""
+
+#: core/class-pragyan-assets.php:28
+#. translators: If there are characters in your language that are not supported
+#. by Signika, translate this to 'off'. Do not translate into your own
+#. language.
+msgctxt "Signika font: on or off"
+msgid "on"
 msgstr ""
 
 #: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:198

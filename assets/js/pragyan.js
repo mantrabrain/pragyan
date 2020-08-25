@@ -118,13 +118,11 @@
 				e.preventDefault();
 				var linked_panel = '.pragyan-mobile-navigation-menu';
 				if ($(this).hasClass('open')) {
-					console.log('remove open class');
-					$(this).removeClass('open');
+ 					$(this).removeClass('open');
 					$(linked_panel).removeClass('opened-nav');
 
 				} else {
-					console.log('add open class');
-					$(this).addClass('open');
+ 					$(this).addClass('open');
 					$(linked_panel).addClass('opened-nav');
 					$(document).trigger('pragyan_focus_inside_element', ['pragyan-mobile-navigation-menu', '.pragyan-mobile-navigation-close', 'opened-nav']);
 
