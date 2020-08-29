@@ -7,9 +7,13 @@
 		<?php endif; ?>
 
 		<div class="entry-content">
+
 			<header class="entry-header">
 				<?php
-				pragyan_entry_meta();
+				if ('post' === get_post_type()) {
+
+					pragyan_entry_meta();
+				}
 
 				if (!is_singular()) { ?>
 					<?php the_title(sprintf('<h2 class="entry-title">', esc_url(get_permalink())), '</h2>'); ?>
