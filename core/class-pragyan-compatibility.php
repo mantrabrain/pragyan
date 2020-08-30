@@ -46,6 +46,8 @@ class Pragyan_Compatibility
 	{
 
 		require_once PRAGYA_THEME_DIR . '/core/compatibility/class-pragyan-sikshya.php';
+		require_once PRAGYA_THEME_DIR . '/core/compatibility/class-pragyan-learnpress.php';
+		require_once PRAGYA_THEME_DIR . '/core/compatibility/class-pragyan-tutor.php';
 
 
 	}
