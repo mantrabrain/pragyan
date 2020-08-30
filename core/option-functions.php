@@ -5,9 +5,10 @@ if (!function_exists('pragyan_base_sidebar_layout')) {
 	{
 		global $post;
 
-		if (isset($post->ID) && (is_single() || is_page())) {
+		if (isset($post->ID) && (is_single() || is_page()) || (isset($post->post_type) && ($post->post_type == 'page' || $post->post_type == 'post'))) {
 
 			$base_sidebar_layout = get_post_meta($post->ID, 'pragyan_base_sidebar_layout', true);
+
 
 			$base_sidebar_layout = $base_sidebar_layout == '' || is_null($base_sidebar_layout) ? pragyan_get_option('global_sidebar') : $base_sidebar_layout;
 

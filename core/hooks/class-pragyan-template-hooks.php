@@ -81,7 +81,8 @@ class Pragyan_Template_Hooks
 			$this->page_404();
 			return;
 		}elseif (pragyan_is_home_page()) {
-			return $this->homepage();
+			 $this->homepage();
+			 return;
 		}
 
 		$global_sidebar = pragyan_base_sidebar_layout();
@@ -113,7 +114,7 @@ class Pragyan_Template_Hooks
 
 						get_template_part('template-parts/post/single');
 
-					} else if (is_page()) {
+					} else if (is_page() || (get_post_type() !='post')) {
 						get_template_part('template-parts/page/content', 'page');
 
 					} else {

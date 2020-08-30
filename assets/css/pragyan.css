@@ -3987,7 +3987,9 @@ html {
 .pragyan-tabbed-widget-wrap .entry-meta li {
   border: none; }
 
-.home-page-side-content-sidebar .widget.pragyan_blog_post_widget .pragyan-blog-post li.item {
+.home-page-side-content-sidebar .widget.pragyan_blog_post_widget .pragyan-blog-post li.item,
+.pragyan-before-home-page-main-content-area .widget.pragyan_blog_post_widget .pragyan-blog-post li.item,
+.pragyan-after-home-page-main-content-area .widget.pragyan_blog_post_widget .pragyan-blog-post li.item {
   width: 100%;
   flex: 0 0 100%;
   max-width: 100%; }
@@ -4224,5 +4226,66 @@ p > object:only-child {
 
 .site-content .wp-playlist-item-length {
   top: 5px; }
+
+.home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body,
+.pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body,
+.pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body,
+.pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body,
+.pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body,
+.pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body,
+.pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body {
+  margin-left: -10px;
+  margin-right: -10px; }
+  .home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body:after, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body:after, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body:after,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body:after,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body:after,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body:after,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body:after,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body:after,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body:after {
+    content: '';
+    display: block;
+    clear: both; }
+  .home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry {
+    width: 33.33%;
+    float: left;
+    padding: 10px; }
+    .home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-cover, .home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-detail, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-cover, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-detail, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-cover, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-cover,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-cover,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-cover,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-cover,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-cover,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-cover,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-detail {
+      background: #fff; }
+    .home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-detail, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-detail, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-entry .course-detail,
+    .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-entry .course-detail {
+      padding: 10px;
+      border: 1px solid #ddd; }
+  .home-page-side-content-sidebar .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-cover img, .home-page-side-content-sidebar .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-cover img, .home-page-side-content-sidebar .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-cover img,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-cover img,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-cover img,
+  .pragyan-before-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-cover img,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-popular-courses .archive-course-widget-outer .widget-body .course-cover img,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-recent-courses .archive-course-widget-outer .widget-body .course-cover img,
+  .pragyan-after-home-page-main-content-area .widget.widget_lp-widget-featured-courses .archive-course-widget-outer .widget-body .course-cover img {
+    width: 100%; }
 
 /*# sourceMappingURL=pragyan.css.map */

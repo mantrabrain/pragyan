@@ -1,0 +1,53 @@
+.home-page-side-content-sidebar,
+.pragyan-before-home-page-main-content-area,
+.pragyan-after-home-page-main-content-area {
+
+	.widget {
+		&.widget_lp-widget-popular-courses,
+		&.widget_lp-widget-recent-courses,
+		&.widget_lp-widget-featured-courses {
+			.archive-course-widget-outer {
+				.widget-body {
+					margin-left: -10px;
+					margin-right: -10px;
+
+					&:after {
+						content: '';
+						display: block;
+						clear: both;
+					}
+
+					.course-entry {
+						width: 33.33%;
+
+						float: left;
+						padding: 10px;
+
+
+						.course-cover, .course-detail {
+							background: #fff;
+
+						}
+
+						.course-cover {
+
+						}
+
+						.course-detail {
+
+							padding: 10px;
+							border: 1px solid #ddd;
+						}
+
+					}
+
+					.course-cover {
+						img {
+							width: 100%;
+						}
+					}
+				}
+			}
+		}
+	}
+}
