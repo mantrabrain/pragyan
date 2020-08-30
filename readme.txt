@@ -4,7 +4,7 @@ Tags: blog, two-columns, left-sidebar, right-sidebar, custom-background, custom-
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 5.5
-Version: 0.0.3
+Version: 0.0.4
 Stable tag: 0.0.3
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
@@ -78,3 +78,11 @@ Images for theme screenshot
 Other Images, (C) mantrabrain
 Source: No source required, this resources were created by me from scratch -> ( theme author ) @ mantrabrain
 License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
+
+
+== Changelog ==
+
+= 0.0.4 | 2020/08/30 =
+	Fixed - Minor issue fixed
+	Added - Plugin compatibility
+

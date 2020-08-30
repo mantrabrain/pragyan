@@ -10,7 +10,9 @@
  * @since 1.0.0
  */
 
-define('PRAGYA_THEME_VERSION', '0.0.3	');
+$pragyan_theme = wp_get_theme('pragyan');
+
+define('PRAGYA_THEME_VERSION', $pragyan_theme->get('Version'));
 define('PRAGYA_THEME_SETTINGS', 'pragyan');
 define('PRAGYA_THEME_OPTION_PANEL', 'pragyan_theme_option_panel');
 define('PRAGYA_THEME_DIR', trailingslashit(get_template_directory()));
@@ -21,7 +23,7 @@ require_once PRAGYA_THEME_DIR . 'core/class-pragyan-core.php';
 
 function Pragyan()
 {
-    return Pragyan_Core::get_instance();
+	return Pragyan_Core::get_instance();
 
 }
 
