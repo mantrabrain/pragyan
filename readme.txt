@@ -11,7 +11,7 @@ License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
 == Description ==
 
-Pragyan is Clean, Elegant, SEO Friendly, Regularly Updated modern Education WordPress Theme.
+Pragyan is a perfect theme for educational institutions like schools, colleges, universities, and training institutes. Pragyan supports the most popular WordPress LMS plugins like LearnPress, Tutor LMS, Sikshya LMS, etc. You can create your online course selling site using any of the plugins with Pragyan theme. Pragyan is fully responsive and compatible with the most popular eCommerce plugin WooCommerce. It can be used for eCommerce purposes too. You can sell physical/digital products using WooCommerce with Pragyan theme. Setting up a home page is easy on the Pragyan theme. Some of the other features: #Widget Based Theme #Easy Homepage setup #Clean Customizer #Live Preview #SEO Ready #WooCommerce Support #LearnPress Support #Sikshya LMS Support #Tutor LMS Support #Elementor Compatible #Translation Ready #Fully Responsive #Extendible with premium plugin etc.
 
 == Installation ==
 
