@@ -4001,6 +4001,17 @@ html {
 .footer-top .widget.pragyan_blog_post_widget li:before {
   content: ""; }
 
+.footer-top .widget.pragyan_tabbed_widget li:before {
+  content: ""; }
+
+.footer-top .widget.pragyan_blog_post_widget .entry-header .entry-meta li, .footer-top .widget.pragyan_tabbed_widget .entry-header .entry-meta li {
+  margin: 0;
+  padding: 3px;
+  font-size: 12px;
+  letter-spacing: initial; }
+  .footer-top .widget.pragyan_blog_post_widget .entry-header .entry-meta li a, .footer-top .widget.pragyan_tabbed_widget .entry-header .entry-meta li a {
+    font-size: inherit; }
+
 /* Blocks */
 .wp-block-embed-soundcloud.wp-block-embed {
   height: 170px; }

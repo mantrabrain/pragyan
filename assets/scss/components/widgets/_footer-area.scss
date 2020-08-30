@@ -19,5 +19,26 @@
 				}
 			}
 		}
+
+		&.pragyan_tabbed_widget {
+			li {
+				&:before {
+					content: "";
+				}
+			}
+		}
+
+		&.pragyan_blog_post_widget, &.pragyan_tabbed_widget {
+			.entry-header .entry-meta li {
+				margin: 0;
+				padding: 3px;
+				font-size: 12px;
+				letter-spacing: initial;
+
+				a {
+					font-size: inherit;
+				}
+			}
+		}
 	}
 }
