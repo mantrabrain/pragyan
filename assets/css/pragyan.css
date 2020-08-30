@@ -3987,6 +3987,20 @@ html {
 .pragyan-tabbed-widget-wrap .entry-meta li {
   border: none; }
 
+.home-page-side-content-sidebar .widget.pragyan_blog_post_widget .pragyan-blog-post li.item {
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+.footer-top .widget.pragyan_blog_post_widget .pragyan-blog-post li.item {
+  list-style: none;
+  width: 100%;
+  flex: 0 0 100%;
+  max-width: 100%; }
+
+.footer-top .widget.pragyan_blog_post_widget li:before {
+  content: ""; }
+
 /* Blocks */
 .wp-block-embed-soundcloud.wp-block-embed {
   height: 170px; }
