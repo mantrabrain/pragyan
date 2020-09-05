@@ -1,6 +1,6 @@
 
 button {
-	background-color: $secondary_color;
+	background-color: $primary_color;
 	border: 0;
 	-webkit-box-shadow: none;
 	box-shadow: none;
@@ -17,8 +17,8 @@ button {
 	border-radius: 3px;
 
 	&:hover {
-		background: $primary_color;
-		color: $secondary_color;
+		background: $secondary_color;
+		color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		transition: all 0.5s ease;
 	}
@@ -26,7 +26,7 @@ button {
 }
 
 input[type="button"] {
-	background-color: $secondary_color;
+	background-color: $primary_color;
 	border: 0;
 	border-radius: 3px;
 	-webkit-box-shadow: none;
@@ -43,22 +43,22 @@ input[type="button"] {
 	transition: all 0.5s ease;
 
 	&:hover {
-		background: $primary_color;
-		color: $secondary_color;
+		background: $secondary_color;
+		color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		transition: all 0.5s ease;
 	}
 
 	&:focus {
-		background: $primary_color;
-		color: $secondary_color;
+		background: $secondary_color;
+		color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		transition: all 0.5s ease;
 	}
 }
 
 input[type="submit"] {
-	background-color: $secondary_color;
+	background-color: $primary_color;
 	border: 0;
 	border-radius: 3px;
 	-webkit-box-shadow: none;
@@ -75,22 +75,22 @@ input[type="submit"] {
 	transition: all 0.5s ease;
 
 	&:hover {
-		background: $primary_color;
-		color: $secondary_color;
+		background: $secondary_color;
+		color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		transition: all 0.5s ease;
 	}
 
 	&:focus {
-		background: $primary_color;
-		color: $secondary_color;
+		background: $secondary_color;
+		color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		transition: all 0.5s ease;
 	}
 }
 
 button.secondary {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 	color: #333;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -105,7 +105,7 @@ button.secondary {
 }
 
 input[type="reset"] {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 	color: #333;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -120,7 +120,7 @@ input[type="reset"] {
 }
 
 input[type="button"].secondary {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 	color: #333;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -135,7 +135,7 @@ input[type="button"].secondary {
 }
 
 input[type="reset"].secondary {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 	color: #333;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;
@@ -150,7 +150,7 @@ input[type="reset"].secondary {
 }
 
 input[type="submit"].secondary {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 	color: #333;
 	-webkit-transition: all 0.5s ease;
 	transition: all 0.5s ease;

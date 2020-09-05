@@ -60,7 +60,7 @@ div#comments {
 		>a {
 			&:last-child {
 				font-weight: 500;
-				color: $secondary_color;
+				color: $primary_color;
 			}
 		}
 	}
@@ -154,9 +154,9 @@ div#comments {
 		b.fn {
 			font-weight: 700;
 			font-size: 18px;
-			color: $secondary_color;
+			color: $primary_color;
 			a {
-				color: $secondary_color;
+				color: $primary_color;
 			}
 		}
 	}

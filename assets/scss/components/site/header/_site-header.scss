@@ -6,7 +6,7 @@
 }
 
 .header-top {
-	background-color: $secondary_color;
+	background-color: $primary_color;
 	padding-top: 23px;
 	padding-bottom: 23px;
 	transition: all 0.5s ease;
@@ -21,11 +21,11 @@
 				transition: all 0.5s ease;
 
 				&:hover {
-					color: $primary_color;
+					color: $secondary_color;
 					transition: all 0.5s ease;
 
 					i {
-						color: $primary_color;
+						color: $secondary_color;
 						transition: all 0.5s ease;
 					}
 				}
@@ -108,12 +108,12 @@
 					}
 
 					a {
-						color: $primary_color;
+						color: $secondary_color;
 						text-decoration: none;
 						font-size: 14px;
 						list-style: none;
 						display: inline-block;
-						color: $primary_color;
+						color: $secondary_color;
 						text-transform: initial;
 					}
 
@@ -178,15 +178,15 @@
 
 			a {
 				font-size: 18px;
-				color: $secondary_color;
+				color: $primary_color;
 				position: relative;
 				padding: 20px 10px;
 				display: block;
 
 				span {
 					font-size: 12px;
-					color: $secondary_color;
-					background-color: $primary_color;
+					color: $primary_color;
+					background-color: $secondary_color;
 					border-radius: 100px;
 					padding: 0px 4px;
 					position: absolute;
@@ -227,8 +227,8 @@
 			-webkit-transform: translate(-50%, -50%);
 			transform: translate(-50%, -50%);
 			background-color: #fff;
-			border: 2px solid $secondary_color;
-			color: $secondary_color;
+			border: 2px solid $primary_color;
+			color: $primary_color;
 			padding-left: 20px;
 			border-radius: 50px;
 		}
@@ -242,7 +242,7 @@
 			padding: 0;
 			border: 0;
 			background-color: transparent;
-			color: $secondary_color;
+			color: $primary_color;
 			cursor: pointer;
 			font-size: 16px;
 		}
@@ -269,7 +269,7 @@
 	span {
 		width: 30px;
 		height: 2px;
-		background-color: $secondary_color;
+		background-color: $primary_color;
 		position: relative;
 		display: block;
 
@@ -334,11 +334,11 @@
 	margin: 0;
 	padding: 0;
 	text-transform: uppercase;
-	color: $primary_color;
+	color: $secondary_color;
 	opacity: 1;
 
 	a {
-		color: $primary_color;
+		color: $secondary_color;
 		opacity: 1;
 	}
 }
@@ -510,7 +510,6 @@
 		font-size: 15px;
 		font-weight: 600;
 		padding: 25px 10px;
-		color: $secondary_color;
 		text-transform: uppercase;
 		font-style: normal;
 		text-decoration: none;
@@ -525,12 +524,12 @@
 
 		ul {
 			padding: 0;
-			background: $secondary_color;
+			background: $primary_color;
 			left: -999em;
 			position: absolute;
 			top: 100%;
 			z-index: 99;
-			border-top: 3px solid $primary_color;
+			border-top: 3px solid $secondary_color;
 
 			a {
 				position: relative;
@@ -543,7 +542,7 @@
 				display: block;
 
 				&:hover {
-					color: $primary_color;
+					color: $secondary_color;
 					border-color: transparent;
 					-webkit-transition: all 0.5s ease;
 					-moz-transition: all 0.5s ease;
@@ -610,7 +609,7 @@
 		ul {
 			.current-menu-item {
 				a {
-					color: $primary_color;
+					color: $secondary_color;
 
 					&:hover {
 						color: #fff;
@@ -626,19 +625,19 @@
 
 	li.current-menu-item {
 		> a {
-			color: $primary_color;
+			color: $secondary_color;
 		}
 	}
 
 	li.current-menu-ancestor {
 		> a {
-			color: $primary_color;
+			color: $secondary_color;
 		}
 	}
 
 	.current-menu-item.menu-item-home {
 		> a {
-			color: $secondary_color;
+			color: $primary_color;
 		}
 	}
 }
@@ -650,7 +649,7 @@
 }
 
 .header-menu.header-bg {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 
 	.pragyan-mobile-navigation-menu-icon {
 		a i {
@@ -704,7 +703,7 @@
 			ul {
 				.current-menu-item {
 					a {
-						color: $primary_color;
+						color: $secondary_color;
 					}
 				}
 			}
@@ -714,7 +713,7 @@
 
 .home {
 	.header-menu.home-header-bg {
-		background-color: $primary_color;
+		background-color: $secondary_color;
 
 		.pragyan-mobile-navigation-menu-icon {
 			a i {
@@ -768,7 +767,7 @@
 				ul {
 					.current-menu-item {
 						a {
-							color: $primary_color;
+							color: $secondary_color;
 						}
 					}
 				}
@@ -788,7 +787,7 @@
 			ul {
 				background: #fff;
 				box-shadow: 0 6px 12px rgba(0, 0, 0, 0.07);
-				border-top: 3px solid $primary_color;
+				border-top: 3px solid $secondary_color;
 
 				a {
 					color: #7b7b7b;
@@ -802,13 +801,13 @@
 
 		li.current-menu-item {
 			> a {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 		}
 
 		li.current-menu-ancestor {
 			> a {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 		}
 
@@ -816,7 +815,7 @@
 			ul {
 				.current-menu-item {
 					a {
-						color: $primary_color;
+						color: $secondary_color;
 					}
 				}
 			}
@@ -824,7 +823,7 @@
 
 		.current-menu-item.menu-item-home {
 			> a {
-				color: $secondary_color;
+				color: $primary_color;
 			}
 		}
 	}
@@ -974,10 +973,10 @@
 					border-right: 1px solid #ddd;
 
 					a {
-						color: $secondary_color;
+						color: $primary_color;
 
 						&:hover {
-							color: $primary_color;
+							color: $secondary_color;
 						}
 					}
 				}
@@ -992,15 +991,14 @@
 	-o-background-size: cover;
 	background-size: cover;
 	background-position: center;
-	min-height: 290px;
 	position: relative;
 	display: flex;
 	align-items: center;
-	padding: 25px 0;
+	padding: 145px 0;
 	width: 100%;
 
 	&:before {
-		background-color: $secondary_color;
+		background-color: $primary_color;
 		position: absolute;
 		content: "";
 		width: 100%;
@@ -1273,7 +1271,7 @@
 
 #pragyan-mobile-navigation-menu-icon {
 	background: none;
-	color: $secondary_color;
+	color: $primary_color;
 	padding-left: 10px;
 	padding-right: 10px;
 }

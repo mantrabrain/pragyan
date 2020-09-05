@@ -65,7 +65,7 @@
 	.nav-links {
 		.nav-title {
 			&:hover {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 		}
 	}
@@ -77,29 +77,8 @@
 		font-weight: 600;
 		text-decoration: none;
 		color: #fff;
-		background: $secondary_color;
+		background: $primary_color;
 		margin: 0 3px;
-		width: 40px;
-		height: 40px;
-		line-height: 33px;
-		border: 2px solid $secondary_color;
-		border-radius: 3px;
-		text-align: center;
-		-webkit-transition: all 0.4s linear;
-		transition: all 0.4s linear;
-		line-height: 37px;
-		&:hover {
-			color: $secondary_color;
-			background: $primary_color;
-			border: 2px solid $primary_color;
-			-webkit-transition: all 0.4s linear;
-			transition: all 0.4s linear;
-		}
-	}
-	.post-page-numbers.current {
-		font-size: 15px;
-		font-weight: 600;
-		color: $secondary_color;
 		width: 40px;
 		height: 40px;
 		line-height: 33px;
@@ -108,7 +87,28 @@
 		text-align: center;
 		-webkit-transition: all 0.4s linear;
 		transition: all 0.4s linear;
-		background: $primary_color;
+		line-height: 37px;
+		&:hover {
+			color: $primary_color;
+			background: $secondary_color;
+			border: 2px solid $secondary_color;
+			-webkit-transition: all 0.4s linear;
+			transition: all 0.4s linear;
+		}
+	}
+	.post-page-numbers.current {
+		font-size: 15px;
+		font-weight: 600;
+		color: $primary_color;
+		width: 40px;
+		height: 40px;
+		line-height: 33px;
+		border: 2px solid $secondary_color;
+		border-radius: 3px;
+		text-align: center;
+		-webkit-transition: all 0.4s linear;
+		transition: all 0.4s linear;
+		background: $secondary_color;
 		display: inline-block;
 		line-height: 37px;
 		&:hover {
@@ -124,20 +124,20 @@
 		font-weight: 600;
 		text-decoration: none;
 		color: #fff;
-		background: $secondary_color;
+		background: $primary_color;
 		margin: 0 3px;
 		width: 40px;
 		height: 40px;
 		line-height: 33px;
-		border: 2px solid $secondary_color;
+		border: 2px solid $primary_color;
 		border-radius: 3px;
 		text-align: center;
 		-webkit-transition: all 0.4s linear;
 		transition: all 0.4s linear;
 		&:hover {
-			color: $secondary_color;
-			background: $primary_color;
-			border: 2px solid $primary_color;
+			color: $primary_color;
+			background: $secondary_color;
+			border: 2px solid $secondary_color;
 			-webkit-transition: all 0.4s linear;
 			transition: all 0.4s linear;
 		}
@@ -148,16 +148,16 @@
 	.page-numbers.current {
 		font-size: 15px;
 		font-weight: 600;
-		color: $secondary_color;
+		color: $primary_color;
 		width: 40px;
 		height: 40px;
 		line-height: 33px;
-		border: 2px solid $primary_color;
+		border: 2px solid $secondary_color;
 		border-radius: 3px;
 		text-align: center;
 		-webkit-transition: all 0.4s linear;
 		transition: all 0.4s linear;
-		background: $primary_color;
+		background: $secondary_color;
 		display: inline-block;
 		&:hover {
 			-webkit-transition: all 0.4s linear;
@@ -166,7 +166,7 @@
 	}
 	.page-numbers.dots {
 		font-weight: 600;
-		color: $secondary_color;
+		color: $primary_color;
 		background: #fff;
 		width: 40px;
 		height: 40px;

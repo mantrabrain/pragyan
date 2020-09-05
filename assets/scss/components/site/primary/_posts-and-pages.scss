@@ -131,7 +131,7 @@ body.page {
 
 .entry-title {
 	a {
-		color: $secondary_color;
+		color: $primary_color;
 	}
 
 	&:not(:first-child) {
@@ -147,7 +147,7 @@ body.page {
 		color: $alternative_color;
 
 		&:hover {
-			color: $primary_color;
+			color: $secondary_color;
 		}
 	}
 
@@ -252,7 +252,7 @@ body {
 
 a.post-edit-link {
 	padding-left: 20px;
-	color: $secondary_color;
+	color: $primary_color;
 }
 
 .taxonomy-description {
@@ -312,7 +312,7 @@ article.page {
 }
 
 article.post.sticky {
-	border: 1px solid $secondary_color;
+	border: 1px solid $primary_color;
 }
 
 .page {
@@ -339,22 +339,22 @@ article.post.sticky {
 	.entry-title {
 		a {
 			&:hover {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 
 			&:focus {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 
 			&:active {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 		}
 	}
 
 	.entry-meta {
 		li {
-			font-size: 14px;
+			font-size: 13px;
 			letter-spacing: 0.1px;
 			font-weight: 500;
 			text-transform: uppercase;
@@ -379,7 +379,7 @@ article.post.sticky {
 
 	.entry-content {
 		.more-link {
-			color: $secondary_color;
+			color: $primary_color;
 			font-size: 15px;
 			font-weight: 500;
 
@@ -573,10 +573,10 @@ body {
 	.error-404-heading {
 		font-size: 60px;
 		margin-bottom: 10px;
-		color: $secondary_color;
+		color: $primary_color;
 
 		span {
-			color: $primary_color;
+			color: $secondary_color;
 		}
 	}
 
@@ -596,7 +596,7 @@ body {
 		transition: all 0.5s ease;
 
 		&:hover {
-			color: $primary_color;
+			color: $secondary_color;
 			text-decoration: underline;
 			-webkit-transition: all 0.5s ease;
 			transition: all 0.5s ease;
@@ -609,7 +609,7 @@ body {
 }
 
 .back-to-top {
-	background-color: $primary_color;
+	background-color: $secondary_color;
 	position: fixed;
 	bottom: 40px;
 	right: 40px;
@@ -625,7 +625,7 @@ body {
 
 	&:hover {
 		opacity: 1;
-		background: $secondary_color;
+		background: $primary_color;
 	}
 
 	> i {
@@ -674,7 +674,7 @@ body {
 			width: 50px;
 			height: 50px;
 			border-radius: 100%;
-			background-color: $secondary_color;
+			background-color: $primary_color;
 			-webkit-animation: pragyan-preloader 1.3s linear infinite;
 			animation: pragyan-preloader 1.3s linear infinite;
 
@@ -718,7 +718,7 @@ body {
 	right: 0;
 
 	a {
-		color: $secondary_color;
+		color: $primary_color;
 		width: 30px;
 		display: inline-block;
 		height: 30px;

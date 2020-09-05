@@ -1,9 +1,8 @@
 <?php
-$headre_background_image = '';
+$header_background_image = apply_filters('pragyan_breadcrumb_background_image', '');
 
 ?>
-<section class="pragyan-page-header"
-		 style="background-image: url('<?php if ($headre_background_image): ?><?php echo esc_url($headre_background_image); ?><?php else : ?><?php echo esc_url(get_header_image()); ?><?php endif ?>');">
+<section class="pragyan-page-header" id="breadcrumbs">
 	<div class="container">
 		<?php
 

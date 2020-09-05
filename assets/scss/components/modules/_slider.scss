@@ -94,7 +94,7 @@
 			background: #fff;
 
 			&.active {
-				background: $primary_color;
+				background: $secondary_color;
 				border-radius: 100%;
 				padding: 0;
 			}
@@ -135,7 +135,7 @@
 		padding: 12px 35px;
 		margin: 7px;
 		border-radius: 3px;
-		background: $secondary_color;
+		background: $primary_color;
 		color: #fff;
 		display: block;
 		-webkit-transition: .5s;
@@ -147,7 +147,7 @@
 		letter-spacing: 1px;
 
 		&:hover {
-			background: $primary_color;
+			background: $secondary_color;
 		}
 	}
 

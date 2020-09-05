@@ -25,7 +25,7 @@
 					transition: all 0.5s ease;
 
 					&:hover {
-						color: $primary_color;
+						color: $secondary_color;
 						-webkit-transition: all 0.5s ease;
 						transition: all 0.5s ease;
 					}
@@ -40,7 +40,7 @@
 				border-bottom: none;
 
 				&:before {
-					color: $primary_color;
+					color: $secondary_color;
 					content: "\f105";
 					font-family: 'Font Awesome 5 Free';
 					font-weight: 600;
@@ -72,7 +72,7 @@
 				transition: all 0.5s ease;
 
 				&:before {
-					color: $primary_color;
+					color: $secondary_color;
 					content: "\f0da";
 					font-family: 'Font Awesome 5 Free';
 					font-weight: 600;
@@ -87,7 +87,7 @@
 			ul {
 				li {
 					a {
-						color: $secondary_color;
+						color: $primary_color;
 					}
 				}
 			}
@@ -98,18 +98,18 @@
 		}
 
 		button {
-			background-color: $primary_color;
-			color: $secondary_color;
+			background-color: $secondary_color;
+			color: $primary_color;
 		}
 
 		input[type="button"] {
-			background-color: $primary_color;
-			color: $secondary_color;
+			background-color: $secondary_color;
+			color: $primary_color;
 		}
 
 		input[type="submit"] {
-			background-color: $primary_color;
-			color: $secondary_color;
+			background-color: $secondary_color;
+			color: $primary_color;
 		}
 
 		margin-bottom: 30px;
@@ -126,7 +126,7 @@
 
 				&:hover {
 					a {
-						color: $secondary_color;
+						color: $primary_color;
 					}
 				}
 
@@ -146,7 +146,7 @@
 
 				a {
 					&:hover {
-						color: $primary_color;
+						color: $secondary_color;
 					}
 				}
 			}
@@ -199,7 +199,7 @@
 				a {
 					&:hover {
 						margin-left: 5px;
-						color: $primary_color;
+						color: $secondary_color;
 						-webkit-transition: all 0.5s ease;
 						-moz-transition: all 0.5s ease;
 						-o-transition: all 0.5s ease;
@@ -234,7 +234,7 @@
 
 	.footer-top {
 		border-top: 1px solid #e0e0e0;
-		background-color: $secondary_color;
+		background-color: $primary_color;
 
 		.footer-wrap {
 			padding: 70px 0px 60px 0px;
@@ -258,13 +258,13 @@
 		font-weight: 700;
 		display: block;
 		margin-bottom: 20px;
-		color: $secondary_color;
+		color: $primary_color;
 
 		a {
 			color: $alternative_color;
 
 			&:hover {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 		}
 
@@ -282,13 +282,13 @@
 		font-weight: 700;
 		display: block;
 		margin-bottom: 20px;
-		color: $secondary_color;
+		color: $primary_color;
 
 		a {
 			color: $alternative_color;
 
 			&:hover {
-				color: $primary_color;
+				color: $secondary_color;
 			}
 		}
 
@@ -321,8 +321,8 @@
 			display: inline-block;
 
 			&:hover {
-				border-color: $secondary_color;
-				background: $secondary_color;
+				border-color: $primary_color;
+				background: $primary_color;
 				color: #fff;
 				transition: all 0.5s ease;
 			}
@@ -334,7 +334,7 @@
 		float: right;
 
 		a.post-edit-link {
-			background-color: $secondary_color;
+			background-color: $primary_color;
 			-webkit-border-radius: 2px;
 			border-radius: 2px;
 			color: #fff;
@@ -344,13 +344,13 @@
 			padding: 4px 20px;
 
 			&:hover {
-				background-color: $primary_color;
-				color: $secondary_color;
+				background-color: $secondary_color;
+				color: $primary_color;
 			}
 
 			&:focus {
-				background-color: $primary_color;
-				color: $secondary_color;
+				background-color: $secondary_color;
+				color: $primary_color;
 			}
 		}
 	}
@@ -490,7 +490,7 @@
 			-moz-transition: all 0.5s ease;
 			-o-transition: all 0.5s ease;
 			transition: all 0.5s ease;
-			color: $primary_color;
+			color: $secondary_color;
 		}
 
 		&:focus {
@@ -498,7 +498,7 @@
 			-moz-transition: all 0.5s ease;
 			-o-transition: all 0.5s ease;
 			transition: all 0.5s ease;
-			color: $primary_color;
+			color: $secondary_color;
 		}
 	}
 }
@@ -531,7 +531,7 @@
 			transition: all 0.5s ease;
 
 			&:hover {
-				color: $primary_color;
+				color: $secondary_color;
 				-webkit-transition: all 0.5s ease;
 				-moz-transition: all 0.5s ease;
 				-o-transition: all 0.5s ease;

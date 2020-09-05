@@ -21,7 +21,7 @@ input[type="text"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -40,7 +40,7 @@ input[type="email"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -59,7 +59,7 @@ input[type="url"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -78,7 +78,7 @@ input[type="password"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -97,7 +97,7 @@ input[type="search"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -116,7 +116,7 @@ input[type="number"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -135,7 +135,7 @@ input[type="tel"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -154,7 +154,7 @@ input[type="range"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -173,7 +173,7 @@ input[type="date"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -192,7 +192,7 @@ input[type="month"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -211,7 +211,7 @@ input[type="week"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -230,7 +230,7 @@ input[type="time"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -249,7 +249,7 @@ input[type="datetime"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -268,7 +268,7 @@ input[type="datetime-local"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -287,7 +287,7 @@ input[type="color"] {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -306,7 +306,7 @@ textarea {
 
 	&:focus {
 		color: #333;
-		border-color: $secondary_color;
+		border-color: $primary_color;
 		-webkit-transition: all 0.5s ease;
 		-moz-transition: all 0.5s ease;
 		-o-transition: all 0.5s ease;
@@ -374,7 +374,7 @@ input[type="checkbox"] + label {
 .pragyan-main-btn {
 	text-transform: capitalize;
 	font-family: 'Signika', sans-serif;
-	background-color: $secondary_color;
+	background-color: $primary_color;
 	border: 0;
 	border-radius: 3px;
 	box-shadow: none;
@@ -404,9 +404,9 @@ input[type="checkbox"] + label {
 	}
 
 	&:hover {
-		color: $secondary_color;
-		border-color: $primary_color;
-		background-color: $primary_color;
+		color: $primary_color;
+		border-color: $secondary_color;
+		background-color: $secondary_color;
 		text-decoration: none;
 		-webkit-transition: .3s;
 		-moz-transition: .3s;
@@ -424,9 +424,9 @@ input[type="checkbox"] + label {
 }
 
 .pragyan-main-btn-2 {
-	color: $primary_color;
-	border-color: $secondary_color;
-	background-color: $secondary_color;
+	color: $secondary_color;
+	border-color: $primary_color;
+	background-color: $primary_color;
 	-webkit-transition: .3s;
 	-moz-transition: .3s;
 	-o-transition: .3s;
@@ -434,8 +434,8 @@ input[type="checkbox"] + label {
 
 	&:hover {
 		color: #fff;
-		background-color: $primary_color;
-		border-color: $primary_color;
+		background-color: $secondary_color;
+		border-color: $secondary_color;
 		-webkit-transition: .3s;
 		-moz-transition: .3s;
 		-o-transition: .3s;

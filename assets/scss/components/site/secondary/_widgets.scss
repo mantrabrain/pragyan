@@ -46,7 +46,7 @@
 
 .widget {
 	.widget-title {
-		color: $secondary_color;
+		color: $primary_color;
 		font-family: 'Signika', sans-serif;
 		font-size: 24px;
 		font-weight: 700;
@@ -391,7 +391,7 @@ table#wp-calendar {
 
 	td#today {
 		color: #fff;
-		background-color: $secondary_color;
+		background-color: $primary_color;
 
 		a {
 			color: #fff;
@@ -430,7 +430,7 @@ table#wp-calendar {
 }
 
 .comment-author-link {
-	color: $secondary_color;
+	color: $primary_color;
 	font-weight: 700;
 }
 
