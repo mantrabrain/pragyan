@@ -16,7 +16,28 @@ class Pragyan_Header_Hooks
 		add_action('pragyan_after_page_start', array($this, 'header'), 11);
 		add_action('pragyan_main_header_right_icons', array($this, 'header_icons'));
 		add_action('pragyan_main_header_right_icons', array($this, 'hamburger_menu_icon'), 20);
-		//add_filter('pragyan_top_header_left_items', array($this, 'top_header_left_items'));
+		add_filter('pragyan_top_header_left_items', array($this, 'top_header_left_items'));
+
+	}
+
+	public function top_header_left_items($items = array())
+	{
+		$top_email = sanitize_text_field(pragyan_get_option('top_email'));
+		$top_phone = sanitize_text_field(pragyan_get_option('top_phone'));
+		$items[] = array(
+			'class' => '',
+			'icon' => 'fa fa-envelope',
+			'link' => 'mailto:' . esc_attr($top_email),
+			'content' => $top_email
+		);
+		$items[] = array(
+			'class' => '',
+			'icon' => 'fa fa-phone-alt',
+			'link' => 'tel:' . esc_attr($top_phone),
+			'content' => $top_phone
+		);
+		return $items;
+
 
 	}
 

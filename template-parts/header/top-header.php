@@ -25,7 +25,7 @@
 						$class = 'list-inline-item';
 						$class .= isset($item['class']) ? ' ' . $item['class'] : '';
 						$icon = isset($item['icon']) ? $item['icon'] : '';
-						$info_lnink = isset($item['link']) ? $item['link'] : '';
+						$info_link = isset($item['link']) ? $item['link'] : '';
 						$content = isset($item['content']) ? $item['content'] : '';
 						?>
 						<li class="<?php echo esc_attr($class); ?>">
@@ -33,11 +33,11 @@
 								<i class="<?php echo esc_attr($icon); ?>"></i>
 							<?php }
 
-							echo '' != $info_lnink ? '<a href="' . esc_url($info_lnink) . '">' : '<span>';
+							echo '' != $info_link ? '<a href="' . esc_url($info_link) . '">' : '<span>';
 
 							echo esc_html($content);
 
-							echo '' != $info_lnink ? '</a>' : '</span>';
+							echo '' != $info_link ? '</a>' : '</span>';
 
 							?>
 						</li>
