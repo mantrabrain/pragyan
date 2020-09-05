@@ -5,6 +5,7 @@
 		'theme_location' => 'primary',
 		'menu_id' => 'primary-menu',
 		'menu_class' => 'main-menu',
+		'fallback_cb' => 'pragyan_fallback_navigation'
 	));
 	?>
 </div>

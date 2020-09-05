@@ -141,3 +141,23 @@ if (!function_exists('pragyan_head_callback')):
 
 endif;
 
+
+if (!function_exists('pragyan_fallback_navigation')) {
+
+	function pragyan_fallback_navigation()
+	{
+
+		$home_url = esc_url(home_url('/'));
+		$fallback_menu = '<ul id="menu-primary" class="menu">';
+		$fallback_menu .= '<li><a href="' . $home_url . '" rel="home">' . esc_html__('Home', 'pragyan') . '</a></li>';
+		$fallback_menu .= '<li><a target="_blank" href="#" rel="courses">' . esc_html__('Courses', 'pragyan') . '</a></li>';
+		$fallback_menu .= '<li><a target="_blank" href="#" rel="notice">' . esc_html__('Notice', 'pragyan') . '</a></li>';
+		$fallback_menu .= '<li><a target="_blank" href="#" rel="events">' . esc_html__('Events', 'pragyan') . '</a></li>';
+		$fallback_menu .= '<li><a target="_blank" href="#" rel="blog">' . esc_html__('Blog', 'pragyan') . '</a></li>';
+		$fallback_menu .= '<li><a target="_blank" href="#" rel="contact">' . esc_html__('Contact', 'pragyan') . '</a></li>';
+		$fallback_menu .= '</ul>';
+		echo $fallback_menu;
+
+	}
+
+}

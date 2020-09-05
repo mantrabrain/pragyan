@@ -22,18 +22,19 @@ if ($sticky_header_enable) {
 			?>
 			<div class=" col col-lg-8 pull-right site-navigation-wrap">
 
-				<?php if (has_nav_menu('primary')) : ?>
-					<div class="navigation-section">
-						<nav id="site-navigation" class="main-navigation" role="navigation">
-							<?php wp_nav_menu(array(
-								'theme_location' => 'primary',
-								'menu_id' => 'primary-menu',
-								'menu_class' => 'main-menu',
-							));
-							?>
-						</nav>
-					</div><!-- .navigation-section -->
-				<?php endif; ?>
+
+				<div class="navigation-section">
+					<nav id="site-navigation" class="main-navigation" role="navigation">
+						<?php wp_nav_menu(array(
+							'theme_location' => 'primary',
+							'menu_id' => 'primary-menu',
+							'menu_class' => 'main-menu',
+							'fallback_cb' => 'pragyan_fallback_navigation'
+						));
+						?>
+					</nav>
+				</div><!-- .navigation-section -->
+
 				<?php if (count($right_icons) > 0) : ?>
 					<div class="pragyan-right-header" id="pragyan-right-header">
 
@@ -46,15 +47,15 @@ if ($sticky_header_enable) {
 								$wrap_class = !isset($icon['wrap_class']) ? '' : $icon['wrap_class'];
 								$pragya_type = !isset($icon['type']) ? 'a' : esc_attr($icon['type']);
 								?>
-								<li class="<?php echo esc_attr($wrap_class); ?>">
-									<<?php echo $pragya_type ?>
-									<?php if($pragya_type=='a'){ ?>	href="<?php echo esc_attr($pragyan_link) ?>" <?php } ?>
-										id="<?php echo esc_attr($id_attribute); ?>">
-										<i class="<?php echo esc_attr($icon_class) ?>"></i>
-										<?php if ('' != $content) {
-											echo '<span>' . esc_html($content) . '</span>';
-										} ?>
-									</<?php echo $pragya_type; ?>>
+							<li class="<?php echo esc_attr($wrap_class); ?>">
+								<<?php echo $pragya_type ?>
+								<?php if ($pragya_type == 'a') { ?>    href="<?php echo esc_attr($pragyan_link) ?>" <?php } ?>
+								id="<?php echo esc_attr($id_attribute); ?>">
+								<i class="<?php echo esc_attr($icon_class) ?>"></i>
+								<?php if ('' != $content) {
+									echo '<span>' . esc_html($content) . '</span>';
+								} ?>
+								</<?php echo $pragya_type; ?>>
 								</li>
 							<?php } ?>
 						</ul>
