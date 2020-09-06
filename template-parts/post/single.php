@@ -10,14 +10,18 @@
 
 			<header class="entry-header">
 				<?php
+
+				if (pragyan_single_post_post_title_show()) {
+					the_title('<h2 class="entry-title">', '</h2>');
+				}
 				if ('post' === get_post_type()) {
 
 					pragyan_entry_meta();
 				}
 
-				if (!is_singular()) { ?>
-					<?php the_title(sprintf('<h2 class="entry-title">', esc_url(get_permalink())), '</h2>'); ?>
-				<?php } ?>
+
+				?>
+
 			</header>
 			<?php
 			/* translators: %s: Name of current post */

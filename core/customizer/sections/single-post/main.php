@@ -64,3 +64,17 @@ $wp_customize->add_control(new Pragyan_Customizer_Control_Switch ($wp_customize,
 		'section' => 'single_post_content_meta_section'
 	)
 ));
+
+// Single Post Post Title
+$wp_customize->add_setting(pragyan_get_customizer_id('single_post_post_title_show'),
+	array(
+		'default' => $defaults['single_post_post_title_show'],
+		'sanitize_callback' => 'pragyan_switch_sanitization'
+	)
+);
+$wp_customize->add_control(new Pragyan_Customizer_Control_Switch ($wp_customize, pragyan_get_customizer_id('single_post_post_title_show'),
+	array(
+		'label' => esc_html__('Show/Hide Post Title', 'pragyan'),
+		'section' => 'single_post_content_meta_section'
+	)
+));

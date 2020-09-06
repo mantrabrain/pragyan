@@ -29,7 +29,7 @@ class Pragyan_Meta_Box_Page_Settings
 
 		$pragyan_bottom_header_background_color = get_post_meta(get_the_ID(), 'pragyan_bottom_header_background_color', true);
 
-		$pragyan_bottom_header_background_color = ($pragyan_bottom_header_background_color == '' || is_null($pragyan_bottom_header_background_color)) ? '#202f5b' : $pragyan_bottom_header_background_color;
+		$pragyan_bottom_header_background_color = ($pragyan_bottom_header_background_color == '' || is_null($pragyan_bottom_header_background_color)) ? '#ffffff' : $pragyan_bottom_header_background_color;
 
 		global $post;
 

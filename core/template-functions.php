@@ -161,3 +161,30 @@ if (!function_exists('pragyan_fallback_navigation')) {
 	}
 
 }
+
+if (!function_exists('pragyan_single_post_post_title_show')) {
+
+	function pragyan_single_post_post_title_show()
+	{
+		global $post;
+		$post_id = isset($post->ID) ? $post->ID : 0;
+		$pragyan_single_hide_page_title = get_post_meta($post_id, 'pragyan_single_hide_page_title', true);
+
+
+		switch ($pragyan_single_hide_page_title) {
+
+			case "show":
+				return true;
+				break;
+			case "hide":
+				return false;
+				break;
+			default:
+				$single_post_post_title_show = (boolean)pragyan_get_option('single_post_post_title_show');
+				return $single_post_post_title_show ? true : false;
+				break;
+		}
+		return false;
+	}
+
+}

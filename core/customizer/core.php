@@ -101,6 +101,7 @@ if (!function_exists('pragyan_get_default_options')) {
 			'single_post_date_show' => true,
 			'single_post_category_show' => true,
 			'single_post_comment_show' => true,
+			'single_post_post_title_show' => true,
 
 			// Footer
 			'copyright_text' => 'Copyright © All rights reserved',
