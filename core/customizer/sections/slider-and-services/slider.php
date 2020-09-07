@@ -76,7 +76,7 @@ if ($slider_number > 0) {
 		$wp_customize->add_setting(pragyan_get_customizer_id("slider_section_apply_button_link_{$i}"),
 			array(
 				'default' => $defaults["slider_section_apply_button_link_{$i}"],
-				'sanitize_callback' => 'esc_url',
+				'sanitize_callback' => 'esc_url_raw',
 			)
 		);
 		$wp_customize->add_control(pragyan_get_customizer_id("slider_section_apply_button_link_{$i}"),
@@ -104,7 +104,7 @@ if ($slider_number > 0) {
 		$wp_customize->add_setting(pragyan_get_customizer_id("slider_section_learn_more_button_link_{$i}"),
 			array(
 				'default' => $defaults["slider_section_learn_more_button_link_{$i}"],
-				'sanitize_callback' => 'esc_url',
+				'sanitize_callback' => 'esc_url_raw',
 			)
 		);
 		$wp_customize->add_control(pragyan_get_customizer_id("slider_section_learn_more_button_link_{$i}"),

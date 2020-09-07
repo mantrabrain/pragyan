@@ -1652,7 +1652,7 @@ body.boxed_content_layout #page {
         font-size: 18px;
         color: #1b52a9;
         position: relative;
-        padding: 20px 10px;
+        padding: 25px 10px;
         display: block; }
         .pragyan-right-header ul li a span {
           font-size: 12px;
@@ -1944,7 +1944,7 @@ body.boxed_content_layout #page {
     .main-navigation ul ul.toggled-on {
       display: block; }
     .main-navigation ul li:hover > ul, .main-navigation ul li.focus > ul {
-      left: 0.5em;
+      left: 0;
       right: auto; }
     .main-navigation ul > li ul li:hover > ul, .main-navigation ul > li ul li.focus > ul {
       left: 100%;
@@ -2096,24 +2096,24 @@ body.boxed_content_layout #page {
   .admin-bar .is-header-sticky {
     top: 46px; } }
 
-.main-navigation li.menu-item.menu-item-has-children > a:after {
+.pragyan-main-menu li.menu-item.menu-item-has-children > a:after {
   content: "\f107";
   font-family: "Font Awesome 5 Free";
   font-weight: 600;
   margin: 0 7px 0 7px;
   float: right; }
 
-.main-navigation li.menu-item.menu-item-has-children:hover > a:first-child:after, .main-navigation li.menu-item.menu-item-has-children.focus > a:first-child:after {
+.pragyan-main-menu li.menu-item.menu-item-has-children:hover > a:first-child:after, .pragyan-main-menu li.menu-item.menu-item-has-children.focus > a:first-child:after {
   content: "\f106"; }
 
-.main-navigation ul.main-menu > li ul li {
+.pragyan-main-menu ul.main-menu > li ul li {
   background: #fff;
   border-bottom: 1px solid #ddd;
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd; }
-  .main-navigation ul.main-menu > li ul li a {
+  .pragyan-main-menu ul.main-menu > li ul li a {
     color: #1b52a9; }
-    .main-navigation ul.main-menu > li ul li a:hover {
+    .pragyan-main-menu ul.main-menu > li ul li a:hover {
       color: #00adff; }
 
 .pragyan-page-header {
@@ -2293,7 +2293,9 @@ body.boxed_content_layout #page {
   .pragyan-right-header ul li a {
     padding: 20px 5px; }
   .site-header .header-top {
-    display: none; } }
+    display: none; }
+  .pragyan-main-menu li.menu-item.menu-item-has-children > a:after {
+    content: none !important; } }
 
 .main-header {
   background: #fff;

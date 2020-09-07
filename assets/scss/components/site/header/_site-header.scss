@@ -180,7 +180,7 @@
 				font-size: 18px;
 				color: $primary_color;
 				position: relative;
-				padding: 20px 10px;
+				padding: 25px 10px;
 				display: block;
 
 				span {
@@ -579,7 +579,7 @@
 		li {
 			&:hover, &.focus {
 				> ul {
-					left: 0.5em;
+					left: 0;
 					right: auto;
 				}
 			}
@@ -939,7 +939,7 @@
 	}
 }
 
-.main-navigation {
+.pragyan-main-menu {
 	li.menu-item.menu-item-has-children {
 		& > a {
 			&:after {
@@ -1261,6 +1261,10 @@
 		.header-top {
 			display: none;
 		}
+	}
+
+	.pragyan-main-menu li.menu-item.menu-item-has-children > a:after {
+		content: none !important;
 	}
 }
 

@@ -14,7 +14,7 @@ if (!function_exists('pragyan_get_color_css')) {
 
 
 		if ('' != $header_background_color && '#ffffff' != $header_background_color) {
-			$css .= '.main-header{background-color:' . esc_attr($header_background_color) . '} ';
+			$css .= '.main-header, .pragyan-search-box{background-color:' . esc_attr($header_background_color) . '} ';
 		}
 		$services_margin_top = pragyan_get_option('services_margin_top');
 

@@ -29,6 +29,7 @@ if ($sticky_header_enable) {
 							'theme_location' => 'primary',
 							'menu_id' => 'primary-menu',
 							'menu_class' => 'main-menu',
+							'container_class' => 'pragyan-main-menu',
 							'fallback_cb' => 'pragyan_fallback_navigation'
 						));
 						?>
