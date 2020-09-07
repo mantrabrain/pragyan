@@ -25,11 +25,11 @@ class Pragyan_Customizer_Control_Switch extends WP_Customize_Control
 
     public function enqueue()
     {
-        $css_uri = PRAGYA_THEME_URI . 'core/customizer/controls/switch/';
+        $css_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/switch/';
 
-        $js_uri = PRAGYA_THEME_URI . 'core/customizer/controls/switch/';
+        $js_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/switch/';
 
-        wp_enqueue_style('pragyan-control-switch-style', $css_uri . 'switch.css', null, PRAGYA_THEME_VERSION);
+        wp_enqueue_style('pragyan-control-switch-style', $css_uri . 'switch.css', null, PRAGYAN_THEME_VERSION);
 
     }
 

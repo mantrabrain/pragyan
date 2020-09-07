@@ -24,9 +24,9 @@ class Pragyan_Customizer_Control_Heading extends WP_Customize_Control
     public function enqueue()
     {
 
-        $css_uri = PRAGYA_THEME_URI . 'core/customizer/controls/heading/';
+        $css_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/heading/';
 
-        wp_enqueue_style('pragyan-heading-control-css', $css_uri . 'heading.css', array(), PRAGYA_THEME_VERSION);
+        wp_enqueue_style('pragyan-heading-control-css', $css_uri . 'heading.css', array(), PRAGYAN_THEME_VERSION);
 
 
     }

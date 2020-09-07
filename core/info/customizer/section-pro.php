@@ -35,7 +35,7 @@ class Pragyan_Section_Pro_Customizer
 
 	public function enqueue_control_scripts()
 	{
-		$script_uri = PRAGYA_THEME_URI . 'core/info/customizer/control/';
+		$script_uri = PRAGYAN_THEME_URI . 'core/info/customizer/control/';
 
 		wp_enqueue_script('pragyan-customizer-pro-control-js', $script_uri . 'pro.js', array('customize-controls'));
 		wp_enqueue_style('pragyan-customizer-pro-control-css', $script_uri . 'pro.css');

@@ -61,8 +61,8 @@ class Pragyan_Customizer
 
 	public function register_panel($wp_customize)
 	{
-		require_once PRAGYA_THEME_DIR . 'core/customizer/class-pragyan-customizer-panel.php';
-		require_once PRAGYA_THEME_DIR . 'core/customizer/class-pragyan-customizer-section.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/class-pragyan-customizer-panel.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/class-pragyan-customizer-section.php';
 
 		$wp_customize->register_panel_type('Pragyan_Customizer_Panel');
 		$wp_customize->register_section_type('Pragyan_Customizer_Section');
@@ -75,7 +75,7 @@ class Pragyan_Customizer
 		wp_enqueue_script('pragyan-customize-controls', trailingslashit(get_template_directory_uri()) . '/assets/js/customize-controls.js', array(), 1.0, true);
 
 		wp_enqueue_script('pragyan-theme-extend-customizer-js', get_template_directory_uri() . '/core/customizer/assets/js/extend-customizer.js', array(), '', true);
-		wp_enqueue_style('pragyan-theme-extend-customizer-css', get_template_directory_uri() . '/core/customizer/assets/css/extend-customizer.css', array(), PRAGYA_THEME_VERSION);
+		wp_enqueue_style('pragyan-theme-extend-customizer-css', get_template_directory_uri() . '/core/customizer/assets/css/extend-customizer.css', array(), PRAGYAN_THEME_VERSION);
 
 	}
 
@@ -92,12 +92,12 @@ class Pragyan_Customizer
 	{
 
 
-		require_once PRAGYA_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-switch.php';
-		require_once PRAGYA_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-slider.php';
-		require_once PRAGYA_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-heading.php';
-		require_once PRAGYA_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-color.php';
-		require_once PRAGYA_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-radio.php';
-		require_once PRAGYA_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-buttonset.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-switch.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-slider.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-heading.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-color.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-radio.php';
+		require_once PRAGYAN_THEME_DIR . 'core/customizer/controls/class-pragyan-customizer-control-buttonset.php';
 
 		$wp_customize->register_control_type('Pragyan_Customizer_Control_Switch');
 		$wp_customize->register_control_type('Pragyan_Customizer_Control_Slider');

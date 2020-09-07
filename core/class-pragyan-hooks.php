@@ -43,10 +43,10 @@ class Pragyan_Hooks
      */
     public function includes()
     {
-        include_once PRAGYA_THEME_DIR . 'core/hooks/class-pragyan-header-hooks.php';
-        include_once PRAGYA_THEME_DIR . 'core/hooks/class-pragyan-template-hooks.php';
-        include_once PRAGYA_THEME_DIR . 'core/hooks/class-pragyan-misc-hooks.php';
-        include_once PRAGYA_THEME_DIR . 'core/hooks/class-pragyan-footer-hooks.php';
+        include_once PRAGYAN_THEME_DIR . 'core/hooks/class-pragyan-header-hooks.php';
+        include_once PRAGYAN_THEME_DIR . 'core/hooks/class-pragyan-template-hooks.php';
+        include_once PRAGYAN_THEME_DIR . 'core/hooks/class-pragyan-misc-hooks.php';
+        include_once PRAGYAN_THEME_DIR . 'core/hooks/class-pragyan-footer-hooks.php';
 
 
     }

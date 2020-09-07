@@ -14,9 +14,9 @@ class Pragyan_Customizer_Control_Radio extends WP_Customize_Control
 	 */
 	public function enqueue()
 	{
-		$css_uri = PRAGYA_THEME_URI . 'core/customizer/controls/radio/';
+		$css_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/radio/';
 
-		wp_enqueue_style('pragyan-radio-control-css', $css_uri . 'radio.css', array(), PRAGYA_THEME_VERSION);
+		wp_enqueue_style('pragyan-radio-control-css', $css_uri . 'radio.css', array(), PRAGYAN_THEME_VERSION);
 
 	}
 

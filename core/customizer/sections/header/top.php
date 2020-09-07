@@ -5,7 +5,7 @@ $wp_customize->add_section(new Pragyan_Customizer_Section(
 	$wp_customize,
 	'pragyan_top_header_section', array(
 	'title' => esc_html__('Top Header', 'pragyan'),
-	'panel' => PRAGYA_THEME_OPTION_PANEL,
+	'panel' => PRAGYAN_THEME_OPTION_PANEL,
 	'section' => 'header_naviation_panel',
 	'priority' => 100,
 )));

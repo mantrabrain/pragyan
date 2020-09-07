@@ -167,34 +167,34 @@ final class Pragyan_Core
 		/**
 		 * Implement the Custom Header feature.
 		 */
-		require PRAGYA_THEME_DIR . '/core/functions.php';
+		require PRAGYAN_THEME_DIR . '/core/functions.php';
 
 
 		// Classes
-		require PRAGYA_THEME_DIR . '/core/class-pragyan-assets.php';
-		require PRAGYA_THEME_DIR . '/core/class-pragyan-compatibility.php';
+		require PRAGYAN_THEME_DIR . '/core/class-pragyan-assets.php';
+		require PRAGYAN_THEME_DIR . '/core/class-pragyan-compatibility.php';
 
-		require PRAGYA_THEME_DIR . '/core/class-pragyan-customizer.php';
-		require PRAGYA_THEME_DIR . '/core/class-pragyan-widgets.php';
-		require PRAGYA_THEME_DIR . '/core/class-pragyan-hooks.php';
+		require PRAGYAN_THEME_DIR . '/core/class-pragyan-customizer.php';
+		require PRAGYAN_THEME_DIR . '/core/class-pragyan-widgets.php';
+		require PRAGYAN_THEME_DIR . '/core/class-pragyan-hooks.php';
 
 		// Vendors
 
-		require PRAGYA_THEME_DIR . '/core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php';
+		require PRAGYAN_THEME_DIR . '/core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php';
 
 
-		require PRAGYA_THEME_DIR . '/core/dynamic-style.php';
-		require PRAGYA_THEME_DIR . '/core/misc-functions.php';
-		require PRAGYA_THEME_DIR . '/core/template-tags.php';
-		require PRAGYA_THEME_DIR . '/core/template-functions.php';
-		require PRAGYA_THEME_DIR . '/core/option-functions.php';
+		require PRAGYAN_THEME_DIR . '/core/dynamic-style.php';
+		require PRAGYAN_THEME_DIR . '/core/misc-functions.php';
+		require PRAGYAN_THEME_DIR . '/core/template-tags.php';
+		require PRAGYAN_THEME_DIR . '/core/template-functions.php';
+		require PRAGYAN_THEME_DIR . '/core/option-functions.php';
 
 
 		if (is_admin()) {
 			// Meta boxes.
-			require PRAGYA_THEME_DIR . '/core/meta-boxes/class-pragyan-meta-box-page-settings.php';
-			require PRAGYA_THEME_DIR . '/core/meta-boxes/class-pragyan-meta-box.php';
-			require PRAGYA_THEME_DIR . '/core/info/class-pragyan-theme-information.php';
+			require PRAGYAN_THEME_DIR . '/core/meta-boxes/class-pragyan-meta-box-page-settings.php';
+			require PRAGYAN_THEME_DIR . '/core/meta-boxes/class-pragyan-meta-box.php';
+			require PRAGYAN_THEME_DIR . '/core/info/class-pragyan-theme-information.php';
 
 		}
 

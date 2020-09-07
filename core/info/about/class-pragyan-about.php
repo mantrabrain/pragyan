@@ -287,8 +287,8 @@ class Pragyan_About
 			return;
 		}
 
-		wp_enqueue_style('pragyan-admin-about', esc_url(get_template_directory_uri()) . '/core/info/assets/css/about.css', false, PRAGYA_THEME_VERSION);
-		wp_register_script('pragyan-admin-about-js', esc_url(get_template_directory_uri()) . '/core/info/assets/js/about.js', array('jquery'), PRAGYA_THEME_VERSION);
+		wp_enqueue_style('pragyan-admin-about', esc_url(get_template_directory_uri()) . '/core/info/assets/css/about.css', false, PRAGYAN_THEME_VERSION);
+		wp_register_script('pragyan-admin-about-js', esc_url(get_template_directory_uri()) . '/core/info/assets/js/about.js', array('jquery'), PRAGYAN_THEME_VERSION);
 		$translation = array(
 			'button_text' => esc_html__('Processing...', 'pragyan'),
 			'nonce' => wp_create_nonce('pragyan_theme_starter_site_install_nonce'),

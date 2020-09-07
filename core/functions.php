@@ -82,7 +82,7 @@ if (!function_exists('pragyan_global_sidebar_layouts')) :
 	{
 
 
-		$url = PRAGYA_THEME_URI . 'assets/images/icons/';
+		$url = PRAGYAN_THEME_URI . 'assets/images/icons/';
 
 		return array(
 			'pragyan_right_sidebar' =>

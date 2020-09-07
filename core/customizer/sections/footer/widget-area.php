@@ -4,7 +4,7 @@ $wp_customize->add_section(new Pragyan_Customizer_Section(
 	$wp_customize,
 	'footer_widget_area_section', array(
 	'title' => esc_html__('Widget Area', 'pragyan'),
-	'panel' => PRAGYA_THEME_OPTION_PANEL,
+	'panel' => PRAGYAN_THEME_OPTION_PANEL,
 	'section' => 'pragyan_footer_section',
 	'priority' => 20,
 )));

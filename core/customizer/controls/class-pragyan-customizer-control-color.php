@@ -29,7 +29,7 @@ if (!class_exists('Pragyan_Customizer_Control_Color')) :
 		public function enqueue()
 		{
 
-			$control_uri = PRAGYA_THEME_URI . 'core/customizer/controls/color/';
+			$control_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/color/';
 
 			// Control type.
 			$pragyan_type = str_replace('pragyan-', '', $this->type);
@@ -42,7 +42,7 @@ if (!class_exists('Pragyan_Customizer_Control_Color')) :
 				'pragyan-' . $pragyan_type . '-control-style',
 				$control_uri. $pragyan_type  . '.css',
 				false,
-				PRAGYA_THEME_VERSION,
+				PRAGYAN_THEME_VERSION,
 				'all'
 			);
 
@@ -51,7 +51,7 @@ if (!class_exists('Pragyan_Customizer_Control_Color')) :
 				'pragyan-' . $pragyan_type . '-js',
 				$control_uri. $pragyan_type  . '.js',
 				array('jquery', 'customize-base', 'wp-color-picker'),
-				PRAGYA_THEME_VERSION,
+				PRAGYAN_THEME_VERSION,
 				true
 			);
 

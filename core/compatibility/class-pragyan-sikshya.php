@@ -51,7 +51,7 @@ if (!class_exists('Pragyan_Sikshya')) :
 		public function scripts()
 		{
 
-			wp_enqueue_style('pragyan-sikshya', get_template_directory_uri() . '/assets/css/sikshya.css', array(), PRAGYA_THEME_VERSION);
+			wp_enqueue_style('pragyan-sikshya', get_template_directory_uri() . '/assets/css/sikshya.css', array(), PRAGYAN_THEME_VERSION);
 		}
 
 	}

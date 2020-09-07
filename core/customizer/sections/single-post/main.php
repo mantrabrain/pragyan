@@ -4,7 +4,7 @@ $wp_customize->add_section(new Pragyan_Customizer_Section(
 	$wp_customize,
 	'single_post_content_meta_section', array(
 	'title' => esc_html__('Content & Metas', 'pragyan'),
-	'panel' => PRAGYA_THEME_OPTION_PANEL,
+	'panel' => PRAGYAN_THEME_OPTION_PANEL,
 	'section' => 'pragyan_single_post_section',
 	'priority' => 20,
 )));

@@ -28,11 +28,11 @@ class Pragyan_Customizer_Control_Slider extends WP_Customize_Control
     public function enqueue()
     {
 
-        $script_uri = PRAGYA_THEME_URI . 'core/customizer/controls/slider/';
+        $script_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/slider/';
 
-        wp_enqueue_script('pragyan-slider-control-js', $script_uri . 'slider.js', array('jquery'), PRAGYA_THEME_VERSION, true);
+        wp_enqueue_script('pragyan-slider-control-js', $script_uri . 'slider.js', array('jquery'), PRAGYAN_THEME_VERSION, true);
 
-        wp_enqueue_style('pragyan-slider-control-css', $script_uri . 'slider.css', array(), PRAGYA_THEME_VERSION);
+        wp_enqueue_style('pragyan-slider-control-css', $script_uri . 'slider.css', array(), PRAGYAN_THEME_VERSION);
 
 
     }

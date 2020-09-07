@@ -4,7 +4,7 @@ $wp_customize->add_section(new Pragyan_Customizer_Section(
 	$wp_customize,
 	'error_404_section', array(
 	'title' => esc_html__('404 Page', 'pragyan'),
-	'panel' => PRAGYA_THEME_OPTION_PANEL,
+	'panel' => PRAGYAN_THEME_OPTION_PANEL,
 	'section' => 'pragyan_base_section',
 	'priority' => 80,
 )));

@@ -23,13 +23,13 @@ class Pragyan_Customizer_Control_Buttonset extends WP_Customize_Control
 	 */
 	public function enqueue()
 	{
-		$script_uri = PRAGYA_THEME_URI . 'core/customizer/controls/buttonset/';
+		$script_uri = PRAGYAN_THEME_URI . 'core/customizer/controls/buttonset/';
 
 
 		//wp_enqueue_script('jquery-ui-resizable');
-		wp_enqueue_script('pragyan-buttonset-control-js', $script_uri . 'buttonset.js', array('jquery', 'customize-base'), PRAGYA_THEME_VERSION, true);
+		wp_enqueue_script('pragyan-buttonset-control-js', $script_uri . 'buttonset.js', array('jquery', 'customize-base'), PRAGYAN_THEME_VERSION, true);
 
-		wp_enqueue_style('pragyan-buttonset-control-css', $script_uri . 'buttonset.css', array(), PRAGYA_THEME_VERSION);
+		wp_enqueue_style('pragyan-buttonset-control-css', $script_uri . 'buttonset.css', array(), PRAGYAN_THEME_VERSION);
 	}
 
 	/**

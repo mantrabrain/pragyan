@@ -5,7 +5,7 @@ $wp_customize->add_section(new Pragyan_Customizer_Section(
 	$wp_customize,
 	'pragyan_base_section', array(
 	'title' => esc_html__('Base (Global)', 'pragyan'),
-	'panel' => PRAGYA_THEME_OPTION_PANEL,
+	'panel' => PRAGYAN_THEME_OPTION_PANEL,
 	'priority' => 100,
 )));
 require_once 'base/layouts.php';

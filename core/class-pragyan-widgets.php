@@ -122,10 +122,10 @@ class Pragyan_Widgets
 	public function includes()
 	{
 
-		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-widget-base.php';
-		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-widget-validation.php';
-		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-blog-post.php';
-		require PRAGYA_THEME_DIR . '/core/widgets/class-pragyan-tabbed.php';
+		require PRAGYAN_THEME_DIR . '/core/widgets/class-pragyan-widget-base.php';
+		require PRAGYAN_THEME_DIR . '/core/widgets/class-pragyan-widget-validation.php';
+		require PRAGYAN_THEME_DIR . '/core/widgets/class-pragyan-blog-post.php';
+		require PRAGYAN_THEME_DIR . '/core/widgets/class-pragyan-tabbed.php';
 
 
 	}

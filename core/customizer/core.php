@@ -125,11 +125,11 @@ if (!function_exists('pragyan_get_default_options')) {
 
 function pragyan_get_option($key)
 {
-	$option_key = PRAGYA_THEME_SETTINGS . '_' . $key;
+	$option_key = PRAGYAN_THEME_SETTINGS . '_' . $key;
 
 	$defaults = pragyan_get_default_options();
 
-	$all_options = get_theme_mod(PRAGYA_THEME_SETTINGS);
+	$all_options = get_theme_mod(PRAGYAN_THEME_SETTINGS);
 
 	$all_theme_options = wp_parse_args($all_options, $defaults);
 
@@ -143,6 +143,6 @@ if (!function_exists('pragyan_get_customizer_id')) :
 
 	function pragyan_get_customizer_id($key = '')
 	{
-		return PRAGYA_THEME_SETTINGS . '[' . $key . ']';
+		return PRAGYAN_THEME_SETTINGS . '[' . $key . ']';
 	}
 endif;

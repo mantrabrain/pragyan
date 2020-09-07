@@ -79,7 +79,7 @@ class Pragyan_Meta_Box_Page_Settings
 									   value="" <?php
 								checked($layout, ''); ?> />
 								<img
-									src="<?php echo esc_url(PRAGYA_THEME_URI . '/assets/images/icons/customizer.png'); ?>"/>
+									src="<?php echo esc_url(PRAGYAN_THEME_URI . '/assets/images/icons/customizer.png'); ?>"/>
 							</label>
 							<?php $sidebar_content_layouts = pragyan_global_sidebar_layouts();
 
