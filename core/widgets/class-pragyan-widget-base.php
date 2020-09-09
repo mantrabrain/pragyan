@@ -86,6 +86,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 				case "text":
 				case "number":
 				case "email":
+				case "url":
 					?>
 					<p>
 						<label
