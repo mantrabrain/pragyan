@@ -1,0 +1,45 @@
+@import "components/variables-site/variables-site";
+
+body {
+	#learn-press-profile-header {
+		background: $secondary_color;
+	}
+
+	#learn-press-profile-nav {
+		&:before {
+			background: #575757;
+		}
+
+		.tabs {
+			li {
+				a {
+					color: #fff;
+
+					&:hover {
+						background: #000;
+					}
+				}
+
+				&:hover:not(.active) {
+					& > a {
+						background: #000;
+					}
+				}
+
+				&.active {
+					> a {
+						background: #000;
+					}
+				}
+
+				&.has-child {
+					& > ul {
+						background: #575757 !important;
+
+					}
+				}
+			}
+		}
+	}
+}
+

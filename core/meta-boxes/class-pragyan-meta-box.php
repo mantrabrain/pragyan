@@ -57,7 +57,7 @@ class Pragyan_Meta_Box
 		}
 
 		wp_enqueue_script('jquery-ui-tabs');
-		wp_enqueue_script('pragyan-meta-box', PRAGYAN_THEME_URI . '/core/meta-boxes/assets/js/meta-box.js', array('jquery-ui-tabs'), PRAGYAN_THEME_VERSION, true);
+		wp_enqueue_script('pragyan-meta-box', PRAGYAN_THEME_URI . '/core/meta-boxes/assets/js/meta-box.js', array('jquery-ui-tabs', 'wp-i18n'), PRAGYAN_THEME_VERSION, true);
 		wp_enqueue_style('pragyan-meta-box', PRAGYAN_THEME_URI . '/core/meta-boxes/assets/css/meta-box.css', array(), PRAGYAN_THEME_VERSION);
 		wp_enqueue_style('wp-color-picker');
 		wp_enqueue_script('wp-color-picker');

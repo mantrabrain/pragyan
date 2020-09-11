@@ -58,16 +58,16 @@ if (!class_exists('Pragyan_Widget_Base')) {
 			$extra_attribute_text = $this->get_extra_attribute_text($extra_attributes);
 
 			switch ($field['type']) {
-				case "repeator":
-					$repeator_number = isset($field['repeator_num']) ? absint($field['repeator_num']) : 3;
+				case "repeater":
+					$repeater_number = isset($field['repeater_num']) ? absint($field['repeater_num']) : 3;
 					?>
-					<div class="mb-repeator-container" data-repeator-num="<?php echo absint($repeator_number); ?>">
+					<div class="mb-repeater-container" data-repeater-num="<?php echo absint($repeater_number); ?>">
 						<label
 							for="<?php echo esc_attr($this->get_field_id($field_key)); ?>"><?php echo esc_html($field['title']); ?>
 						</label>
 						<?php
 
-						$this->get_repeator_template($field, $field_key, $instance, $value);
+						$this->get_repeater_template($field, $field_key, $instance, $value);
 						?>
 					</div>
 					<?php
@@ -261,6 +261,29 @@ if (!class_exists('Pragyan_Widget_Base')) {
 					</p>
 					<?php
 					break;
+				case "dropdown_pages":
+					$args = isset($field['args']) ? $field['args'] : array();
+
+					$default_args = array(
+						'name' => esc_attr($this->get_field_name($field_key)),
+						'id' => esc_attr($this->get_field_id($field_key)),
+						'selected' => is_array($value) ? implode(",", $value) : $value,
+						'class'    => ''
+					);
+					$pages_args = wp_parse_args($args, $default_args);
+
+					?>
+					<p>
+						<label
+							for="<?php echo esc_attr($this->get_field_id($field_key)); ?>"><?php echo esc_html($field['title']); ?>
+							:</label>
+						<?php
+						wp_dropdown_pages( $pages_args );
+
+						$this->description($field) ?>
+					</p>
+					<?php
+					break;
 				case "image":
 					?>
 					<p><label
@@ -338,16 +361,16 @@ if (!class_exists('Pragyan_Widget_Base')) {
 		}
 
 		public
-		function get_repeator_template($field, $field_key, $instance, $value)
+		function get_repeater_template($field, $field_key, $instance, $value)
 		{
 			// Template File
 
-			$repeator_options = isset($field['options']) ? $field['options'] : array();
+			$repeater_options = isset($field['options']) ? $field['options'] : array();
 
-			$repeator_option_keys = array_keys($repeator_options);
+			$repeater_option_keys = array_keys($repeater_options);
 			?>
 
-			<div class="mb-repeator-tmpl">
+			<div class="mb-repeater-tmpl">
 				<button type="button" class="action-btn add button button-primary"><i class="dashicons"></i>
 				</button>
 				<?php
@@ -355,7 +378,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 				$this->description($field);
 
 
-				foreach ($repeator_options as $rp_key => $rp_option) {
+				foreach ($repeater_options as $rp_key => $rp_option) {
 
 					if (!empty($rp_option['name'])) {
 
@@ -380,13 +403,13 @@ if (!class_exists('Pragyan_Widget_Base')) {
 
 			if (count($value) < 1) {
 
-				echo '<div class="mb-repeator">';
+				echo '<div class="mb-repeater">';
 
 				echo '<button type="button" class="action-btn add button button-primary"><i class="dashicons"></i></button>';
 
 				$this->description($field);
 
-				foreach ($repeator_options as $rp_single_key => $rp_option_single) {
+				foreach ($repeater_options as $rp_single_key => $rp_option_single) {
 
 					if (!empty($rp_option_single['name'])) {
 
@@ -409,7 +432,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 
 				foreach ($value as $value_index => $value_content) {
 
-					echo '<div class="mb-repeator">';
+					echo '<div class="mb-repeater">';
 
 					$class = 'remove';
 
@@ -417,7 +440,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 
 					echo '<button type="button" class="action-btn ' . esc_attr($class) . ' button button-primary"><i class="dashicons"></i></button>';
 
-					foreach ($repeator_options as $_single_key => $_option_single) {
+					foreach ($repeater_options as $_single_key => $_option_single) {
 
 						if (!empty($_option_single['name'])) {
 

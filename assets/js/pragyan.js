@@ -85,7 +85,7 @@
 				$('.pragyan-search-box').fadeIn(600);
 				var id = 'pragyan-search-box';
 				$('#' + id).addClass('pragyan-searchbox-open');
-				$(document).trigger('pragyan_focus_inside_element', [id, '#popup-search', 'pragyan-searchbox-open']);
+				$(document).trigger('pragyan_focus_inside_element', [id, '#pragyan-search-box input.search-field', 'pragyan-searchbox-open']);
 
 			});
 			$('.pragyan-close-button').on('click', function () {

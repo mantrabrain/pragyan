@@ -127,6 +127,7 @@ if (!class_exists('Pragyan_Widget_Validation')) {
                     }
                     break;
                 case 'dropdown_categories':
+                case 'dropdown_pages':
 
                     $is_multiple = isset($widget_field['args']) && isset($widget_field['args']['multiple']) ? (boolean)($widget_field['args']['multiple']) : false;
 
@@ -149,17 +150,17 @@ if (!class_exists('Pragyan_Widget_Validation')) {
 					$icons = count($font_awesome_icon_lists)>0 ? array_keys($font_awesome_icon_lists) : array();
 					$updated_value = in_array($updated_value, $icons) ? $updated_value : '';
                     break;
-                case 'repeator':
+                case 'repeater':
 
                     if (isset($field_value['__mb_index__'])) {
 
                         unset($field_value['__mb_index__']);
                     }
-                    $widget_repeator_options = isset($widget_field['options']) ? $widget_field['options'] : array();
+                    $widget_repeater_options = isset($widget_field['options']) ? $widget_field['options'] : array();
 
-                    $repeator_num = isset($widget_field['repeator_num']) ? $widget_field['repeator_num'] : 3;
+                    $repeater_num = isset($widget_field['repeater_num']) ? $widget_field['repeater_num'] : 3;
 
-                    $repeator_option_array_keys = array_keys($widget_repeator_options);
+                    $repeater_option_array_keys = array_keys($widget_repeater_options);
 
                     $updated_value = array();
 
@@ -167,18 +168,18 @@ if (!class_exists('Pragyan_Widget_Validation')) {
 
                     foreach ($field_value as $field_index => $val) {
 
-                        $repeator_repeat_value = array();
+                        $repeater_repeat_value = array();
 
                         foreach ($val as $rp_key => $rp_value) {
 
-                            if (in_array($rp_key, $repeator_option_array_keys)) {
+                            if (in_array($rp_key, $repeater_option_array_keys)) {
 
-                                $repeator_repeat_value[$rp_key] = $this->sanitize($rp_value, $widget_repeator_options[$rp_key]);
+                                $repeater_repeat_value[$rp_key] = $this->sanitize($rp_value, $widget_repeater_options[$rp_key]);
                             }
                         }
 
-                        if (count($updated_value) <= $repeator_num) {
-                            array_push($updated_value, $repeator_repeat_value);
+                        if (count($updated_value) <= $repeater_num) {
+                            array_push($updated_value, $repeater_repeat_value);
                         }
                     }
                     break;

@@ -19,7 +19,7 @@ if (!function_exists('pragyan_get_color_css')) {
 		$services_margin_top = pragyan_get_option('services_margin_top');
 
 		if ($services_margin_top != '-180') {
-			$css .= '.pragyan-service-container{margin-top:' . esc_attr($services_margin_top) . 'px} ';
+			$css .= '.pragyan-services-section{margin-top:' . esc_attr($services_margin_top) . 'px} ';
 		}
 		$pragyan_service_section_background_1 = (pragyan_get_option('service_section_background_1'));
 		$pragyan_service_section_background_2 = (pragyan_get_option('service_section_background_2'));
@@ -41,6 +41,7 @@ if (!function_exists('pragyan_get_color_css')) {
 			$css .= ' .pragyan-single-service.service_section_background_4:hover{background-color:' . esc_attr(pragyan_hover_color($pragyan_service_section_background_4, -50)) . '}';
 			$css .= ' .pragyan-single-service.service_section_background_4{background-color:' . esc_attr($pragyan_service_section_background_4) . '}';
 		}
+
 		if (pragyan_is_home_page()) {
 			$before_home_page_main_content_area_background_color = pragyan_get_option('before_home_page_main_content_area_background_color');
 			$home_page_main_content_area_background_color = pragyan_get_option('home_page_main_content_area_background_color');

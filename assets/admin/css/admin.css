@@ -1,4 +1,4 @@
-.mb-repeator {
+.mb-repeater {
 	display: block;
 	padding: 10px;
 	border: 1px solid #aaa;
@@ -7,25 +7,25 @@
 	position: relative;
 }
 
-.mb-repeator-tmpl {
+.mb-repeater-tmpl {
 	display: none;
 }
 
-.mb-repeator .action-btn,
-.mb-repeator-tmpl .action-btn {
+.mb-repeater .action-btn,
+.mb-repeater-tmpl .action-btn {
 	position: absolute;
 	top: 0;
 	right: 0;
 	border-radius: 0;
 }
 
-.mb-repeator .action-btn.add .dashicons::before,
-.mb-repeator-tmpl .action-btn.add .dashicons::before {
+.mb-repeater .action-btn.add .dashicons::before,
+.mb-repeater-tmpl .action-btn.add .dashicons::before {
 	content: "\f132";
 }
 
-.mb-repeator .action-btn.remove .dashicons::before,
-.mb-repeator-tmpl .action-btn.remove .dashicons::before {
+.mb-repeater .action-btn.remove .dashicons::before,
+.mb-repeater-tmpl .action-btn.remove .dashicons::before {
 	content: "\f158";
 }
 

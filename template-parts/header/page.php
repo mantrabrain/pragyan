@@ -14,7 +14,7 @@ $header_background_image = apply_filters('pragyan_breadcrumb_background_image', 
 
 		<?php } elseif (function_exists('tribe_events') && tribe_is_month() && is_archive()) { ?>
 
-			<h2 class="page-title"><?php echo esc_html('Events Calendar', 'pragyan'); ?></h2>
+			<h2 class="page-title"><?php echo esc_html__('Events Calendar', 'pragyan'); ?></h2>
 
 		<?php } elseif (function_exists('tribe_events') && is_single() && is_singular('tribe_events')) { ?>
 
@@ -30,7 +30,7 @@ $header_background_image = apply_filters('pragyan_breadcrumb_background_image', 
 
 		<?php } elseif (is_404()) { ?>
 
-			<h2 class="page-title"><?php echo esc_html('Page Not Found: 404', 'pragyan'); ?></h2>
+			<h2 class="page-title"><?php echo esc_html__('Page Not Found: 404', 'pragyan'); ?></h2>
 
 		<?php } elseif (is_home()) { ?>
 
@@ -52,7 +52,9 @@ $header_background_image = apply_filters('pragyan_breadcrumb_background_image', 
 		<?php if ($show_breadcrumb): ?>
 			<div class="header-breadcrumb">
 				<?php
-				pragyan_breadcrumb_trail(); ?>
+				pragyan_breadcrumb_trail(
+					array('show_browse'=>false)
+				); ?>
 			</div>
 		<?php endif; ?>
 

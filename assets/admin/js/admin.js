@@ -39,7 +39,7 @@ var pragyan_file_frame;
 				$this.pickIcon($(this));
 			});
 
-			$this.repeatorInit();
+			$this.repeaterInit();
 		},
 		initWPImageUploader: function ($this) {
 
@@ -118,46 +118,46 @@ var pragyan_file_frame;
 			wrapper.find('.selected-icon').removeClass('fa').removeClass(old_value).addClass('fa ' + value);
 			$this.addClass('active');
 		},
-		repeatorInit: function () {
+		repeaterInit: function () {
 
-			$(document).on('click', '.mb-repeator .action-btn', function (e) {
+			$(document).on('click', '.mb-repeater .action-btn', function (e) {
 
 
-				var container = $(this).closest('.mb-repeator-container');
+				var container = $(this).closest('.mb-repeater-container');
 
-				var number_of_repeator = container.data('repeator-num');
+				var number_of_repeater = container.data('repeater-num');
 
-				var len = container.find('.mb-repeator').length;
+				var len = container.find('.mb-repeater').length;
 
 				if ($(this).hasClass('add')) {
 
-					if (number_of_repeator > len) {
+					if (number_of_repeater > len) {
 
-						var repeator_tmpl_clone = container.find('.mb-repeator-tmpl').clone();
+						var repeater_tmpl_clone = container.find('.mb-repeater-tmpl').clone();
 
-						var repeator_tmpl_clone_html = repeator_tmpl_clone.html();
+						var repeater_tmpl_clone_html = repeater_tmpl_clone.html();
 
-						repeator_tmpl_clone_html = repeator_tmpl_clone_html.replace(/__mb_index__/ig, len);
+						repeater_tmpl_clone_html = repeater_tmpl_clone_html.replace(/__mb_index__/ig, len);
 
-						container.append('<div class="mb-repeator">' + repeator_tmpl_clone_html + "</div>");
+						container.append('<div class="mb-repeater">' + repeater_tmpl_clone_html + "</div>");
 
 					} else {
-						alert('Maximm repeator exceed');
+						alert('Maximm repeater exceed');
 					}
 
 				} else if ($(this).hasClass('remove')) {
 
 					if (len > 1) {
 
-						$(this).closest('.mb-repeator').remove();
+						$(this).closest('.mb-repeater').remove();
 					}
 				}
-				container.find('.mb-repeator:not(:last-child)').find('.action-btn').removeClass('add').addClass('remove');
+				container.find('.mb-repeater:not(:last-child)').find('.action-btn').removeClass('add').addClass('remove');
 
-				if (number_of_repeator <= len) {
-					container.find('.mb-repeator:last-child').find('.action-btn').removeClass('add').addClass('remove');
+				if (number_of_repeater <= len) {
+					container.find('.mb-repeater:last-child').find('.action-btn').removeClass('add').addClass('remove');
 				} else {
-					container.find('.mb-repeator:last-child').find('.action-btn').removeClass('remove').addClass('add');
+					container.find('.mb-repeater:last-child').find('.action-btn').removeClass('remove').addClass('add');
 
 				}
 

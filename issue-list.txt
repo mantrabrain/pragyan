@@ -1,0 +1,14 @@
+Functionalities
+There is no demo on starter sites, so no point on recommending Mantra Brain Starter Sites plugin.
+Code
+Some files are empty, remove unused files
+
+
+
+
+RTL css empty
+ 
+Translation
+ Keyboard navigation
+Header Search is causing a problem for keyboard navigation for the back tab, check both desktop and responsive device
+Query

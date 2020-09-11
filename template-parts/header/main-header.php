@@ -71,12 +71,7 @@ if ($sticky_header_enable) {
 					<span></span>
 					<span></span>
 				</button>
-				<form action="<?php echo esc_html(home_url('/')); ?>" method="get">
-					<input placeholder="<?php esc_attr_e('Search Here..', 'pragyan') ?>" type="text" name="s"
-						   id="popup-search"
-						   value="<?php the_search_query(); ?>"/>
-					<button class="search-icon"><i class="fa fa-search"></i></button>
-				</form>
+				<?php get_search_form(); ?>
 			</div>
 		</div>
 	</div>

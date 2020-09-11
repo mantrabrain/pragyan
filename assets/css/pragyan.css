@@ -1676,10 +1676,10 @@ body.boxed_content_layout #page {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #fff;
+  background-color: rgba(0, 0, 0, 0.8);
   z-index: 999;
   display: none;
-  position: absolute; }
+  position: fixed; }
   .pragyan-search-box .pragyan-search-form input {
     width: 50%;
     height: 50px;
@@ -1693,7 +1693,7 @@ body.boxed_content_layout #page {
     color: #1b52a9;
     padding-left: 20px;
     border-radius: 50px; }
-  .pragyan-search-box .pragyan-search-form button.search-icon {
+  .pragyan-search-box .pragyan-search-form button.search-submit {
     position: absolute;
     top: 50%;
     left: 72%;
@@ -1705,11 +1705,13 @@ body.boxed_content_layout #page {
     color: #1b52a9;
     cursor: pointer;
     font-size: 16px; }
+  .pragyan-search-box form.search-form {
+    position: unset; }
 
 .pragyan-close-button {
   position: absolute;
-  top: 11px;
-  right: 15px;
+  top: 50px;
+  right: 50px;
   cursor: pointer;
   width: 30px;
   height: 25px;
@@ -2125,7 +2127,7 @@ body.boxed_content_layout #page {
   position: relative;
   display: flex;
   align-items: center;
-  padding: 145px 0;
+  padding: 100px 0;
   width: 100%; }
   .pragyan-page-header:before {
     background-color: #1b52a9;

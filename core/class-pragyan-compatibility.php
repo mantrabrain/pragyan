@@ -45,6 +45,7 @@ class Pragyan_Compatibility
 	public function includes()
 	{
 
+
 		require_once PRAGYAN_THEME_DIR . '/core/compatibility/class-pragyan-sikshya.php';
 		require_once PRAGYAN_THEME_DIR . '/core/compatibility/class-pragyan-learnpress.php';
 		require_once PRAGYAN_THEME_DIR . '/core/compatibility/class-pragyan-tutor.php';

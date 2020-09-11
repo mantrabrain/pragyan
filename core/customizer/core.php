@@ -50,11 +50,11 @@ if (!function_exists('pragyan_get_default_options')) {
 			'slider_section_page_4' => '',
 			'slider_section_page_5' => '',
 
-			'slider_section_apply_button_text_1' => 'Apply Now',
-			'slider_section_apply_button_text_2' => 'Apply Now',
-			'slider_section_apply_button_text_3' => 'Apply Now',
-			'slider_section_apply_button_text_4' => 'Apply Now',
-			'slider_section_apply_button_text_5' => 'Apply Now',
+			'slider_section_apply_button_text_1' => esc_html__('Apply Now', 'pragyan'),
+			'slider_section_apply_button_text_2' => esc_html__('Apply Now', 'pragyan'),
+			'slider_section_apply_button_text_3' => esc_html__('Apply Now', 'pragyan'),
+			'slider_section_apply_button_text_4' => esc_html__('Apply Now', 'pragyan'),
+			'slider_section_apply_button_text_5' => esc_html__('Apply Now', 'pragyan'),
 
 			'slider_section_apply_button_link_1' => '#',
 			'slider_section_apply_button_link_2' => '#',
@@ -62,11 +62,11 @@ if (!function_exists('pragyan_get_default_options')) {
 			'slider_section_apply_button_link_4' => '#',
 			'slider_section_apply_button_link_5' => '#',
 
-			'slider_section_learn_more_button_text_1' => 'Learn More',
-			'slider_section_learn_more_button_text_2' => 'Learn More',
-			'slider_section_learn_more_button_text_3' => 'Learn More',
-			'slider_section_learn_more_button_text_4' => 'Learn More',
-			'slider_section_learn_more_button_text_5' => 'Learn More',
+			'slider_section_learn_more_button_text_1' => esc_html__('Learn More', 'pragyan'),
+			'slider_section_learn_more_button_text_2' => esc_html__('Learn More', 'pragyan'),
+			'slider_section_learn_more_button_text_3' => esc_html__('Learn More', 'pragyan'),
+			'slider_section_learn_more_button_text_4' => esc_html__('Learn More', 'pragyan'),
+			'slider_section_learn_more_button_text_5' => esc_html__('Learn More', 'pragyan'),
 
 			'slider_section_learn_more_button_link_1' => '#',
 			'slider_section_learn_more_button_link_2' => '#',
@@ -80,13 +80,13 @@ if (!function_exists('pragyan_get_default_options')) {
 			'top_phone' => '123456789',
 			'login_register_show' => true,
 			'custom_login_link' => '',
-			'custom_login_text' => 'Login',
-			'custom_logout_text' => 'Logout',
+			'custom_login_text' => esc_html__('Login', 'pragyan'),
+			'custom_logout_text' => esc_html__('Logout', 'pragyan'),
 			'custom_register_link' => '',
-			'custom_register_text' => 'Register',
+			'custom_register_text' => esc_html__('Register', 'pragyan'),
 			'profile_show' => true,
 			'custom_profile_page_link' => '',
-			'custom_profile_page_text' => 'Profile',
+			'custom_profile_page_text' => esc_html__('Profile', 'pragyan'),
 			'enable_sticky_header' => true,
 			'enable_main_header_search' => true,
 
@@ -104,7 +104,7 @@ if (!function_exists('pragyan_get_default_options')) {
 			'single_post_post_title_show' => true,
 
 			// Footer
-			'copyright_text' => 'Copyright © All rights reserved',
+			'copyright_text' => esc_html__('Copyright © All rights reserved', 'pragyan'),
 			'footer_widget_area_column' => 'layout_4',
 
 		);

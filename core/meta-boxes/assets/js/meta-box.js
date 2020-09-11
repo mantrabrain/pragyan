@@ -3,6 +3,7 @@
  *
  * @package Pragyan
  */
+const { __, _x, _n, _nx } = wp.i18n;
 
 jQuery(
 	function ( $ ) {
@@ -31,9 +32,9 @@ jQuery(
 
 				frame = wp.media(
 					{
-						title   : 'Select or Upload Media',
+						title   :__( 'Select or Upload Media', 'pragyan' ),
 						button  : {
-							text: 'Use this image'
+							text: __( 'Use this image', 'pragyan' )
 						},
 						library : {
 							type: ['image']

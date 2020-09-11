@@ -37,13 +37,18 @@ if (!class_exists('Pragyan_Learnpress')) :
 			return self::$instance;
 		}
 
-		/**
-		 * Constructor
-		 */
 		public function __construct()
 		{
 
+			add_action('wp_enqueue_scripts', array($this, 'scripts'));
 
+
+		}
+
+		public function scripts()
+		{
+
+			wp_enqueue_style('pragyan-learnpress', get_template_directory_uri() . '/assets/css/learnpress.css', array(), PRAGYAN_THEME_VERSION);
 		}
 
 	}

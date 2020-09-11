@@ -1,7 +1,8 @@
 <?php
 defined('ABSPATH') || exit;
 
-if (!class_exists('Tutor')) {
+if (!class_exists('\TUTOR\Tutor')) {
+
 	return;
 }
 
@@ -37,19 +38,25 @@ if (!class_exists('Pragyan_Tutor')) :
 			return self::$instance;
 		}
 
-		/**
-		 * Constructor
-		 */
 		public function __construct()
 		{
 
+			add_action('wp_enqueue_scripts', array($this, 'scripts'));
+
 
 		}
+
+		public function scripts()
+		{
+
+			wp_enqueue_style('pragyan-tutor', get_template_directory_uri() . '/assets/css/tutor.css', array(), PRAGYAN_THEME_VERSION);
+		}
+
 
 	}
 
 endif;
 
-if (apply_filters('pragyan_enable_tutor_integration', true) && class_exists('Tutor')) {
+if (apply_filters('pragyan_enable_tutor_integration', true) && class_exists('\TUTOR\Tutor')) {
 	Pragyan_Tutor::get_instance();
 }

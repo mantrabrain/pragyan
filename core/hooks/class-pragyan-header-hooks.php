@@ -32,7 +32,7 @@ class Pragyan_Header_Hooks
 		);
 		$items[] = array(
 			'class' => '',
-			'icon' => 'fa fa-phone-alt',
+			'icon' => 'fas fa-phone-alt',
 			'link' => 'tel:' . esc_attr($top_phone),
 			'content' => $top_phone
 		);
@@ -64,10 +64,22 @@ class Pragyan_Header_Hooks
 		<header id="header"
 				class="header-sections">
 
-			<?php if ($header_top_show):
+			<?php
+			do_action('pragyan_before_top_header');
+
+			if ($header_top_show):
 				get_template_part('template-parts/header/top', 'header');
 			endif;
+			do_action('pragyan_after_top_header');
+
+			do_action('pragyan_mid_header');
+
+			do_action('pragyan_before_main_header');
+
 			get_template_part('template-parts/header/main', 'header');
+
+			do_action('pragyan_after_main_header');
+
 
 			?>
 		</header>
