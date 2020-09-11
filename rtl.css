@@ -1,0 +1,63 @@
+.header-top .header-left li i {
+	padding-right: 0;
+	padding-left: 5px;
+}
+
+.header-left {
+	float: right;
+}
+
+.header-right {
+	float: left;
+}
+
+.pragyan-search-box .pragyan-search-form button.search-submit {
+	left: unset;
+	right: 69%;
+
+}
+
+.pragyan-search-box .pragyan-search-form input {
+	padding-left: unset;
+	padding-right: 20px;
+}
+
+.pragyan-close-button {
+	right: unset;
+	left: 50px;
+}
+
+.back-to-top {
+	right: unset;
+	left: 40px;
+}
+
+ul.entry-meta li i {
+	padding-left: 4px;
+	padding-right: unset;
+}
+
+.search .entry-meta li:first-child {
+	margin-right: 0;
+}
+
+.next.page-numbers .fa-long-arrow-alt-right:before {
+	content: "\f30a"
+}
+
+.prev.page-numbers .fa-long-arrow-alt-left:before {
+	content: "\f30b"
+}
+
+.header-top .contact-info .list-inline-item:first-child {
+	margin-right: 0;
+}
+
+.bottom-footer .text-right {
+	text-align: left !important;
+}
+
+.pragyan-right-header {
+	margin-left: unset;
+	margin-right: 30px;
+}
