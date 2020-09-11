@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pragyan 0.0.4\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-08-30 11:01:27+00:00\n"
+"POT-Creation-Date: 2020-09-11 15:31:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -112,6 +112,39 @@ msgstr ""
 
 #: core/customizer/controls/class-pragyan-customizer-control-switch.php:19
 msgid "off"
+msgstr ""
+
+#: core/customizer/core.php:53 core/customizer/core.php:54
+#: core/customizer/core.php:55 core/customizer/core.php:56
+#: core/customizer/core.php:57
+msgid "Apply Now"
+msgstr ""
+
+#: core/customizer/core.php:65 core/customizer/core.php:66
+#: core/customizer/core.php:67 core/customizer/core.php:68
+#: core/customizer/core.php:69
+msgid "Learn More"
+msgstr ""
+
+#: core/customizer/core.php:83
+msgid "Login"
+msgstr ""
+
+#: core/customizer/core.php:84
+msgid "Logout"
+msgstr ""
+
+#: core/customizer/core.php:86
+msgid "Register"
+msgstr ""
+
+#: core/customizer/core.php:89 core/customizer/sections/header/top.php:184
+#: core/customizer/sections/header/top.php:200
+msgid "Profile"
+msgstr ""
+
+#: core/customizer/core.php:107
+msgid "Copyright © All rights reserved"
 msgstr ""
 
 #: core/customizer/panels/theme-panel.php:5
@@ -295,17 +328,16 @@ msgstr ""
 msgid "Register Text"
 msgstr ""
 
-#: core/customizer/sections/header/top.php:184
-#: core/customizer/sections/header/top.php:200
-msgid "Profile"
-msgstr ""
-
 #: core/customizer/sections/header/top.php:213
 msgid "Profile Page Link"
 msgstr ""
 
 #: core/customizer/sections/header/top.php:227
 msgid "Profile Page Text"
+msgstr ""
+
+#: core/customizer/sections/single-post/main.php:77
+msgid "Show/Hide Post Title"
 msgstr ""
 
 #: core/customizer/sections/slider-and-services/services.php:6
@@ -609,6 +641,31 @@ msgstr ""
 msgid "Mantrabrain"
 msgstr ""
 
+#: core/template-functions.php:152
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:263
+msgid "Home"
+msgstr ""
+
+#: core/template-functions.php:153
+msgid "Courses"
+msgstr ""
+
+#: core/template-functions.php:154
+msgid "Notice"
+msgstr ""
+
+#: core/template-functions.php:155
+msgid "Events"
+msgstr ""
+
+#: core/template-functions.php:156
+msgid "Blog"
+msgstr ""
+
+#: core/template-functions.php:157
+msgid "Contact"
+msgstr ""
+
 #: core/template-tags.php:58
 #. translators: %s: post date
 msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
@@ -628,43 +685,39 @@ msgstr ""
 msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:197
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:261
 msgid "Browse:"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:199
-msgid "Home"
-msgstr ""
-
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:200
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:264
 msgid "404 Not Found"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:201
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:265
 msgid "Archives"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:203
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:267
 #. Translators: %s is the search query.
 msgid "Search results for: %s"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:205
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:269
 #. Translators: %s is the page number.
 msgid "Page %s"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:207
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:271
 #. Translators: %s is the page number.
 msgid "Comment Page %s"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:209
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:273
 #. Translators: Minute archive title. %s is the minute time format.
 msgid "Minute %s"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:211
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:275
 #. Translators: Weekly archive title. %s is the week date format.
 msgid "Week %s"
 msgstr ""
@@ -723,24 +776,24 @@ msgstr ""
 msgid "&nbsp;commented on"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:237
+#: core/widgets/class-pragyan-widget-base.php:238
 msgid "All Categories"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:257
+#: core/widgets/class-pragyan-widget-base.php:258
 #. translators: 1: taxonomy
 msgid "Taxonomy (%s) not found"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:286
+#: core/widgets/class-pragyan-widget-base.php:310
 msgid "Choose an image"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:287
+#: core/widgets/class-pragyan-widget-base.php:311
 msgid "Use image"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:288
+#: core/widgets/class-pragyan-widget-base.php:312
 msgid "Select an Image"
 msgstr ""
 
@@ -748,15 +801,19 @@ msgstr ""
 msgid "Skip to content"
 msgstr ""
 
-#: template-parts/header/main-header.php:73
-msgid "Search Here.."
+#: template-parts/header/page.php:17
+msgid "Events Calendar"
 msgstr ""
 
-#: template-parts/header/page.php:30
+#: template-parts/header/page.php:29
 msgid "Search Results for: %s"
 msgstr ""
 
-#: template-parts/page/content-page.php:13 template-parts/post/single.php:30
+#: template-parts/header/page.php:33
+msgid "Page Not Found: 404"
+msgstr ""
+
+#: template-parts/page/content-page.php:13 template-parts/post/single.php:34
 msgid "Pages:"
 msgstr ""
 
@@ -770,7 +827,7 @@ msgid ""
 "searching can help."
 msgstr ""
 
-#: template-parts/post/single.php:25
+#: template-parts/post/single.php:29
 #. translators: %s: Name of current post
 msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
@@ -814,49 +871,49 @@ msgctxt "Signika font: on or off"
 msgid "on"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:198
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:262
 msgctxt "breadcrumbs aria label"
 msgid "Breadcrumbs"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:671
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:738
 msgctxt "minute and hour archives time format"
 msgid "g:i a"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:688
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:756
 msgctxt "minute archives time format"
 msgid "i"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:705
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:774
 msgctxt "hour archives time format"
 msgid "g a"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:721
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:750
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:777
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:804
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1144
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:791
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:821
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:849
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:877
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1223
 msgctxt "yearly archives date format"
 msgid "Y"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:722
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:778
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1148
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:792
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:850
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1227
 msgctxt "monthly archives date format"
 msgid "F"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:723
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1152
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:793
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:1231
 msgctxt "daily archives date format"
 msgid "j"
 msgstr ""
 
-#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:751
+#: core/vendor/breadcrumb-trail/class-pragyan-breadcrumb-trail.php:822
 msgctxt "weekly archives date format"
 msgid "W"
 msgstr ""
