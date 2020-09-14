@@ -196,6 +196,11 @@ final class Pragyan_Core
 			require PRAGYAN_THEME_DIR . '/core/meta-boxes/class-pragyan-meta-box.php';
 			require PRAGYAN_THEME_DIR . '/core/info/class-pragyan-theme-information.php';
 
+			// TGMPA
+
+			require_once PRAGYAN_THEME_DIR . 'core/vendor/tgmpa/class-tgm-plugin-activation.php';
+			require_once PRAGYAN_THEME_DIR . 'core/vendor/tgmpa/tgmpa-pragyan.php';
+
 		}
 
 	}

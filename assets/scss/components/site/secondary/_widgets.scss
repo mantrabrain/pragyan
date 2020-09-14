@@ -38,6 +38,20 @@
 	.widget.widget_media_gallery {
 		padding-bottom: 20px;
 	}
+
+	.pragyan_blog_post_widget {
+		ul.pragyan-blog-post {
+			li.col-4.item {
+				-webkit-box-flex: 0;
+				-webkit-flex: 0 0 100%;
+				-ms-flex: 0 0 100%;
+				flex: 0 0 100%;
+				max-width: 100%;
+				padding-left: 0;
+				padding-right: 0;
+			}
+		}
+	}
 }
 
 #secondary {
