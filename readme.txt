@@ -63,6 +63,10 @@ Breadcrumb Trail, (C) 2008 - 2015, Justin Tadlock
 Source: http://themehybrid.com/plugins/breadcrumb-trail/
 License:  [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
 
+TGM Plugin Activation, TGMPA(C) 2011
+Source: https://github.com/TGMPA/TGM-Plugin-Activation/
+License: https://www.gnu.org/licenses/gpl-2.0.html
+
 Twentynineteen, (C) 2019 - 2020, wordpress.org
 Source: https://wordpress.org/themes/twentynineteen
 License:  [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html)
