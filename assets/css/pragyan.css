@@ -2574,14 +2574,14 @@ a.post-edit-link {
     width: 20px; }
 
 article.post {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   height: auto;
   overflow: hidden;
   position: relative;
   background: #fff; }
 
 article.page {
-  margin-bottom: 45px;
+  margin-bottom: 25px;
   height: auto;
   overflow: hidden;
   position: relative;
@@ -3914,21 +3914,35 @@ table#wp-calendar td#today {
     .widget_media_gallery .gallery figure .gallery-icon {
       padding: 3px; }
 
-.widget .entry-content {
-  padding: 15px; }
-
-.widget .entry-header .entry-meta li {
-  margin: 0;
-  padding: 3px;
-  font-size: 12px;
-  letter-spacing: initial; }
-
-.widget .entry-header .entry-title {
-  font-size: 23px;
-  line-height: 1.5; }
-
-.widget .blog-btn.pragyan-main-btn {
-  float: right; }
+.widget {
+  margin: 10px 0;
+  background: #fff;
+  padding: 15px;
+  border: 1px solid #ddd; }
+  .widget .entry-content {
+    padding: 10px 0; }
+  .widget .entry-header .entry-meta li {
+    margin: 0;
+    padding: 3px;
+    font-size: 12px;
+    letter-spacing: initial; }
+  .widget .entry-header .entry-title {
+    font-size: 23px;
+    line-height: 1.5; }
+  .widget .blog-btn.pragyan-main-btn {
+    float: right; }
+  .widget.pragyan_tabbed_widget .pragyan_latest_posts_tab_content .pragyan-tabbed-post-wrap article.post {
+    border-bottom: 1px solid #ddd; }
+  .widget.pragyan_tabbed_widget .pragyan_latest_posts_tab_content .pragyan-tabbed-post-wrap:last-child article.post {
+    border-bottom: none; }
+  .widget.pragyan_blog_post_widget article.post {
+    margin-bottom: 25px;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+    padding: 10px; }
 
 .pragyan-blog-post-wrap ul.pragyan-blog-post {
   margin: 0 -15px 0 -15px;
@@ -3970,7 +3984,7 @@ html {
 
 .pragyan-tabbed-widget-wrap ul.widget-tabs {
   display: block;
-  background: #f9f9f9;
+  background: #ddd;
   padding: 0 10px;
   border: none; }
   .pragyan-tabbed-widget-wrap ul.widget-tabs li {

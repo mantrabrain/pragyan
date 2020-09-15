@@ -607,8 +607,13 @@ table#wp-calendar {
 }
 
 .widget {
+	margin: 10px 0;
+	background: #fff;
+	padding: 15px;
+	border: 1px solid #ddd;
+
 	.entry-content {
-		padding: 15px;
+		padding: 10px 0;
 	}
 
 	.entry-header {
@@ -629,5 +634,35 @@ table#wp-calendar {
 
 	.blog-btn.pragyan-main-btn {
 		float: right;
+	}
+
+	&.pragyan_tabbed_widget {
+
+		.pragyan_latest_posts_tab_content {
+
+			.pragyan-tabbed-post-wrap {
+				article.post {
+					border-bottom: 1px solid #ddd;
+				}
+
+				&:last-child {
+					article.post {
+						border-bottom: none;
+					}
+				}
+			}
+		}
+	}
+
+	&.pragyan_blog_post_widget {
+		article.post {
+			margin-bottom: 25px;
+			height: auto;
+			overflow: hidden;
+			position: relative;
+			background: #f1f1f1;
+			border: 1px solid #ddd;
+			padding: 10px;
+		}
 	}
 }
