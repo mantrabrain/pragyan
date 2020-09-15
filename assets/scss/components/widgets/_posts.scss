@@ -5,9 +5,12 @@
 		padding: 0;
 
 		> li.item {
-			padding-left: 15px;
-			padding-right: 15px;
+			padding: 0px 15px;
+			margin-bottom: 10px;
 
+			&:last-child {
+				margin-bottom: 0;
+			}
 		}
 
 		li {

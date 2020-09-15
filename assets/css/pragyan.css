@@ -3590,7 +3590,8 @@ a.comment-reply-link:hover {
   font-family: 'Signika', sans-serif;
   font-size: 24px;
   font-weight: 700;
-  margin-bottom: 35px;
+  margin-bottom: 15px;
+  margin-top: 15px;
   line-height: 36px;
   position: relative;
   text-transform: capitalize; }
@@ -3934,8 +3935,10 @@ table#wp-calendar td#today {
   border: none;
   padding: 0; }
   .pragyan-blog-post-wrap ul.pragyan-blog-post > li.item {
-    padding-left: 15px;
-    padding-right: 15px; }
+    padding: 0px 15px;
+    margin-bottom: 10px; }
+    .pragyan-blog-post-wrap ul.pragyan-blog-post > li.item:last-child {
+      margin-bottom: 0; }
   .pragyan-blog-post-wrap ul.pragyan-blog-post li {
     border: none; }
 
