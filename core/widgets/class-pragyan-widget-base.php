@@ -57,6 +57,8 @@ if (!class_exists('Pragyan_Widget_Base')) {
 
 			$extra_attribute_text = $this->get_extra_attribute_text($extra_attributes);
 
+			$class = isset($field['class']) ? $field['class'] : '';
+
 			switch ($field['type']) {
 				case "repeater":
 					$repeater_number = isset($field['repeater_num']) ? absint($field['repeater_num']) : 3;
@@ -92,7 +94,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 						<label
 							for="<?php echo esc_attr($this->get_field_id($field_key)); ?>"><?php echo esc_html($field['title']); ?>
 							:</label>
-						<input class="widefat"
+						<input class="widefat <?php echo esc_attr($class); ?>"
 							   id="<?php echo esc_attr($this->get_field_id($field_key)); ?>"
 							   name="<?php echo esc_attr($this->get_field_name($field_key)); ?>"
 							   type="<?php echo esc_attr($field['type']); ?>"
@@ -108,7 +110,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 						<label
 							for="<?php echo esc_attr($this->get_field_id($field_key)); ?>"><?php echo esc_html($field['title']); ?>
 							:</label>
-						<input class="widefat color-picker"
+						<input class="widefat color-picker <?php echo esc_attr($class); ?>"
 							   id="<?php echo esc_attr($this->get_field_id($field_key)); ?>"
 							   name="<?php echo esc_attr($this->get_field_name($field_key)); ?>"
 							   type="<?php echo esc_attr($field['type']); ?>"
@@ -123,7 +125,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 					?>
 					<p>
 
-						<input class="widefat"
+						<input class="widefat <?php echo esc_attr($class); ?>"
 							   id="<?php echo esc_attr($this->get_field_id($field_key)); ?>"
 							   name="<?php echo esc_attr($this->get_field_name($field_key)); ?>"
 							   type="checkbox"
@@ -147,7 +149,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 
 							<span style="display:block;">
 
-                        <input class="widefat"
+                        <input class="widefat <?php echo esc_attr($class); ?>"
 							   id="<?php echo esc_attr($this->get_field_id($field_key)) . '_' . esc_attr($choice_key); ?>"
 							   name="<?php echo esc_attr($this->get_field_name($field_key)); ?>"
 							   type="radio"
@@ -170,7 +172,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 						<label
 							for="<?php echo esc_attr($this->get_field_id($field_key)); ?>"><?php echo esc_html($field['title']); ?>
 							:</label>
-						<textarea class="widefat"
+						<textarea class="widefat <?php echo esc_attr($class); ?>"
 								  id="<?php echo esc_attr($this->get_field_id($field_key)); ?>"
 								  name="<?php echo esc_attr($this->get_field_name($field_key)); ?>"
                             <?php echo $extra_attribute_text; ?>
@@ -194,7 +196,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 							$extra_attribute_text .= ' multiple="multiple"';
 						}
 						?>
-						<select class="widefat"
+						<select class="widefat <?php echo esc_attr($class); ?>"
 								id="<?php echo esc_attr($this->get_field_id($field_key)); ?>"
 								name="<?php echo esc_attr($this->get_field_name($field_key));
 								echo $is_multi_select ? '[]' : ''; ?>"
@@ -268,7 +270,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 						'name' => esc_attr($this->get_field_name($field_key)),
 						'id' => esc_attr($this->get_field_id($field_key)),
 						'selected' => is_array($value) ? implode(",", $value) : $value,
-						'class'    => ''
+						'class' => ''
 					);
 					$pages_args = wp_parse_args($args, $default_args);
 
@@ -278,7 +280,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 							for="<?php echo esc_attr($this->get_field_id($field_key)); ?>"><?php echo esc_html($field['title']); ?>
 							:</label>
 						<?php
-						wp_dropdown_pages( $pages_args );
+						wp_dropdown_pages($pages_args);
 
 						$this->description($field) ?>
 					</p>
