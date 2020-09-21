@@ -1,8 +1,13 @@
 .sikshya-courses-widget-wrapper {
-  padding: 50px 0 40px 0; }
+  margin-left: -15px;
+  margin-right: -15px; }
   .sikshya-courses-widget-wrapper .sikshya-courses {
     padding: 0; }
     .sikshya-courses-widget-wrapper .sikshya-courses .sikshya-courses-loop-wrap .sikshya-course-item {
       margin-bottom: 10px; }
+
+.widget.sikshya_courses_widget {
+  background: transparent;
+  border: none; }
 
 /*# sourceMappingURL=sikshya.css.map */
