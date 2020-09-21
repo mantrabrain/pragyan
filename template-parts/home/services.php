@@ -15,7 +15,7 @@
 					<div class="pragyan-service-wrapper">
 						<?php if ('' != $icon) { ?>
 							<div class="icon_alignment">
-								<i class="<?php echo esc_attr($icon) ?>"></i>
+								<i class="service-icon <?php echo esc_attr($icon) ?>"></i>
 
 							</div> <!-- align icons -->
 						<?php }
