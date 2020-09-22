@@ -1,13 +1,1 @@
-.sikshya-courses-widget-wrapper {
-  margin-left: -15px;
-  margin-right: -15px; }
-  .sikshya-courses-widget-wrapper .sikshya-courses {
-    padding: 0; }
-    .sikshya-courses-widget-wrapper .sikshya-courses .sikshya-courses-loop-wrap .sikshya-course-item {
-      margin-bottom: 10px; }
-
-.widget.sikshya_courses_widget {
-  background: transparent;
-  border: none; }
-
-/*# sourceMappingURL=sikshya.css.map */
+.sikshya-courses-widget-wrapper{margin-left:-15px;margin-right:-15px}.sikshya-courses-widget-wrapper .sikshya-courses{padding:0}.sikshya-courses-widget-wrapper .sikshya-courses .sikshya-courses-loop-wrap .sikshya-course-item{margin-bottom:10px}.widget.sikshya_courses_widget{background:0 0;border:none}

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pragyan 0.0.5\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-09-16 07:24:28+00:00\n"
+"POT-Creation-Date: 2020-09-22 12:57:32+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1194,24 +1194,24 @@ msgstr ""
 msgid "&nbsp;commented on"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:238
+#: core/widgets/class-pragyan-widget-base.php:240
 msgid "All Categories"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:258
+#: core/widgets/class-pragyan-widget-base.php:260
 #. translators: 1: taxonomy
 msgid "Taxonomy (%s) not found"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:310
+#: core/widgets/class-pragyan-widget-base.php:312
 msgid "Choose an image"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:311
+#: core/widgets/class-pragyan-widget-base.php:313
 msgid "Use image"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:312
+#: core/widgets/class-pragyan-widget-base.php:314
 msgid "Select an Image"
 msgstr ""
 
