@@ -88,7 +88,7 @@ if (!function_exists('pragyan_dynamic_css')) :
 
 		<style type="text/css" class="pragyan-dynamic-css">
 
-			<?php echo $all_dynamic_css ; ?>
+			<?php echo wp_strip_all_tags($all_dynamic_css) ; ?>
 
 		</style>
 
