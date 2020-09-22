@@ -1,3 +1,8 @@
+= 0.0.5 | 2020/09/16 =
+	Fixed - Minor issue fixed
+	Added - TGMPA
+	Fixed - Fixed theme issue 
+
 = 0.0.4 | 2020/08/30 =
 	Fixed - Minor issue fixed
 	Added - Plugin compatibility

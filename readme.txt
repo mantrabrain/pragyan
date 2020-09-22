@@ -4,8 +4,8 @@ Tags: blog, two-columns, left-sidebar, right-sidebar, custom-background, custom-
 Requires at least: 4.7
 Requires PHP: 5.6
 Tested up to: 5.5.1
-Version: 0.0.5
-Stable tag: 0.0.5
+Version: 0.0.6
+Stable tag: 0.0.6
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -86,8 +86,5 @@ License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 0.0.5 | 2020/09/16 =
+= 0.0.6 | 2020/09/22 =
 	Fixed - Minor issue fixed
-	Added - TGMPA
-	Fixed - Fixed theme issue 
-
