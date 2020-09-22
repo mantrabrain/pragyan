@@ -117,7 +117,7 @@ class Pragyan_Tabbed_Widget extends Pragyan_Widget_Base
 								<div class="pragyan-tabbed-comment-wrap-details">
 									<strong><?php echo strip_tags($comment->comment_author); ?></strong>
 									<?php esc_html_e('&nbsp;commented on', 'pragyan'); ?>
-									<a href="<?php echo get_permalink($comment->comment_post_ID); ?>"
+									<a href="<?php echo esc_url(get_permalink($comment->comment_post_ID)); ?>"
 									   rel="external nofollow"
 									   title="<?php echo esc_attr($title); ?>"> <?php echo esc_html($title); ?></a>: <?php echo wp_html_excerpt($comment->comment_content, 50); ?>
 								</div>
