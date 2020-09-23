@@ -1,6 +1,10 @@
 .footer-top {
 
 	.widget {
+		background: rgba(0, 0, 0, 0.3);
+		border-left: 0;
+		border-right: 0;
+
 		&.pragyan_blog_post_widget {
 			.pragyan-blog-post {
 				li.item {
@@ -26,7 +30,6 @@
 					content: "";
 				}
 			}
-
 
 
 		}
