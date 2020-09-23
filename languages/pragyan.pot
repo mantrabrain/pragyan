@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Pragyan 0.0.6\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2020-09-23 06:54:27+00:00\n"
+"POT-Creation-Date: 2020-09-23 07:11:23+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -1161,11 +1161,12 @@ msgid "Category"
 msgstr ""
 
 #: core/widgets/class-pragyan-blog-post.php:40
+#: core/widgets/class-pragyan-tabbed.php:34
 msgid "Number of Posts"
 msgstr ""
 
 #: core/widgets/class-pragyan-blog-post.php:104
-#: core/widgets/class-pragyan-tabbed.php:92 template-parts/post/content.php:18
+#: core/widgets/class-pragyan-tabbed.php:99 template-parts/post/content.php:18
 msgid "Read More"
 msgstr ""
 
@@ -1185,12 +1186,12 @@ msgstr ""
 msgid "Latest Posts"
 msgstr ""
 
-#: core/widgets/class-pragyan-tabbed.php:34
-#: core/widgets/class-pragyan-tabbed.php:36
+#: core/widgets/class-pragyan-tabbed.php:41
+#: core/widgets/class-pragyan-tabbed.php:43
 msgid "Comments"
 msgstr ""
 
-#: core/widgets/class-pragyan-tabbed.php:119
+#: core/widgets/class-pragyan-tabbed.php:126
 msgid "&nbsp;commented on"
 msgstr ""
 

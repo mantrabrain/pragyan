@@ -29,6 +29,13 @@ class Pragyan_Tabbed_Widget extends Pragyan_Widget_Base
 				'default' => esc_html__('Latest Posts', 'pragyan'),
 
 			),
+			'latest_post_count' => array(
+				'name' => 'latest_post_count',
+				'title' => esc_html__('Number of Posts', 'pragyan'),
+				'type' => 'number',
+				'default' => 3,
+
+			),
 			'recent_comment_tab_title' => array(
 				'name' => 'recent_comment_tab_title',
 				'title' => esc_html__('Comments', 'pragyan'),
@@ -61,7 +68,7 @@ class Pragyan_Tabbed_Widget extends Pragyan_Widget_Base
 			<div class="pragyan-tab-content">
 				<div class="pragyan_latest_posts_tab_content content active">
 					<?php
-					$pragyan_post_count = apply_filters('pragyan_latest_tabbed_posts_count', 5);
+					$pragyan_post_count = apply_filters('pragyan_latest_tabbed_posts_count', $instance['latest_post_count']);
 					$latest_args = array(
 						'posts_per_page' => $pragyan_post_count
 					);
@@ -79,8 +86,8 @@ class Pragyan_Tabbed_Widget extends Pragyan_Widget_Base
 										<div class="entry-content">
 											<header class="entry-header">
 
-													<?php pragyan_entry_meta(); ?>
-													<?php the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
+												<?php pragyan_entry_meta(); ?>
+												<?php the_title(sprintf('<h2 class="entry-title"><a href="%s" rel="bookmark">', esc_url(get_permalink())), '</a></h2>'); ?>
 											</header>
 											<!-- .entry-header -->
 											<div class="entry-summary">
