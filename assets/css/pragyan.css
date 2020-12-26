@@ -3542,6 +3542,21 @@ a.comment-reply-link:hover {
   margin: 0;
   display: inline-block; }
 
+.site-footer .pragyan-blog-post-wrap .pragyan-blog-post-content-wrap {
+  background: transparent; }
+
+.site-footer .widget.pragyan_blog_post_widget article.post {
+  background: transparent; }
+
+.site-footer article.post {
+  background: transparent; }
+
+.site-footer .widget .pragyan-tabbed-widget-wrap ul.widget-tabs li {
+  color: unset; }
+
+.site-footer .widget .pragyan-blog-post-content-wrap .blog-btn.pragyan-main-btn:hover a {
+  color: unset; }
+
 /* Widgets */
 .widget-area:before {
   content: "";

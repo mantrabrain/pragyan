@@ -548,5 +548,36 @@
 			display: inline-block;
 		}
 	}
+
+	.pragyan-blog-post-wrap .pragyan-blog-post-content-wrap {
+		background: transparent;
+	}
+
+	.widget.pragyan_blog_post_widget article.post {
+		background: transparent;
+	}
+
+	article.post {
+		background: transparent;
+	}
+
+	.widget {
+		.pragyan-tabbed-widget-wrap {
+
+			ul.widget-tabs {
+				li {
+					color: unset;
+				}
+			}
+		}
+
+		.pragyan-blog-post-content-wrap {
+			.blog-btn.pragyan-main-btn:hover {
+				a {
+					color: unset;
+				}
+			}
+		}
+	}
 }
 
