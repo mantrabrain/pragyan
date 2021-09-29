@@ -3,7 +3,7 @@
 
 	var pragyanTheme = {
 		init: function () {
-			this.initPreloader();
+			//this.initPreloader();
 			this.initEvents();
 			this.initScrollToTop();
 			this.initSearchBox();
@@ -17,15 +17,15 @@
 
 		},
 		initPreloader: function () {
-			$(window).on('load', function () {
-				$('.preloader').delay(500).fadeOut(500);
 
-				// Preloader two
-				$('#pragyan-preloader').fadeOut();
+			$('.preloader').delay(500).fadeOut(500);
 
-				// Icon Preloader
-				$('.pragyan_image_preloader').fadeOut('slow');
-			});
+			// Preloader two
+			$('#pragyan-preloader').fadeOut('slow');
+
+			// Icon Preloader
+			$('.pragyan_image_preloader').fadeOut('slow');
+
 		},
 		initSticky: function () {
 
@@ -230,4 +230,11 @@
 	$(function () {
 		pragyanTheme.init();
 	});
+	window.onload = function () {
+
+		pragyanTheme.initPreloader();
+
+	}
+
 })(jQuery);
+
