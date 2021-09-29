@@ -234,7 +234,7 @@
 
 		pragyanTheme.initPreloader();
 
-	}
+	};
 
 })(jQuery);
 
