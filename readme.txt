@@ -1,11 +1,11 @@
 === Pragyan ===
-Contributors: mantrabrain
+Contributors: MantraBrain
 Tags: blog, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu,  featured-images, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 5.8.1
-Version: 0.0.8
-Stable tag: 0.0.8
+Tested up to: 6.3
+Version: 0.0.9
+Stable tag: 0.0.9
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -86,6 +86,5 @@ License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 0.0.8 | 2021/09/26 =
-	Fixed - Minor design issue fixed
-	Fixed - WP version compatibility
+= 0.0.9 | 2023/10/12 =
+	Fixed - WordPress latest version tested
