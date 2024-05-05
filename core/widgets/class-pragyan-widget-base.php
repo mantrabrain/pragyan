@@ -38,7 +38,7 @@ if (!class_exists('Pragyan_Widget_Base')) {
 
 		}
 
-		private function form_single($field_key, $field = array(), $instance)
+		private function form_single($field_key, $field, $instance)
 		{
 			$field_default = array(
 				'name' => '',
@@ -46,6 +46,8 @@ if (!class_exists('Pragyan_Widget_Base')) {
 				'type' => 'text',
 
 			);
+			$field = !is_array($field) ? array(): $field;
+
 			$extra_attributes = array();
 
 			$field = wp_parse_args($field, $field_default);
