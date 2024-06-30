@@ -25,7 +25,7 @@ class Pragyan_Section_Pro_Customizer
 				'pragyan-pro',
 				array(
 					'pro_text' => esc_html__('Get More Features in Pragyan Pro', 'pragyan'),
-					'pro_url' => 'https://mantrabrain.com/downloads/pragyan-pro/?utm_source=pragyan-customizer&utm_medium=view-pro&utm_campaign=upgrade',
+					'pro_url' => 'https://mantrabrain.com/themes/pragyan-pro/?utm_source=pragyan-customizer&utm_medium=view-pro&utm_campaign=upgrade',
 					'priority' => 0
 				)
 			)

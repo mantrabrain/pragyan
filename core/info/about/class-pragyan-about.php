@@ -258,7 +258,7 @@ class Pragyan_About
 
 			echo '</li>';
 		}
-		echo '<li><a target="_blank" class="mb-about-top-link" href="https://mantrabrain.com/downloads/pragyan-wordpress-theme/?ref=pragyanpaneltablink" style="font-weight:bold;color:#000;">' . esc_html__('Learn more about Pragyan theme &#187;', 'pragyan') . '</a>';
+		echo '<li><a target="_blank" class="mb-about-top-link" href="https://mantrabrain.com/themes/pragyan/?ref=pragyanpaneltablink" style="font-weight:bold;color:#000;">' . esc_html__('Learn more about Pragyan theme &#187;', 'pragyan') . '</a>';
 		echo '</li>';
 
 		echo '</ul>';
@@ -708,12 +708,12 @@ class Pragyan_About
 				if (!class_exists('Pragyan_Pro')) {
 					?>
 					<a class="mb-about-upgrade" target="_blank"
-					   href="https://mantrabrain.com/downloads/pragyan-pro/?ref=themepanel-upgradenow">
+					   href="https://mantrabrain.com/themes/pragyan-pro/?ref=themepanel-upgradenow">
 						<?php _e('Upgrade Now &rarr;', 'pragyan'); ?>
 					</a>
 				<?php } else { ?>
 					<a style="color:lime;text-decoration:none;" class="mb-about-upgrade" target="_blank"
-					   href="https://mantrabrain.com/downloads/pragyan-pro/?ref=themepanel-pragyanpro-activated">
+					   href="https://mantrabrain.com/themes/pragyan-pro/?ref=themepanel-pragyanpro-activated">
 						<?php _e('Thank you for using Pragyan Pro', 'pragyan'); ?>
 					</a>
 				<?php } ?>

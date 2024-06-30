@@ -1252,7 +1252,7 @@ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://mantrabrain.com/downloads/pragyan-wordpress-theme/"
+msgid "https://mantrabrain.com/themes/pragyan/"
 msgstr ""
 
 #. Description of the plugin/theme
