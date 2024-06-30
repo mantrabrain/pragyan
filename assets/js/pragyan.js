@@ -81,7 +81,7 @@
 
 		},
 		initSearchBox: function () {
-			$('#search').on('click, focus', function () {
+			$('#search').on('click focus', function () {
 				$('.pragyan-search-box').fadeIn(600);
 				var id = 'pragyan-search-box';
 				$('#' + id).addClass('pragyan-searchbox-open');
