@@ -1,9 +1,1 @@
-{
-	"version": 3,
-	"file": "tutor.css",
-	"sources": [
-		"../scss/tutor.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AACC,yBADwB,CACxB,aAAa,CAAC;EACb,OAAO,EAAE,CAAC,GACV;;AAHF,AAKC,yBALwB,CAKxB,WAAW,CAAC;EACX,OAAO,EAAE,OAAO;EAChB,UAAU,EAAE,OAAO,GACnB"
-}
+{"version":3,"sourceRoot":"","sources":["file:///Users/umesh/Local%20Sites/pragyan/app/public/wp-content/themes/pragyan/assets/scss/tutor.scss"],"names":[],"mappings":"AACC;EACC;;AAGD;EACC;EACA","file":"tutor.css"}

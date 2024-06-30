@@ -1,9 +1,1 @@
-{
-	"version": 3,
-	"file": "sikshya.css",
-	"sources": [
-		"../scss/sikshya.scss"
-	],
-	"names": [],
-	"mappings": "AAAA,AAAA,+BAA+B,CAAC;EAC/B,WAAW,EAAE,KAAK;EAClB,YAAY,EAAE,KAAK,GASnB;EAXD,AAIC,+BAJ8B,CAI9B,gBAAgB,CAAC;IAChB,OAAO,EAAE,CAAC,GAKV;IAVF,AAOE,+BAP6B,CAI9B,gBAAgB,CAGf,0BAA0B,CAAC,oBAAoB,CAAC;MAC/C,aAAa,EAAE,IAAI,GACnB;;AAIH,AACC,OADM,AACL,uBAAuB,CAAC;EACxB,UAAU,EAAE,WAAW;EACvB,MAAM,EAAE,IAAI,GAEZ"
-}
+{"version":3,"sourceRoot":"","sources":["file:///Users/umesh/Local%20Sites/pragyan/app/public/wp-content/themes/pragyan/assets/scss/sikshya.scss"],"names":[],"mappings":"AAAA;EACC;EACA;;AAEA;EACC;;AAEA;EACC;;;AAMF;EACC;EACA","file":"sikshya.css"}

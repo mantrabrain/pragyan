@@ -8,7 +8,7 @@ module.exports = function (grunt) {
         dirs: {
             js: 'assets/js',
             css: 'assets/css',
-            scss:'assets/scss'
+            scss: 'assets/scss'
         },
 
         // JavaScript linting with JSHint.
@@ -63,6 +63,7 @@ module.exports = function (grunt) {
         // Compile all .scss files.
         sass: {
             options: {
+                implementation: require('sass'), // Use Dart Sass
                 sourceMap: true
             },
             compile: {
@@ -116,7 +117,6 @@ module.exports = function (grunt) {
                     '<%= dirs.css %>/*.scss',
                     '<%= dirs.css %>/**/*.scss',
                     '<%= dirs.scss %>/**/*.scss'
-
                 ],
                 // tasks: ['sass', 'rtlcss', 'cssmin', 'concat']
                 tasks: ['sass']
@@ -271,7 +271,6 @@ module.exports = function (grunt) {
     grunt.loadNpmTasks('grunt-contrib-watch');
     grunt.loadNpmTasks('grunt-contrib-compress');
 
-
     // Register tasks
     grunt.registerTask('default', [
         'jshint',
@@ -282,7 +281,6 @@ module.exports = function (grunt) {
     grunt.registerTask('js', [
         'jshint',
         'uglify:assets'
-
     ]);
 
     grunt.registerTask('css', [

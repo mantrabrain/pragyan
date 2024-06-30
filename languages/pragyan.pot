@@ -1,14 +1,14 @@
-# <!=Copyright (C) 2021 mantrabrain
+# <!=Copyright (C) 2024 mantrabrain
 # This file is distributed under the GNU General Public License v3 or later.=!>
 msgid ""
 msgstr ""
-"Project-Id-Version: Pragyan 0.0.8\n"
+"Project-Id-Version: Pragyan 0.0.10\n"
 "Report-Msgid-Bugs-To: mantrabrain@gmail.com\n"
-"POT-Creation-Date: 2021-09-29 11:41:13+00:00\n"
+"POT-Creation-Date: 2024-06-30 11:22:14+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2021-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
 "X-Generator: grunt-wp-i18n 1.0.3\n"
@@ -1195,24 +1195,24 @@ msgstr ""
 msgid "&nbsp;commented on"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:240
+#: core/widgets/class-pragyan-widget-base.php:242
 msgid "All Categories"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:260
+#: core/widgets/class-pragyan-widget-base.php:262
 #. translators: 1: taxonomy
 msgid "Taxonomy (%s) not found"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:312
+#: core/widgets/class-pragyan-widget-base.php:314
 msgid "Choose an image"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:313
+#: core/widgets/class-pragyan-widget-base.php:315
 msgid "Use image"
 msgstr ""
 
-#: core/widgets/class-pragyan-widget-base.php:314
+#: core/widgets/class-pragyan-widget-base.php:316
 msgid "Select an Image"
 msgstr ""
 
@@ -1252,7 +1252,7 @@ msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
 msgstr ""
 
 #. Theme URI of the plugin/theme
-msgid "https://mantrabrain.com/themes/pragyan/"
+msgid "https://mantrabrain.com/theme/pragyan/"
 msgstr ""
 
 #. Description of the plugin/theme
