@@ -17,7 +17,7 @@ $header_top_show = (boolean)pragyan_get_option('header_top_show');
 
 $sticky_header_enable = (boolean)pragyan_get_option('enable_sticky_header');
 
-do_action('wp_body_open');
+wp_body_open();
 
 
 ?>

@@ -72,9 +72,9 @@ class Pragyan_Customizer
 
 	public function enqueue_control_scripts()
 	{
-		wp_enqueue_script('pragyan-customize-controls', trailingslashit(get_template_directory_uri()) . '/assets/js/customize-controls.js', array(), 1.0, true);
+		wp_enqueue_script('pragyan-customize-controls', trailingslashit(get_template_directory_uri()) . 'assets/js/customize-controls.js', array(), PRAGYAN_THEME_VERSION, true);
 
-		wp_enqueue_script('pragyan-theme-extend-customizer-js', get_template_directory_uri() . '/core/customizer/assets/js/extend-customizer.js', array(), '', true);
+		wp_enqueue_script('pragyan-theme-extend-customizer-js', get_template_directory_uri() . '/core/customizer/assets/js/extend-customizer.js', array(), PRAGYAN_THEME_VERSION, true);
 		wp_enqueue_style('pragyan-theme-extend-customizer-css', get_template_directory_uri() . '/core/customizer/assets/css/extend-customizer.css', array(), PRAGYAN_THEME_VERSION);
 
 	}

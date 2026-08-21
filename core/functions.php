@@ -113,12 +113,22 @@ if (!function_exists('pragyan_hover_color')) :
 	function pragyan_hover_color($hex, $steps)
 	{
 		// Steps should be between -255 and 255. Negative = darker, positive = lighter
-		$steps = max(-255, min(255, $steps));
+		$steps = max(-255, min(255, (int)$steps));
 
-		// Normalize into a six character long hex string
-		$hex = str_replace('#', '', $hex);
-		if (strlen($hex) == 3) {
-			$hex = str_repeat(substr($hex, 0, 1), 2) . str_repeat(substr($hex, 1, 1), 2) . str_repeat(substr($hex, 2, 1), 2);
+		// Normalize into a six character long hex string. Guard against null/non-string
+		// input: passing null to str_replace() is deprecated as of PHP 8.1.
+		$original = is_string($hex) ? $hex : '';
+		$hex = strtolower(str_replace('#', '', $original));
+
+		if (3 === strlen($hex)) {
+			$hex = str_repeat($hex[0], 2) . str_repeat($hex[1], 2) . str_repeat($hex[2], 2);
+		}
+
+		// Anything that is not a plain six digit hex colour (an empty option, rgba(),
+		// a named colour) is handed back untouched instead of being fed to hexdec(),
+		// which warns on invalid characters on PHP 8.
+		if (!preg_match('/^[0-9a-f]{6}$/', $hex)) {
+			return $original;
 		}
 
 		// Split into three parts: R, G and B

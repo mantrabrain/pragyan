@@ -54,7 +54,7 @@ class Pragyan_Assets
 		if (is_customize_preview()) {
 
 
-			wp_enqueue_style('pragyan-customizer', get_template_directory_uri() . '/core/customizer/assets/css/customizer.css', '', PRAGYAN_THEME_VERSION);
+			wp_enqueue_style('pragyan-customizer', get_template_directory_uri() . '/core/customizer/assets/css/customizer.css', array(), PRAGYAN_THEME_VERSION);
 
 			wp_enqueue_media();
 
@@ -88,15 +88,15 @@ class Pragyan_Assets
 			wp_enqueue_style('pragyan-google-fonts', $fonts_url, array(), PRAGYAN_THEME_VERSION);
 		}
 		// Theme stylesheet.
-		wp_enqueue_style('pragyan-style', get_stylesheet_uri());
+		wp_enqueue_style('pragyan-style', get_stylesheet_uri(), array(), PRAGYAN_THEME_VERSION);
 		// Theme block stylesheet.
 		wp_enqueue_style('pragyan-block-style', get_template_directory_uri() . '/assets/css/blocks.css', array('pragyan-style'), PRAGYAN_THEME_VERSION);
 		if (is_rtl()) {
-			wp_enqueue_style('bootstrap-rtl', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap-rtl.min.css');
+			wp_enqueue_style('bootstrap-rtl', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap-rtl.min.css', array(), '4.0.0');
 		}
 		wp_enqueue_style('bootstrap', get_template_directory_uri() . '/assets/vendor/bootstrap/css/bootstrap.css', array(), '4.0.0');
 
-		wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/vendor/font-awesome/css/font-awesome.min.css', '4.7.0');
+		wp_enqueue_style('fontawesome', get_template_directory_uri() . '/assets/vendor/font-awesome/css/font-awesome.min.css', array(), '4.7.0');
 
 
 		wp_enqueue_style('owl-carousel', get_template_directory_uri() . '/assets/vendor/owl-carousel/owl.carousel.css', array(), PRAGYAN_THEME_VERSION);

@@ -37,8 +37,8 @@ class Pragyan_Section_Pro_Customizer
 	{
 		$script_uri = PRAGYAN_THEME_URI . 'core/info/customizer/control/';
 
-		wp_enqueue_script('pragyan-customizer-pro-control-js', $script_uri . 'pro.js', array('customize-controls'));
-		wp_enqueue_style('pragyan-customizer-pro-control-css', $script_uri . 'pro.css');
+		wp_enqueue_script('pragyan-customizer-pro-control-js', $script_uri . 'pro.js', array('customize-controls'), PRAGYAN_THEME_VERSION);
+		wp_enqueue_style('pragyan-customizer-pro-control-css', $script_uri . 'pro.css', array(), PRAGYAN_THEME_VERSION);
 
 	}
 

@@ -3,9 +3,9 @@ Contributors: MantraBrain
 Tags: blog, two-columns, left-sidebar, right-sidebar, custom-background, custom-header, custom-logo, custom-menu,  featured-images, footer-widgets, sticky-post, theme-options, threaded-comments, translation-ready
 Requires at least: 4.7
 Requires PHP: 5.6
-Tested up to: 6.5
-Version: 0.0.10
-Stable tag: 0.0.10
+Tested up to: 7.1
+Version: 0.0.11
+Stable tag: 0.0.11
 License: GPLv3 or later
 License URI: http://www.gnu.org/licenses/gpl-3.0.html
 
@@ -86,5 +86,12 @@ License: [GPLv2](https://www.gnu.org/licenses/gpl-2.0.html
 
 == Changelog ==
 
-= 0.0.10 | 2024/06/30 =
-	Fixed - Link updated
+= 0.0.11 | 2026/08/21 =
+	Fixed - WP version compatibility ( Tested up to WordPress 7.1 )
+	Fixed - Translation loading was triggered too early notice on admin screens ( WordPress 6.7+ )
+	Fixed - Editor stylesheet pointed at a file that does not ship with the theme
+	Fixed - Stylesheet and script versions were dropped because of misplaced enqueue arguments
+	Fixed - PHP 8 warnings when a colour option was empty or not a hex value
+	Fixed - Services section emitted an invalid margin rule when the option was unset
+	Changed - HTML5 theme support extended to search form, script, style and navigation widgets
+	Changed - TGMPA now reads the WordPress version through wp_get_wp_version()

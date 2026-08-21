@@ -253,8 +253,13 @@ if ( ! class_exists( 'TGM_Plugin_Activation' ) ) {
          * @see TGM_Plugin_Activation::init()
          */
         public function __construct() {
-            // Set the current WordPress version.
-            $this->wp_version = $GLOBALS['wp_version'];
+            // Set the current WordPress version. wp_get_wp_version() was added in WP 6.7;
+            // the $wp_version global is on its way out, so only fall back to it.
+            if ( function_exists( 'wp_get_wp_version' ) ) {
+                $this->wp_version = wp_get_wp_version();
+            } else {
+                $this->wp_version = isset( $GLOBALS['wp_version'] ) ? $GLOBALS['wp_version'] : '';
+            }
 
             // Announce that the class is ready, and pass the object (for advanced use).
             do_action_ref_array( 'tgmpa_init', array( $this ) );

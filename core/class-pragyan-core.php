@@ -64,10 +64,14 @@ final class Pragyan_Core
 
 		//Switch default core markup for search form, comment form, and comments to output valid HTML5.
 		add_theme_support('html5', array(
+			'search-form',
 			'comment-form',
 			'comment-list',
 			'gallery',
 			'caption',
+			'script',
+			'style',
+			'navigation-widgets',
 		));
 
 		// Enable support for Post Formats.
@@ -98,8 +102,12 @@ final class Pragyan_Core
 		// Add support for full and wide align images.
 		add_theme_support('align-wide');
 
-		// Enqueue editor styles.
-		add_editor_style('style-editor.css');
+		// This theme does not ship style-editor.css, and registering a stylesheet that
+		// does not exist makes the block editor request a 404. Still honour it when a
+		// child theme provides one.
+		if (file_exists(get_stylesheet_directory() . '/style-editor.css')) {
+			add_editor_style('style-editor.css');
+		}
 
 		/*
 		 * This theme styles the visual editor to resemble the theme style,

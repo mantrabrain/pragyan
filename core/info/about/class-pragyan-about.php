@@ -29,9 +29,13 @@ class Pragyan_About
 
 			self::$_instance->from_plugin = $from_plugin;
 
-			self::$_instance->title = esc_html__('Pragyan Options', 'pragyan');
-
 			self::$_instance->setup();
+
+			// The title is translated, so it must not be resolved here: this class is
+			// instantiated while functions.php is still loading, which is before
+			// `after_setup_theme`. Translating that early triggers the
+			// `_load_textdomain_just_in_time` notice added in WordPress 6.7.
+			add_action('init', array(self::$_instance, 'set_title'), 0);
 
 			add_action('admin_menu', array(self::$_instance, 'add_menu'), 5);
 
@@ -56,6 +60,31 @@ class Pragyan_About
 
 		}
 		return self::$_instance;
+	}
+
+	/**
+	 * Populate the public $title property once translations are safe to load.
+	 *
+	 * Hooked to `init` so that anything reading `$about->title` directly keeps
+	 * working; every consumer runs on `admin_menu` or later.
+	 */
+	public function set_title()
+	{
+		$this->title = $this->get_title();
+	}
+
+	/**
+	 * Resolve the translated page title on demand.
+	 *
+	 * @return string
+	 */
+	public function get_title()
+	{
+		if ('' === $this->title || null === $this->title) {
+			$this->title = esc_html__('Pragyan Options', 'pragyan');
+		}
+
+		return $this->title;
 	}
 
 
@@ -267,8 +296,8 @@ class Pragyan_About
 	function add_menu()
 	{
 		add_theme_page(
-			$this->title,
-			$this->title,
+			$this->get_title(),
+			$this->get_title(),
 			'manage_options',
 			'pragyan-options',
 			array($this, 'page')

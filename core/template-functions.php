@@ -130,8 +130,8 @@ if (!function_exists('pragyan_head_callback')):
 	{
 
 		$header_text_color = get_header_textcolor(); ?>
-		<?php if (!empty($header_text_color && $header_text_color !== 'blank')): ?>
-		<style type="text/css">
+		<?php if (!empty($header_text_color) && 'blank' !== $header_text_color): ?>
+		<style>
 			.site-description {
 				color: #<?php echo esc_attr($header_text_color); ?>;
 			}

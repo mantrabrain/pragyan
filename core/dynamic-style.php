@@ -18,7 +18,8 @@ if (!function_exists('pragyan_get_color_css')) {
 		}
 		$services_margin_top = pragyan_get_option('services_margin_top');
 
-		if ($services_margin_top != '-180') {
+		// An unset option used to emit `margin-top:px`, which invalidates the rule.
+		if (is_numeric($services_margin_top) && -180 != $services_margin_top) {
 			$css .= '.pragyan-services-section{margin-top:' . esc_attr($services_margin_top) . 'px} ';
 		}
 		$pragyan_service_section_background_1 = (pragyan_get_option('service_section_background_1'));
@@ -86,7 +87,7 @@ if (!function_exists('pragyan_dynamic_css')) :
 		$all_dynamic_css = pragyan_get_all_dynamic_css();
 		?>
 
-		<style type="text/css" class="pragyan-dynamic-css">
+		<style class="pragyan-dynamic-css">
 
 			<?php echo wp_strip_all_tags($all_dynamic_css) ; ?>
 
